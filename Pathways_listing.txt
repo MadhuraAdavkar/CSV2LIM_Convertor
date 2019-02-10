@@ -1,0 +1,39 @@
+
+Alanine and Aspartate Metabolism
+Alternate Carbon Metabolism
+Anaplerotic Reactions
+Arginine and Proline Metabolism
+Cell Envelope Biosynthesis
+Citric Acid Cycle
+Cofactor and Prosthetic Group Biosynthesis
+Cysteine Metabolism
+Folate Metabolism
+Glutamate Metabolism
+Glutamate metabolism
+Glycerophospholipid Metabolism
+Glycine and Serine Metabolism
+Glycolysis/Gluconeogenesis
+Glyoxylate Metabolism
+Histidine Metabolism
+Inorganic Ion Transport and Metabolism
+Lipopolysaccharide Biosynthesis / Recycling
+Membrane Lipid Metabolism
+Methionine Metabolism
+Methylglyoxal Metabolism
+Murein Biosynthesis
+Murein Recycling
+Nitrogen Metabolism
+Nucleotide Salvage Pathway
+Oxidative Phosphorylation
+Pentose Phosphate Pathway
+Purine and Pyrimidine Biosynthesis
+Pyruvate Metabolism
+Threonine and Lysine Metabolism
+Transport, Inner Membrane
+Transport, Outer Membrane
+Transport, Outer Membrane Porin
+Tyrosine, Tryptophan, and Phenylalanine Metabolism
+Unassigned
+Valine, Leucine, and Isoleucine Metabolism
+tRNA Charging
+tRNA charging

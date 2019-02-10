@@ -1,0 +1,1726 @@
+10FTHF ! 10-Formyltetrahydrofolate
+12DGR120 ! 1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)
+12DGR120_C ! 
+12DGR120_P ! 
+12DGR140 ! 1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)
+12DGR140_C ! 
+12DGR140_P ! 
+12DGR141 ! 1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)
+12DGR141_C ! 
+12DGR141_P ! 
+12DGR160 ! 1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)
+12DGR160_C ! 
+12DGR160_P ! 
+12DGR161 ! 1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)
+12DGR161_C ! 
+12DGR161_P ! 
+12DGR180 ! 1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)
+12DGR180_C ! 
+12DGR180_P ! 
+12DGR181 ! 1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)
+12DGR181_C ! 
+12DGR181_P ! 
+12PPD_R ! (R)-Propane-1,2-diol
+12PPD_R_C ! 
+12PPD_R_P ! 
+12PPD_S ! (S)-Propane-1,2-diol
+12PPD_S_C ! 
+12PPD_S_P ! 
+13DPG ! 3-Phospho-D-glyceroyl phosphate
+14GLUCAN ! 1,4-alpha-D-glucan
+14GLUCAN_C ! 
+14GLUCAN_P ! 
+15DAP ! 1,5-Diaminopentane
+15DAP_C ! 
+15DAP_P ! 
+1AGPE120 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+1AGPE140 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+1AGPE141 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+1AGPE160 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+1AGPE161 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+1AGPE180 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+1AGPE181 ! 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+1AGPG120 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)
+1AGPG140 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+1AGPG141 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+1AGPG160 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+1AGPG161 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+1AGPG180 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)
+1AGPG181 ! 1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+1DDECG3P ! 1-dodecanoyl-sn-glycerol 3-phosphate
+1HDEC9EG3P ! 1-hexadec-9-enoyl-sn-glycerol 3-phosphate
+1HDECG3P ! 1-hexadecanoyl-sn-glycerol 3-phosphate
+1ODEC11EG3P ! 1-octadec-11-enoyl-sn-glycerol 3-phosphate
+1ODECG3P ! 1-octadecanoyl-sn-glycerol 3-phosphate
+1PYR5C ! 1-Pyrroline-5-carboxylate
+1TDEC7EG3P ! 1-tetradec-7-enoyl-sn-glycerol 3-phosphate
+1TDECG3P ! 1-tetradecanoyl-sn-glycerol 3-phosphate
+23CAMP ! 2',3'-Cyclic AMP
+23CAMP_P ! 
+23CCMP ! 2',3'-Cyclic CMP
+23CCMP_P ! 
+23CGMP ! 2',3'-Cyclic GMP
+23CGMP_P ! 
+23CUMP ! 2',3'-Cyclic UMP
+23CUMP_P ! 
+23DAPPA ! 2,3-diaminopropionate
+23DAPPA_C ! 
+23DAPPA_P ! 
+23DDHB ! 2,3-Dihydro-2,3-dihydroxybenzoate
+23DHB ! 2,3-Dihydroxybenzoate
+23DHBA ! (2,3-Dihydroxybenzoyl)adenylate
+23DHBZS ! 2,3-dihydroxybenzoylserine
+23DHDP ! 2,3-Dihydrodipicolinate
+23DHMB ! (R)-2,3-Dihydroxy-3-methylbutanoate
+23DHMP ! (R)-2,3-Dihydroxy-3-methylpentanoate
+23DOGULN ! 2,3-Dioxo-L-gulonate
+25AICS ! (S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate
+25DKGLCN ! 2,5-diketo-D-gluconate
+25DRAPP ! 2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate
+26DAP_LL ! LL-2,6-Diaminoheptanedioate
+26DAP_M ! meso-2,6-Diaminoheptanedioate
+26DAP_M_C ! 
+26DAP_M_P ! 
+2AGPE120 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+2AGPE120_C ! 
+2AGPE120_P ! 
+2AGPE140 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+2AGPE140_C ! 
+2AGPE140_P ! 
+2AGPE141 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+2AGPE141_C ! 
+2AGPE141_P ! 
+2AGPE160 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+2AGPE160_C ! 
+2AGPE160_P ! 
+2AGPE161 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+2AGPE161_C ! 
+2AGPE161_P ! 
+2AGPE180 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+2AGPE180_C ! 
+2AGPE180_P ! 
+2AGPE181 ! 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+2AGPE181_C ! 
+2AGPE181_P ! 
+2AGPG120 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)
+2AGPG120_C ! 
+2AGPG120_P ! 
+2AGPG140 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+2AGPG140_C ! 
+2AGPG140_P ! 
+2AGPG141 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+2AGPG141_C ! 
+2AGPG141_P ! 
+2AGPG160 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+2AGPG160_C ! 
+2AGPG160_P ! 
+2AGPG161 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+2AGPG161_C ! 
+2AGPG161_P ! 
+2AGPG180 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)
+2AGPG180_C ! 
+2AGPG180_P ! 
+2AGPG181 ! 2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+2AGPG181_C ! 
+2AGPG181_P ! 
+2AHBUT ! (S)-2-Aceto-2-hydroxybutanoate
+2AMSA ! 2-Aminomalonate semialdehyde
+2AOBUT ! L-2-Amino-3-oxobutanoate
+2CPR5P ! 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+2DDA7P ! 2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+2DDECG3P ! 2-dodecanoyl-sn-glycerol 3-phosphate
+2DDECG3P_C ! 
+2DDECG3P_P ! 
+2DDG6P ! 2-Dehydro-3-deoxy-D-gluconate 6-phosphate
+2DDGLCN ! 2-Dehydro-3-deoxy-D-gluconate
+2DDGLCN_C ! 
+2DDGLCN_P ! 
+2DH3DGAL ! 2-Dehydro-3-deoxy-D-galactonate
+2DH3DGAL6P ! 2-Dehydro-3-deoxy-D-galactonate 6-phosphate
+2DHGLCN ! 2-Dehydro-D-gluconate
+2DHGULN ! 2-Dehydro-L-gulonate
+2DHP ! 2-Dehydropantoate
+2DMMQ8 ! 2-Demethylmenaquinone 8
+2DMMQ8_C ! 
+2DMMQL8 ! 2-Demethylmenaquinol 8
+2DMMQL8_C ! 
+2DR1P ! 2-Deoxy-D-ribose 1-phosphate
+2DR5P ! 2-Deoxy-D-ribose 5-phosphate
+2H3OPPAN ! 2-Hydroxy-3-oxopropanoate
+2HDEC9EG3P ! 2-hexadec-9-enoyl-sn-glycerol 3-phosphate
+2HDEC9EG3P_C ! 
+2HDEC9EG3P_P ! 
+2HDECG3P ! 2-hexadecanoyl-sn-glycerol 3-phosphate
+2HDECG3P_C ! 
+2HDECG3P_P ! 
+2IPPM ! 2-Isopropylmaleate
+2KMB ! 2-keto-4-methylthiobutyrate
+2MAHMP ! 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate
+2MCACN ! cis-2-Methylaconitate
+2MCIT ! 2-Methylcitrate
+2ME4P ! 2-C-methyl-D-erythritol 4-phosphate
+2MECDP ! 2-C-methyl-D-erythritol 2,4-cyclodiphosphate
+2OBUT ! 2-Oxobutanoate
+2ODEC11EG3P ! 2-octadec-11-enoyl-sn-glycerol 3-phosphate
+2ODEC11EG3P_C ! 
+2ODEC11EG3P_P ! 
+2ODECG3P ! 2-octadecanoyl-sn-glycerol 3-phosphate
+2ODECG3P_C ! 
+2ODECG3P_P ! 
+2OHPH ! 2-Octaprenyl-6-hydroxyphenol
+2OMBZL ! 2-Octaprenyl-6-methoxy-1,4-benzoquinol
+2OMHMBL ! 2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol
+2OMMBL ! 2-Octaprenyl-3-methyl-6-methoxy- 1,4-benzoquinol
+2OMPH ! 2-Octaprenyl-6-methoxyphenol
+2OPH ! 2-Octaprenylphenol
+2P4C2ME ! 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+2PG ! D-Glycerate 2-phosphate
+2PGLYC ! 2-Phosphoglycolate
+2SHCHC ! 2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate
+2TDEC7EG3P ! 2-tetradec-7-enoyl-sn-glycerol 3-phosphate
+2TDEC7EG3P_C ! 
+2TDEC7EG3P_P ! 
+2TDECG3P ! 2-tetradecanoyl-sn-glycerol 3-phosphate
+2TDECG3P_C ! 
+2TDECG3P_P ! 
+2TPR3DPCOA ! 2'-(5''-triphosphoribosyl)-3'-dephospho-CoA
+34DHPAC ! 3,4-Dihydroxyphenylacetaldehyde
+34DHPAC_P ! 
+34HPP ! 3-(4-Hydroxyphenyl)pyruvate
+3AMP ! 3'-AMP
+3AMP_P ! 
+3C2HMP ! 3-Carboxy-2-hydroxy-4-methylpentanoate
+3C3HMP ! 3-Carboxy-3-hydroxy-4-methylpentanoate
+3C4MOP ! 3-Carboxy-4-methyl-2-oxopentanoate
+3CMP ! 3'-cmp
+3CMP_P ! 
+3DHGULN ! 3-Dehydro-L-gulonate
+3DHGULNP ! 3-keto-L-gulonate-6-phosphate
+3DHQ ! 3-Dehydroquinate
+3DHSK ! 3-Dehydroshikimate
+3GMP ! 3'-GMP
+3GMP_P ! 
+3HAACP ! (3R)-3-Hydroxyacyl-[acyl-carrier protein]
+3HBCOA ! (S)-3-Hydroxybutanoyl-CoA
+3HCDDEC5EACP ! (R)-3-hydroxy-cis-dodec-5-enoyl-[acyl-carrier protein]
+3HCINNM ! 3-hydroxycinnamic acid
+3HCINNM_C ! 
+3HCINNM_P ! 
+3HCMRS7EACP ! (R)-3-hydroxy-cis-myristol-7-eoyl-[acyl-carrier protein]
+3HCPALM9EACP ! (R)-3-hydroxy-cis-palm-9-eoyl-[acyl-carrier protein]
+3HCVAC11EACP ! (R)-3-hydroxy-cis-vacc-11-enoyl-[acyl-carrier protein]
+3HDCOA ! (S)-3-Hydroxydecanoyl-CoA
+3HDDCOA ! (S)-3-Hydroxydodecanoyl-CoA
+3HDDECACP ! (R)-3-Hydroxydodecanoyl-[acyl-carrier protein]
+3HDECACP ! (R)-3-Hydroxydecanoyl-[acyl-carrier protein]
+3HHCOA ! (S)-3-Hydroxyhexanoyl-CoA
+3HHDCOA ! (S)-3-Hydroxyhexadecanoyl-CoA
+3HHEXACP ! (R)-3-Hydroxyhexanoyl-[acyl-carrier protein]
+3HMRSACP ! (R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]
+3HOCOA ! (S)-3-Hydroxyoctanoyl-CoA
+3HOCTAACP ! (R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein]
+3HOCTACP ! (R)-3-Hydroxyoctanoyl-[acyl-carrier protein]
+3HODCOA ! (S)-3-Hydroxyoctadecanoyl-CoA
+3HPALMACP ! R-3-hydroxypalmitoyl-[acyl-carrier protein]
+3HPPPN ! 3-(3-hydroxy-phenyl)propionate
+3HPPPN_C ! 
+3HPPPN_P ! 
+3HTDCOA ! (S)-3-Hydroxytetradecanoyl-CoA
+3IG3P ! C'-(3-Indolyl)-glycerol 3-phosphate
+3MOB ! 3-Methyl-2-oxobutanoate
+3MOP ! (S)-3-Methyl-2-oxopentanoate
+3OCDDEC5EACP ! 3-oxo-cis-dodec-5-enoyl-[acyl-carrier protein]
+3OCMRS7EACP ! 3-oxo-cis-myristol-7-eoyl-[acyl-carrier protein]
+3OCPALM9EACP ! 3-oxo-cis-palm-9-eoyl-[acyl-carrier protein]
+3OCVAC11EACP ! 3-oxo-cis-vacc-11-enoyl-[acyl-carrier protein]
+3ODCOA ! 3-Oxodecanoyl-CoA
+3ODDCOA ! 3-Oxododecanoyl-CoA
+3ODDECACP ! 3-Oxododecanoyl-[acyl-carrier protein]
+3ODECACP ! 3-Oxodecanoyl-[acyl-carrier protein]
+3OHCOA ! 3-Oxohexanoyl-CoA
+3OHDCOA ! 3-Oxohexadecanoyl-CoA
+3OHEXACP ! 3-Oxohexanoyl-[acyl-carrier protein]
+3OMRSACP ! 3-Oxotetradecanoyl-[acyl-carrier protein]
+3OOCOA ! 3-Oxooctanoyl-CoA
+3OOCTACP ! 3-Oxooctanoyl-[acyl-carrier protein]
+3OOCTDACP ! 3-Oxooctadecanoyl-[acyl-carrier protein]
+3OODCOA ! 3-Oxooctadecanoyl-CoA
+3OPALMACP ! 3-Oxohexadecanoyl-[acyl-carrier protein]
+3OPHB ! 3-Octaprenyl-4-hydroxybenzoate
+3OTDCOA ! 3-Oxotetradecanoyl-CoA
+3PG ! 3-Phospho-D-glycerate
+3PHP ! 3-Phosphohydroxypyruvate
+3PSME ! 5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+3SALA ! 3-Sulfino-L-alanine
+3UMP ! 3'-UMP
+3UMP_P ! 
+4ABUT ! 4-Aminobutanoate
+4ABUTN ! 4-Aminobutanal
+4ABUT_C ! 
+4ABUT_P ! 
+4ABZ ! 4-Aminobenzoate
+4ADCHO ! 4-amino-4-deoxychorismate
+4AHMMP ! 4-Amino-5-hydroxymethyl-2-methylpyrimidine
+4AMPM ! 4-Amino-2-methyl-5-phosphomethylpyrimidine
+4C2ME ! 4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+4H2OPNTN ! 4-Hydroxy-2-oxopentanoate
+4HBA ! 4-Hydroxy-benzyl alcohol
+4HBZ ! 4-Hydroxybenzoate
+4HOXPACD ! 4-Hydroxyphenylacetaldehyde
+4HOXPACD_P ! 
+4HTHR ! 4-Hydroxy-L-threonine
+4MHETZ ! 4-Methyl-5-(2-hydroxyethyl)-thiazole
+4MOP ! 4-Methyl-2-oxopentanoate
+4MPETZ ! 4-Methyl-5-(2-phosphoethyl)-thiazole
+4PASP ! 4-Phospho-L-aspartate
+4PER ! 4-Phospho-D-erythronate
+4PPAN ! D-4'-Phosphopantothenate
+4PPCYS ! N-((R)-4-Phosphopantothenoyl)-L-cysteine
+4R5AU ! 4-(1-D-Ribitylamino)-5-aminouracil
+5AIZC ! 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate
+5AOP ! 5-Amino-4-oxopentanoate
+5APRBU ! 5-Amino-6-(5'-phosphoribitylamino)uracil
+5APRU ! 5-Amino-6-(5'-phosphoribosylamino)uracil
+5CAIZ ! 5-phosphoribosyl-5-carboxyaminoimidazole
+5DGLCN ! 5-Dehydro-D-gluconate
+5DGLCN_C ! 
+5DGLCN_P ! 
+5DH4DGLC ! 5-Dehydro-4-deoxy-D-glucarate
+5DRIB ! 5'-deoxyribose
+5MDR1P ! 5-Methylthio-5-deoxy-D-ribose 1-phosphate
+5MDRU1P ! 5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+5MTA ! 5-Methylthioadenosine
+5MTHF ! 5-Methyltetrahydrofolate
+5MTR ! 5-Methylthio-D-ribose
+5PRDMBZ ! N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole
+6HMHPT ! 6-hydroxymethyl dihydropterin
+6HMHPTPP ! 6-hydroxymethyl-dihydropterin pyrophosphate
+6PGC ! 6-Phospho-D-gluconate
+6PGL ! 6-phospho-D-glucono-1,5-lactone
+8AONN ! 8-Amino-7-oxononanoate
+AACALD ! Aminoacetaldehyde
+AACOA ! Acetoacetyl-CoA
+AACT ! Aminoacetone
+AC ! Acetate
+ACAC ! Acetoacetate
+ACACP ! Acetyl-ACP
+ACAC_C ! 
+ACAC_P ! 
+ACALD ! Acetaldehyde
+ACALD_C ! 
+ACALD_P ! 
+ACANTH ! N-Acetylanthranilate
+ACCOA ! Acetyl-CoA
+ACETOL ! Acetol
+ACG5P ! N-Acetyl-L-glutamyl 5-phosphate
+ACG5SA ! N-Acetyl-L-glutamate 5-semialdehyde
+ACGAL ! N-Acetyl-D-galactosamine
+ACGAL1P ! N-Acetyl-D-galactosamine 1-phosphate
+ACGAL1P_P ! 
+ACGAL_P ! 
+ACGAM ! N-Acetyl-D-glucosamine
+ACGAM1P ! N-Acetyl-D-glucosamine 1-phosphate
+ACGAM1P_P ! 
+ACGAM6P ! N-Acetyl-D-glucosamine 6-phosphate
+ACGAM6P_C ! 
+ACGAM_P ! 
+ACGLC_D ! 6-Acetyl-D-glucose
+ACGLU ! N-Acetyl-L-glutamate
+ACMALT ! Acetyl-maltose
+ACMANA ! N-Acetyl-D-mannosamine
+ACMANAP ! N-Acetyl-D-mannosamine 6-phosphate
+ACMANAP_C ! 
+ACMANA_P ! 
+ACMUM ! N-Acetylmuramate
+ACMUM6P ! N-acetylmuramate 6-phosphate
+ACMUM6P_C ! 
+ACMUM_P ! 
+ACNAM ! N-Acetylneuraminate
+ACNAM_C ! 
+ACNAM_P ! 
+ACOLIPA ! 4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A
+ACOLIPA_P ! 
+ACONM ! E-3-carboxy-2-pentenedioate 6-methyl ester
+ACON_C ! cis-Aconitate
+ACON_T ! trans-Aconitate
+ACORN ! N2-Acetyl-L-ornithine
+ACP ! acyl carrier protein
+ACSER ! O-Acetyl-L-serine
+ACSER_C ! 
+ACSER_P ! 
+ACTACP ! Acetoacetyl-ACP
+ACTP ! Acetyl phosphate
+AC_C ! 
+AC_P ! 
+ADE ! Adenine
+ADE_C ! 
+ADE_P ! 
+ADN ! Adenosine
+ADN_C ! 
+ADN_P ! 
+ADOCBI ! Adenosyl cobinamide
+ADOCBIP ! Adenosyl cobinamide phosphate
+ADOCBL ! Adenosylcobalamin
+ADOCBL_C ! 
+ADOCBL_P ! 
+ADP ! ADP
+ADPGLC ! ADPglucose
+ADPHEP_DD ! ADP-D-glycero-D-manno-heptose
+ADPHEP_LD ! ADP-L-glycero-D-manno-heptose
+ADPRIB ! ADPribose
+ADP_C ! 
+AG ! silver
+AGDPCBI ! Adenosine-GDP-cobinamide
+AGM ! Agmatine
+AGM_C ! 
+AGM_P ! 
+AG_C ! 
+AHCYS ! S-Adenosyl-L-homocysteine
+AHDT ! 2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate
+AICAR ! 5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide
+AIR ! 5-amino-1-(5-phospho-D-ribosyl)imidazole
+AKG ! 2-Oxoglutarate
+AKG_C ! 
+AKG_P ! 
+ALAALA ! D-Alanyl-D-alanine
+ALAALA_C ! 
+ALAALA_P ! 
+ALAC_S ! (S)-2-Acetolactate
+ALATRNA ! L-Alanyl-tRNA(Ala)
+ALA_B ! beta-Alanine
+ALA_B_C ! 
+ALA_B_P ! 
+ALA_D ! D-Alanine
+ALA_D_C ! 
+ALA_D_P ! 
+ALA_L ! L-Alanine
+ALA_L_C ! 
+ALA_L_P ! 
+ALL6P ! D-Allose 6-phosphate
+ALLTN ! Allantoin
+ALLTN_C ! 
+ALLTN_P ! 
+ALLTT ! Allantoate
+ALLUL6P ! Allulose 6-phosphate
+ALL_D ! D-Allose
+ALL_D_C ! 
+ALL_D_P ! 
+ALPP ! applipoprotein
+ALTRN ! D-Altronate
+AMET ! S-Adenosyl-L-methionine
+AMETAM ! S-Adenosylmethioninamine
+AMOB ! S-Adenosyl-4-methylthio-2-oxobutanoate
+AMP ! AMP
+AMP_C ! 
+AMP_P ! 
+ANHGM ! N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid
+ANHGM3P ! N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide
+ANHGM3P_C ! 
+ANHGM3P_P ! 
+ANHGM4P ! N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide
+ANHGM4P_C ! 
+ANHGM4P_P ! 
+ANHGM_C ! 
+ANHGM_P ! 
+ANHM ! 1,6-anhydrous-N-Acetylmuramate
+ANHM3P ! 1,6-anhydrous-N-Acetylmuramyl-tripeptide
+ANHM4P ! 1,6-anhydrous-N-Acetylmuramyl-tetrapeptide
+ANTH ! Anthranilate
+AP4A ! P1,P4-Bis(5'-adenosyl) tetraphosphate
+AP5A ! P1,P5-Bis(5'-adenosyl) pentaphosphate
+APG120 ! acyl phosphatidylglycerol (n-C12:0)
+APG140 ! acyl phosphatidylglycerol (n-C14:0)
+APG141 ! acyl phosphatidylglycerol (n-C14:1)
+APG160 ! acyl phosphatidylglycerol (n-C16:0)
+APG161 ! acyl phosphatidylglycerol (n-C16:1)
+APG180 ! acyl phosphatidylglycerol (n-C18:0)
+APG181 ! acyl phosphatidylglycerol (n-C18:1)
+APOACP ! apoprotein [acyl carrier protein]
+APS ! Adenosine 5'-phosphosulfate
+ARA5P ! D-Arabinose 5-phosphate
+ARAB_L ! L-Arabinose
+ARAB_L_C ! 
+ARAB_L_P ! 
+ARAGUND ! O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+ARBT6P ! Arbutin 6-phosphate
+ARBTN ! aerobactin minus Fe3
+ARBTN_C ! 
+ARBTN_FE3 ! Aerobactin
+ARBTN_FE3_C ! 
+ARBTN_FE3_P ! 
+ARBTN_P ! 
+ARGSUC ! N(omega)-(L-Arginino)succinate
+ARGTRNA ! L-Arginyl-tRNA(Arg)
+ARG_L ! L-Arginine
+ARG_L_C ! 
+ARG_L_P ! 
+ASCB6P ! L-ascorbate-6-phosphate
+ASCB6P_C ! 
+ASCB_L ! L-Ascorbate
+ASCB_L_P ! 
+ASNTRNA ! L-Asparaginyl-tRNA(Asn)
+ASN_L ! L-Asparagine
+ASN_L_C ! 
+ASN_L_P ! 
+ASO3 ! arsenite
+ASO3_C ! 
+ASO3_P ! 
+ASO4 ! arsenate
+ASPSA ! L-Aspartate 4-semialdehyde
+ASPTRNA ! L-Aspartyl-tRNA(Asp)
+ASP_L ! L-Aspartate
+ASP_L_C ! 
+ASP_L_P ! 
+ATHR_L ! L-Allo-threonine
+ATP ! ATP
+ATP_C ! 
+B2COA ! Crotonoyl-CoA
+BBTCOA ! gamma-butyrobetainyl-CoA
+BETALD ! Betaine aldehyde
+BGLYCOGEN ! branching glycogen
+BTAL ! Butanal
+BTCOA ! Butanoyl-CoA
+BTN ! Biotin
+BTNSO ! d-biotin d-sulfoxide
+BUT ! Butyrate (n-C4:0)
+BUT2EACP ! But-2-enoyl-[acyl-carrier protein]
+BUTACP ! Butyryl-ACP (n-C4:0ACP)
+BUTSO3 ! butanesulfonate
+BUTSO3_C ! 
+BUTSO3_P ! 
+BUT_C ! 
+BUT_P ! 
+CA2 ! Calcium
+CA2_C ! 
+CA2_P ! 
+CAMP ! cAMP
+CBASP ! N-Carbamoyl-L-aspartate
+CBI ! Cobinamide
+CBI_C ! 
+CBI_P ! 
+CBL1 ! Cob(I)alamin
+CBL1_C ! 
+CBL1_P ! 
+CBP ! Carbamoyl phosphate
+CD2 ! Cadmium
+CD2_C ! 
+CD2_P ! 
+CDDEC5EACP ! cis-dodec-5-enoyl-[acyl-carrier protein] (n-C12:1)
+CDEC3EACP ! cis-dec-3-enoyl-[acyl-carrier protein] (n-C10:1)
+CDP ! CDP
+CDPDDDECG ! CDP-1,2-didodecanoylglycerol
+CDPDHDEC9EG ! CDP-1,2-dihexadec-9-enoylglycerol
+CDPDHDECG ! CDP-1,2-dihexadecanoylglycerol
+CDPDODEC11EG ! CDP-1,2-dioctadec-11-enoylglycerol
+CDPDODECG ! CDP-1,2-dioctadecanoylglycerol
+CDPDTDEC7EG ! CDP-1,2-ditetradec-7-enoylglycerol
+CDPDTDECG ! CDP-1,2-ditetradecanoylglycerol
+CECHDDD ! cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol
+CENCHDDD ! cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol
+CGLY ! Cys-Gly
+CGLY_C ! 
+CGLY_P ! 
+CHOL ! Choline
+CHOL_C ! 
+CHOL_P ! 
+CHOR ! chorismate
+CINNM ! trans-Cinnamate
+CIT ! Citrate
+CITR_L ! L-Citrulline
+CIT_C ! 
+CIT_P ! 
+CKDO ! CMP-3-deoxy-D-manno-octulosonate
+CL ! Chloride
+CLPN120 ! cardiolipin (tetradodecanoyl, n-C12:0)
+CLPN140 ! cardiolipin (tetratetradecanoyl, n-C14:0)
+CLPN141 ! cardiolipin (tetratetradec-7-enoyl, n-C14:1)
+CLPN160 ! cardiolipin (tetrahexadecanoyl, n-C16:0)
+CLPN161 ! cardiolipin (tetrahexadec-9-enoyl, n-C16:1)
+CLPN180 ! cardiolipin (tetraoctadecanoyl, n-C18:0)
+CLPN181 ! cardiolipin (tetraoctadec-11-enoyl, n-C18:1)
+CL_C ! 
+CL_P ! 
+CMP ! CMP
+CMP_P ! 
+CO2 ! CO2
+CO2_C ! 
+CO2_P ! 
+COA ! Coenzyme A
+COA_C ! 
+COBALT2 ! Co2+
+COBALT2_C ! 
+COBALT2_P ! 
+COLIPA ! core oligosaccharide lipid A
+COLIPA_C ! 
+COLIPA_P ! 
+CPE160 ! cyclopropane phosphatidylethanolamine (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)
+CPE180 ! cyclopropane phosphatidylethanolamine (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)
+CPG160 ! cyclopropane phosphatidylglycerol (dihexadec-9,10-cyclo-anoyl, n-C16:0 cyclo)
+CPG180 ! cyclopropane phosphatidylglycerol (dioctadec-11,12-cyclo-anoyl, n-C18:0 cyclo)
+CPGN ! coprogen
+CPGN_C ! 
+CPGN_P ! 
+CPGN_UN ! coprogen unloaded (no Fe(III))
+CPGN_UN_C ! 
+CPGN_UN_P ! 
+CPPPG3 ! Coproporphyrinogen III
+CRN ! L-Carnitine
+CRNCOA ! L-Carnitinyl-CoA
+CRNDCOA ! D-carnitinyl-CoA
+CRN_C ! 
+CRN_D ! D-Carnitine
+CRN_D_C ! 
+CRN_D_P ! 
+CRN_P ! 
+CSN ! Cytosine
+CSN_C ! 
+CSN_P ! 
+CTBT ! crotonobetaine
+CTBTCOA ! crotonobetainyl-CoA
+CTBT_C ! 
+CTBT_P ! 
+CTP ! CTP
+CU ! Cu+
+CU2 ! Cu2+
+CU2_C ! 
+CU2_P ! 
+CU_C ! 
+CU_P ! 
+CYAN ! Hydrogen cyanide
+CYAN_P ! 
+CYNT ! Cyanate
+CYNT_C ! 
+CYNT_P ! 
+CYSTRNA ! L-Cysteinyl-tRNA(Cys)
+CYST_L ! L-Cystathionine
+CYS_D ! D-Cysteine
+CYS_D_C ! 
+CYS_D_P ! 
+CYS_L ! L-Cysteine
+CYS_L_C ! 
+CYS_L_P ! 
+CYTD ! Cytidine
+CYTD_C ! 
+CYTD_P ! 
+DADP ! dADP
+DAD_2 ! Deoxyadenosine
+DAD_2_C ! 
+DAD_2_P ! 
+DAD_5 ! 5'-Deoxyadenosine
+DAMP ! dAMP
+DAMP_P ! 
+DANN ! 7,8-Diaminononanoate
+DATP ! dATP
+DB4P ! 3,4-dihydroxy-2-butanone 4-phosphate
+DC2COA ! trans-Dec-2-enoyl-CoA
+DCA ! Decanoate (n-C10:0)
+DCAACP ! Decanoyl-ACP (n-C10:0ACP)
+DCACOA ! Decanoyl-CoA (n-C10:0CoA)
+DCACOA_C ! 
+DCAMP ! N6-(1,2-Dicarboxyethyl)-AMP
+DCA_P ! 
+DCDP ! dCDP
+DCMP ! dCMP
+DCMP_P ! 
+DCTP ! dCTP
+DCYT ! Deoxycytidine
+DCYT_C ! 
+DCYT_P ! 
+DD2COA ! trans-Dodec-2-enoyl-CoA
+DDCA ! Dodecanoate (n-C12:0)
+DDCAACP ! Dodecanoyl-ACP (n-C12:0ACP)
+DDCACOA ! Dodecanoyl-CoA (n-C12:0CoA)
+DDCACOA_C ! 
+DDCA_P ! 
+DGDP ! dGDP
+DGMP ! dGMP
+DGMP_P ! 
+DGSN ! Deoxyguanosine
+DGSN_C ! 
+DGSN_P ! 
+DGTP ! dGTP
+DHA ! Dihydroxyacetone
+DHAP ! Dihydroxyacetone phosphate
+DHA_C ! 
+DHA_P ! 
+DHCINNM ! 2,3-dihydroxicinnamic acid
+DHF ! 7,8-Dihydrofolate
+DHMPTP ! dihydromonapterin-triphosphate
+DHNA ! 1,4-Dihydroxy-2-naphthoate
+DHNPT ! Dihydroneopterin
+DHOR_S ! (S)-Dihydroorotate
+DHPMP ! Dihydroneopterin monophosphate
+DHPPPN ! 3-(2,3-Dihydroxyphenyl)propanoate
+DHPT ! Dihydropteroate
+DHPTD ! 4,5-dihydroxy-2,3-pentanedione
+DIDP ! dIDP
+DIMP ! dIMP
+DIMP_P ! 
+DIN ! Deoxyinosine
+DIN_C ! 
+DIN_P ! 
+DITP ! dITP
+DKMPP ! 2,3-diketo-5-methylthio-1-phosphopentane
+DMBZID ! 5,6-Dimethylbenzimidazole
+DMLZ ! 6,7-Dimethyl-8-(1-D-ribityl)lumazine
+DMPP ! Dimethylallyl diphosphate
+DMS ! Dimethyl sulfide
+DMSO ! Dimethyl sulfoxide
+DMSO_P ! 
+DMS_P ! 
+DNAD ! Deamino-NAD+
+DOPA ! Dopamine
+DOPA_P ! 
+DPCOA ! Dephospho-CoA
+DSBAOX_P ! 
+DSBARD_P ! 
+DSBCOX ! protein disulfide isomerase II (oxidized)
+DSBCOX_P ! 
+DSBCRD ! protein disulfide isomerase II (reduced)
+DSBCRD_P ! 
+DSBDOX ! fused thiol:disulfide interchange protein (oxidized)
+DSBDOX_C ! 
+DSBDRD ! fused thiol:disulfide interchange protein (reduced)
+DSBDRD_C ! 
+DSBGOX ! periplasmic disulfide isomerase/thiol-disulphide oxidase (oxidized)
+DSBGOX_P ! 
+DSBGRD ! periplasmic disulfide isomerase/thiol-disulphide oxidase (reduced)
+DSBGRD_P ! 
+DSCL ! dihydrosirohydrochlorin
+DTBT ! Dethiobiotin
+DTDP ! dTDP
+DTDP4AADDG ! dTDP-4-acetamido-4,6-dideoxy-D-galactose
+DTDP4ADDG ! dTDP-4-amino-4,6-dideoxy-D-galactose
+DTDP4D6DG ! dTDP-4-dehydro-6-deoxy-D-glucose
+DTDP4D6DM ! dTDP-4-dehydro-6-deoxy-L-mannose
+DTDPGLU ! dTDPglucose
+DTDPRMN ! dTDP-L-rhamnose
+DTMP ! dTMP
+DTMP_P ! 
+DTTP ! dTTP
+DUDP ! dUDP
+DUMP ! dUMP
+DUMP_P ! 
+DURI ! Deoxyuridine
+DURI_C ! 
+DURI_P ! 
+DUTP ! dUTP
+DXYL ! 1-deoxy-D-xylulose
+DXYL5P ! 1-deoxy-D-xylulose 5-phosphate
+E4P ! D-Erythrose 4-phosphate
+ECA2UND ! (enterobacterial common antigen)x2 undecaprenyl-diphosphate
+ECA3UND ! (enterobacterial common antigen)x3 undecaprenyl-diphosphate
+ECA4COLIPA ! (enterobacterial common antigen)x4 core oligosaccharide lipid A
+ECA4COLIPA_P ! 
+ECA4UND ! (enterobacterial common antigen)x4 undecaprenyl-diphosphate
+EIG3P ! D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+ENLIPA ! phosphoethanolamine KDO(2)-lipid (A)
+ENLIPA_P ! 
+ENTER ! Enterochelin
+ENTER_C ! 
+ENTER_P ! 
+ETHA ! Ethanolamine
+ETHA_C ! 
+ETHA_P ! 
+ETHSO3 ! ethanesulfonate
+ETHSO3_C ! 
+ETHSO3_P ! 
+ETOH ! Ethanol
+ETOH_C ! 
+ETOH_P ! 
+F1P ! D-Fructose 1-phosphate
+F1P_C ! 
+F6P ! D-Fructose 6-phosphate
+F6P_C ! 
+F6P_P ! 
+FAD ! Flavin adenine dinucleotide oxidized
+FADH2 ! Flavin adenine dinucleotide reduced
+FALD ! Formaldehyde
+FALD_C ! 
+FALD_P ! 
+FC1P ! L-Fuculose 1-phosphate
+FCL_L ! L-fuculose
+FDP ! D-Fructose 1,6-bisphosphate
+FE2 ! Fe2+
+FE2_C ! 
+FE2_P ! 
+FE3 ! Fe3+
+FE3DCIT ! Fe(III)dicitrate
+FE3DCIT_P ! 
+FE3DHBZS ! ferric 2,3-dihydroxybenzoylserine
+FE3DHBZS_C ! 
+FE3DHBZS_P ! 
+FE3HOX ! Fe(III)hydroxamate
+FE3HOX_C ! 
+FE3HOX_P ! 
+FE3HOX_UN ! Fe(III)hydoxamate, unloaded
+FE3HOX_UN_C ! 
+FE3HOX_UN_P ! 
+FE3_C ! 
+FE3_P ! 
+FECRM ! Ferrichrome
+FECRM_C ! 
+FECRM_P ! 
+FECRM_UN ! Ferrichrome minus Fe(III)
+FECRM_UN_C ! 
+FECRM_UN_P ! 
+FEENTER ! Fe-enterobactin
+FEENTER_C ! 
+FEENTER_P ! 
+FEOXAM ! ferroxamine
+FEOXAM_C ! 
+FEOXAM_P ! 
+FEOXAM_UN ! ferroxamine minus Fe(3)
+FEOXAM_UN_C ! 
+FEOXAM_UN_P ! 
+FGAM ! N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide
+FLDOX ! flavodoxin (oxidized)
+FLDRD ! flavodoxin (reduced)
+FMETTRNA ! N-Formylmethionyl-tRNA
+FMN ! FMN
+FMNH2 ! Reduced FMN
+FOR ! Formate
+FOR_C ! 
+FOR_P ! 
+FPRAM ! 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine
+FPRICA ! 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+FRDP ! Farnesyl diphosphate
+FRU ! D-Fructose
+FRULYS ! fructoselysine
+FRULYSP ! fructoselysine Phosphate
+FRULYS_C ! 
+FRULYS_P ! 
+FRUUR ! D-Fructuronate
+FRUUR_C ! 
+FRUUR_P ! 
+FRU_P ! 
+FUC_L ! L-Fucose
+FUC_L_C ! 
+FUC_L_P ! 
+FUM ! Fumarate
+FUM_C ! 
+FUM_P ! 
+G1P ! D-Glucose 1-phosphate
+G1P_P ! 
+G3P ! Glyceraldehyde 3-phosphate
+G3PC ! sn-Glycero-3-phosphocholine
+G3PC_C ! 
+G3PC_P ! 
+G3PE ! sn-Glycero-3-phosphoethanolamine
+G3PE_C ! 
+G3PE_P ! 
+G3PG ! Glycerophosphoglycerol
+G3PG_C ! 
+G3PG_P ! 
+G3PI ! sn-Glycero-3-phospho-1-inositol
+G3PI_C ! 
+G3PI_P ! 
+G3PS ! Glycerophosphoserine
+G3PS_C ! 
+G3PS_P ! 
+G6P ! D-Glucose 6-phosphate
+G6P_C ! 
+G6P_P ! 
+GAGICOLIPA ! galactosyl-glucosyl-inner core oligosaccharide lipid A
+GAL ! D-Galactose
+GAL1P ! alpha-D-Galactose 1-phosphate
+GAL1P_P ! 
+GALCTN_D ! D-Galactonate
+GALCTN_D_C ! 
+GALCTN_D_P ! 
+GALCTN_L ! L-Galactonate
+GALCTN_L_C ! 
+GALCTN_L_P ! 
+GALCT_D ! D-Galactarate
+GALCT_D_C ! 
+GALCT_D_P ! 
+GALT ! Galactitol
+GALT1P ! Galactitol 1-phosphate
+GALT1P_C ! 
+GALT_P ! 
+GALUR ! D-Galacturonate
+GALUR_C ! 
+GALUR_P ! 
+GAL_BD ! beta D-Galactose
+GAL_BD_P ! 
+GAL_C ! 
+GAL_P ! 
+GAM ! D-Glucosamine
+GAM1P ! D-Glucosamine 1-phosphate
+GAM6P ! D-Glucosamine 6-phosphate
+GAM6P_C ! 
+GAM6P_P ! 
+GAM_P ! 
+GAR ! N1-(5-Phospho-D-ribosyl)glycinamide
+GARAGUND ! glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+GBBTN ! gamma-butyrobetaine
+GBBTN_C ! 
+GBBTN_P ! 
+GCALD ! Glycolaldehyde
+GDP ! GDP
+GDPDDMAN ! GDP-4-dehydro-6-deoxy-D-mannose
+GDPFUC ! GDP-L-fucose
+GDPMANN ! GDP-D-mannose
+GDPOFUC ! GDP-4-oxo-L-fucose
+GDPTP ! Guanosine 3'-diphosphate 5'-triphosphate
+GDP_P ! 
+GFGARAGUND ! galactofuranosyl-glucosyl-O-acetyl-rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+GG4ABUT ! gamma-glutamyl-gamma aminobutyric acid
+GGAGICOLIPA ! glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A
+GGBUTAL ! gamma-glutamyl-gamma-butyraldehyde
+GGGAGICOLIPA ! glucosyl-glucosyl-galactosyl-glucosyl-inner core oligosaccharide lipid A
+GGPTRC ! gamma-glutamyl-putrescine
+GICOLIPA ! glucosyl-inner core oligosaccharide lipid A
+GLCN ! D-Gluconate
+GLCN_C ! 
+GLCN_P ! 
+GLCR ! D-Glucarate
+GLCR_C ! 
+GLCR_P ! 
+GLCUR ! D-Glucuronate
+GLCUR1P ! D-Glucuronate 1-phosphate
+GLCUR1P_P ! 
+GLCUR_C ! 
+GLCUR_P ! 
+GLC_D ! D-Glucose
+GLC_D_C ! 
+GLC_D_P ! 
+GLNTRNA ! L-Glutaminyl-tRNA(Gln)
+GLN_L ! L-Glutamine
+GLN_L_C ! 
+GLN_L_P ! 
+GLU1SA ! L-Glutamate 1-semialdehyde
+GLU5P ! L-Glutamate 5-phosphate
+GLU5SA ! L-Glutamate 5-semialdehyde
+GLUCYS ! gamma-L-Glutamyl-L-cysteine
+GLUTRNA ! L-Glutamyl-tRNA(Glu)
+GLU_D ! D-Glutamate
+GLU_L ! L-Glutamate
+GLU_L_C ! 
+GLU_L_P ! 
+GLX ! Glyoxylate
+GLY ! Glycine
+GLYALD ! D-Glyceraldehyde
+GLYALD_C ! 
+GLYALD_P ! 
+GLYB ! Glycine betaine
+GLYB_C ! 
+GLYB_P ! 
+GLYC ! Glycerol
+GLYC2P ! Glycerol 2-phosphate
+GLYC2P_P ! 
+GLYC3P ! Glycerol 3-phosphate
+GLYC3P_C ! 
+GLYC3P_P ! 
+GLYCLT ! Glycolate
+GLYCLT_C ! 
+GLYCLT_P ! 
+GLYCOGEN ! glycogen
+GLYC_C ! 
+GLYC_P ! 
+GLYC_R ! (R)-Glycerate
+GLYC_R_C ! 
+GLYC_R_P ! 
+GLYTRNA ! Glycyl-tRNA(Gly)
+GLY_C ! 
+GLY_P ! 
+GMHEP17BP ! D-Glycero-D-manno-heptose 1,7-bisphosphate
+GMHEP1P ! D-Glycero-D-manno-heptose 1-phosphate
+GMHEP7P ! D-Glycero-D-manno-heptose 7-phosphate
+GMP ! GMP
+GMP_P ! 
+GP4G ! P1,P4-Bis(5'-guanosyl) tetraphosphate
+GRDP ! Geranyl diphosphate
+GRXOX ! glutaredoxin (oxidized)
+GRXRD ! glutaredoxin (reduced)
+GSN ! Guanosine
+GSN_C ! 
+GSN_P ! 
+GTHOX ! Oxidized glutathione
+GTHOX_P ! 
+GTHRD ! Reduced glutathione
+GTHRD_C ! 
+GTHRD_P ! 
+GTP ! GTP
+GTP_P ! 
+GTSPMD ! Glutathionylspermidine
+GUA ! Guanine
+GUA_C ! 
+GUA_P ! 
+H ! H+
+H2 ! H2
+H2MB4P ! 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+H2O ! H2O
+H2O2 ! Hydrogen peroxide
+H2O2_P ! 
+H2O_C ! 
+H2O_P ! 
+H2S ! Hydrogen sulfide
+H2S_C ! 
+H2S_P ! 
+H2_C ! 
+H2_P ! 
+HACOLIPA ! hepta-acylated core oligosaccharide lipid A (E. coli)
+HALIPA ! hepta-acylated KDO(2)-lipid (A)
+HCO3 ! Bicarbonate
+HCYS_L ! L-Homocysteine
+HDCA ! Hexadecanoate (n-C16:0)
+HDCA_P ! 
+HDCEA ! Hexadecenoate (n-C16:1)
+HDCEA_P ! 
+HDCOA ! Hexadecenoyl-CoA (n-C16:1CoA)
+HDCOA_C ! 
+HDD2COA ! trans-Hexadec-2-enoyl-CoA
+HDEACP ! cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)
+HEMEO ! Heme O
+HEXACP ! Hexanoyl-ACP (n-C6:0ACP)
+HG2 ! Hg2+
+HG2_C ! 
+HG2_P ! 
+HHLIPA ! heptosyl-heptosyl-kdo2-lipidA
+HISP ! L-Histidinol phosphate
+HISTD ! L-Histidinol
+HISTRNA ! L-Histidyl-tRNA(His)
+HIS_L ! L-Histidine
+HIS_L_C ! 
+HIS_L_P ! 
+HKNDD ! 2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate
+HKNTD ! 2-hydroxy-6-ketononatrienedioate
+HLIPA ! heptosyl-kdo2-lipidA
+HMBIL ! Hydroxymethylbilane
+HMFURN ! 4-hydroxy-5-methyl-3(2H)-furanone
+HMGTH ! hydroxymethylglutathione
+HOM_L ! L-Homoserine
+HOM_L_C ! 
+HOM_L_P ! 
+HPHHLIPA ! heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+HPYR ! Hydroxypyruvate
+HQN ! Hydroquinone
+HX2COA ! trans-Hex-2-enoyl-CoA
+HXA ! Hexanoate (n-C6:0)
+HXAN ! Hypoxanthine
+HXAN_C ! 
+HXAN_P ! 
+HXA_C ! 
+HXA_P ! 
+HXCOA ! Hexanoyl-CoA (n-C6:0CoA)
+HXCOA_C ! 
+H_C ! 
+H_P ! 
+IASP ! Iminoaspartate
+ICHOR ! Isochorismate
+ICIT ! Isocitrate
+ICOLIPA ! inner core oligosaccharide lipid A (E coli)
+IDON_L ! L-Idonate
+IDON_L_C ! 
+IDON_L_P ! 
+IDP ! IDP
+ILETRNA ! L-Isoleucyl-tRNA(Ile)
+ILE_L ! L-Isoleucine
+ILE_L_C ! 
+ILE_L_P ! 
+IMACP ! 3-(Imidazol-4-yl)-2-oxopropyl phosphate
+IMP ! IMP
+IMP_P ! 
+INDOLE ! Indole
+INDOLE_C ! 
+INDOLE_P ! 
+INOST ! myo-Inositol
+INOST_C ! 
+INOST_P ! 
+INS ! Inosine
+INS_C ! 
+INS_P ! 
+IPDP ! Isopentenyl diphosphate
+ISETAC ! Isethionic acid
+ISETAC_C ! 
+ISETAC_P ! 
+ITP ! ITP
+K ! potassium
+KDO ! 3-Deoxy-D-manno-2-octulosonate
+KDO2LIPID4 ! KDO(2)-lipid IV(A)
+KDO2LIPID4L ! KDO(2)-lipid IV(A) with laurate
+KDO2LIPID4P ! KDO(2)-lipid IV(A) with palmitoleoyl
+KDO2LIPID4_C ! 
+KDO2LIPID4_P ! 
+KDO8P ! 3-Deoxy-D-manno-octulosonate 8-phosphate
+KDOLIPID4 ! KDO-lipid IV(A)
+KPHPHHLIPA ! kdo-phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+K_C ! 
+K_P ! 
+LAC_D ! D-Lactate
+LAC_D_C ! 
+LAC_D_P ! 
+LAC_L ! L-Lactate
+LAC_L_C ! 
+LAC_L_P ! 
+LALADGLU ! L-alanine-D-glutamate
+LALADGLUMDAP ! L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate
+LALADGLUMDAPDALA ! L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine
+LALADGLUMDAPDALA_C ! 
+LALADGLUMDAPDALA_P ! 
+LALADGLUMDAP_C ! 
+LALADGLUMDAP_P ! 
+LALALGLU ! L-alanine-L-glutamate
+LALD_D ! D-Lactaldehyde
+LALD_L ! L-Lactaldehyde
+LCTS ! Lactose
+LCTS_C ! 
+LCTS_P ! 
+LEUTRNA ! L-Leucyl-tRNA(Leu)
+LEU_L ! L-Leucine
+LEU_L_C ! 
+LEU_L_P ! 
+LGT_S ! (R)-S-Lactoylglutathione
+LIPA ! KDO(2)-lipid (A)
+LIPA_C ! 
+LIPA_COLD ! cold adapted KDO(2)-lipid (A)
+LIPA_COLD_C ! 
+LIPA_COLD_P ! 
+LIPA_P ! 
+LIPIDA ! 2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate
+LIPIDADS ! Lipid A Disaccharide
+LIPIDX ! 2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate
+LPP ! lipoprotein
+LYSTRNA ! L-Lysine-tRNA (Lys)
+LYS_L ! L-Lysine
+LYS_L_C ! 
+LYS_L_P ! 
+LYX_L ! L-Lyxose
+LYX_L_C ! 
+LYX_L_P ! 
+MALACP ! Malonyl-[acyl-carrier protein]
+MALCOA ! Malonyl-CoA
+MALT ! Maltose
+MALT6P_C ! 
+MALTHP ! Maltoheptaose
+MALTHX ! Maltohexaose
+MALTHX_C ! 
+MALTHX_P ! 
+MALTPT ! Maltopentaose
+MALTPT_C ! 
+MALTPT_P ! 
+MALTTR ! Maltotriose
+MALTTR_C ! 
+MALTTR_P ! 
+MALTTTR ! Maltotetraose
+MALTTTR_C ! 
+MALTTTR_P ! 
+MALT_C ! 
+MALT_P ! 
+MAL_D ! D-Malate
+MAL_D_C ! 
+MAL_D_P ! 
+MAL_L ! L-Malate
+MAL_L_C ! 
+MAL_L_P ! 
+MAN ! D-Mannose
+MAN1P ! D-Mannose 1-phosphate
+MAN6P ! D-Mannose 6-phosphate
+MAN6PGLYC ! 2(alpha-D-Mannosyl-6-phosphate)-D-glycerate
+MAN6PGLYC_C ! 
+MAN6P_C ! 
+MAN6P_P ! 
+MANA ! D-Mannonate
+MANGLYC ! 2(alpha-D-Mannosyl)-D-glycerate
+MANGLYC_P ! 
+MAN_P ! 
+MELIB ! Melibiose
+MELIB_C ! 
+MELIB_P ! 
+MERCPPYR ! Mercaptopyruvate
+METHF ! 5,10-Methenyltetrahydrofolate
+METSOX_R_L ! L-methionine-R-sulfoxide
+METSOX_R_L_C ! 
+METSOX_R_L_P ! 
+METSOX_S_L ! L-Methionine Sulfoxide
+METSOX_S_L_C ! 
+METSOX_S_L_P ! 
+METTRNA ! L-Methionyl-tRNA (Met)
+MET_D ! D-Methionine
+MET_D_C ! 
+MET_D_P ! 
+MET_L ! L-Methionine
+MET_L_C ! 
+MET_L_P ! 
+MG2 ! magnesium
+MG2_C ! 
+MG2_P ! 
+MI1P_D ! 1D-myo-Inositol 1-phosphate
+MICIT ! methylisocitrate
+MINOHP ! myo-Inositol hexakisphosphate
+MINOHP_P ! 
+MLTHF ! 5,10-Methylenetetrahydrofolate
+MMCOA_R ! (R)-Methylmalonyl-CoA
+MMCOA_S ! (S)-Methylmalonyl-CoA
+MMET ! S-Methyl-L-methionine
+MMET_C ! 
+MMET_P ! 
+MN2 ! Mn2+
+MN2_C ! 
+MN2_P ! 
+MNL ! D-Mannitol
+MNL1P ! D-Mannitol 1-phosphate
+MNL1P_C ! 
+MNL_P ! 
+MOBD ! Molybdate
+MOBD_C ! 
+MOBD_P ! 
+MQL8 ! Menaquinol 8
+MQL8_C ! 
+MQN8 ! Menaquinone 8
+MQN8_C ! 
+MSO3 ! methanesulfonate
+MSO3_C ! 
+MSO3_P ! 
+MTHGXL ! Methylglyoxal
+MUREIN3P3P ! two linked disacharide tripeptide murein units (uncrosslinked, middle of chain)
+MUREIN3PX3P ! two disacharide linked murein units, tripeptide crosslinked tripeptide (A2pm->A2pm) (middle of chain)
+MUREIN3PX4P ! two disacharide linked murein units, tripeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)
+MUREIN4P3P ! two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+MUREIN4P4P ! two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)
+MUREIN4PX4P ! two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain)
+MUREIN4PX4P4P ! three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala), one uncrosslinked tetrapaptide) (middle of chain)
+MUREIN4PX4PX4P ! three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain)
+MUREIN5P3P ! two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+MUREIN5P4P ! two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)
+MUREIN5P5P ! two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+MUREIN5P5P5P ! three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+MUREIN5P5P5P_P ! 
+MUREIN5P5P_P ! 
+MUREIN5PX3P ! two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm->A2pm) (middle of chain)
+MUREIN5PX4P ! two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain)
+MUREIN5PX4PX4P ! three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain)
+MYRSACP ! Myristoyl-ACP (n-C14:0ACP)
+N1ASPMD ! N1-Acetylspermidine
+N2O ! Nitrous oxide
+N2O_C ! 
+N2O_P ! 
+N8ASPMD ! N8-Acetylspermidine
+NA1 ! Sodium
+NA1_C ! 
+NA1_P ! 
+NAC ! Nicotinate
+NAC_C ! 
+NAC_P ! 
+NAD ! Nicotinamide adenine dinucleotide
+NADH ! Nicotinamide adenine dinucleotide - reduced
+NADH_C ! 
+NADP ! Nicotinamide adenine dinucleotide phosphate
+NADPH ! Nicotinamide adenine dinucleotide phosphate - reduced
+NADPH_C ! 
+NADP_C ! 
+NAD_C ! 
+NCAM ! Nicotinamide
+NCAM_C ! 
+NH4 ! Ammonium
+NH4_C ! 
+NH4_P ! 
+NI2 ! nickel
+NI2_C ! 
+NI2_P ! 
+NICRNT ! Nicotinate D-ribonucleotide
+NMN ! NMN
+NMN_C ! 
+NMN_P ! 
+NMTRP ! N-Methyltryptophan
+NO ! Nitric oxide
+NO2 ! Nitrite
+NO2_C ! 
+NO2_P ! 
+NO3 ! Nitrate
+NO3_C ! 
+NO3_P ! 
+NO_C ! 
+NO_P ! 
+O16A2UND ! (O16 antigen)x2 undecaprenyl diphosphate
+O16A3UND ! (O16 antigen)x3 undecaprenyl diphosphate
+O16A4COLIPA ! (O16 antigen)x4 core oligosaccharide lipid A
+O16A4COLIPA_P ! 
+O16A4UND ! (O16 antigen)x4 undecaprenyl diphosphate
+O16AUND ! O16 antigen undecaprenyl diphosphate
+O16AUND_C ! 
+O16AUND_P ! 
+O2 ! O2
+O2S ! Superoxide anion
+O2S_P ! 
+O2_C ! 
+O2_P ! 
+OAA ! Oxaloacetate
+OC2COA ! trans-Oct-2-enoyl-CoA
+OCACP ! Octanoyl-ACP (n-C8:0ACP)
+OCCOA ! Octanoyl-CoA (n-C8:0CoA)
+OCCOA_C ! 
+OCDCA ! octadecanoate (n-C18:0)
+OCDCAACP ! Octadecanoyl-ACP (n-C18:0ACP)
+OCDCA_P ! 
+OCDCEA ! octadecenoate (n-C18:1)
+OCDCEA_P ! 
+OCTA ! octanoate (n-C8:0)
+OCTA_P ! 
+OCTDP ! all-trans-Octaprenyl diphosphate
+OCTEACP ! cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)
+OD2COA ! trans-Octadec-2-enoyl-CoA
+ODECOA ! Octadecenoyl-CoA (n-C18:1CoA)
+ODECOA_C ! 
+OHPB ! 2-Oxo-3-hydroxy-4-phosphobutanoate
+OP4EN ! 2-Oxopent-4-enoate
+ORN ! Ornithine
+ORN_C ! 
+ORN_P ! 
+OROT ! Orotate
+OROT5P ! Orotidine 5'-phosphate
+OROT_C ! 
+OROT_P ! 
+OXAM ! Oxamate
+OXUR ! Oxalureate
+PA120 ! 1,2-didodecanoyl-sn-glycerol 3-phosphate
+PA120_C ! 
+PA120_P ! 
+PA140 ! 1,2-ditetradecanoyl-sn-glycerol 3-phosphate
+PA140_C ! 
+PA140_P ! 
+PA141 ! 1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate
+PA141_C ! 
+PA141_P ! 
+PA160 ! 1,2-dihexadecanoyl-sn-glycerol 3-phosphate
+PA160_C ! 
+PA160_P ! 
+PA161 ! 1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate
+PA161_C ! 
+PA161_P ! 
+PA180 ! 1,2-dioctadecanoyl-sn-glycerol 3-phosphate
+PA180_C ! 
+PA180_P ! 
+PA181 ! 1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate
+PA181_C ! 
+PA181_P ! 
+PAC ! Phenylacetic acid
+PACALD ! Phenylacetaldehyde
+PACALD_C ! 
+PACALD_P ! 
+PALMACP ! Palmitoyl-ACP (n-C16:0ACP)
+PAN4P ! Pantetheine 4'-phosphate
+PANT_R ! (R)-Pantoate
+PAP ! Adenosine 3',5'-bisphosphate
+PAPS ! 3'-Phosphoadenylyl sulfate
+PDX5P ! Pyridoxine 5'-phosphate
+PE120 ! phosphatidylethanolamine (didodecanoyl, n-C12:0)
+PE120_C ! 
+PE120_P ! 
+PE140 ! phosphatidylethanolamine (ditetradecanoyl, n-C14:0)
+PE140_C ! 
+PE140_P ! 
+PE141 ! phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)
+PE141_C ! 
+PE141_P ! 
+PE160 ! phosphatidylethanolamine (dihexadecanoyl, n-C16:0)
+PE160_C ! 
+PE160_P ! 
+PE161 ! phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)
+PE161_C ! 
+PE161_P ! 
+PE180 ! phosphatidylethanolamine (dioctadecanoyl, n-C18:0)
+PE180_C ! 
+PE180_P ! 
+PE181 ! phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)
+PE181_C ! 
+PE181_P ! 
+PEAMN ! Phenethylamine
+PEAMN_P ! 
+PEP ! Phosphoenolpyruvate
+PEP_C ! 
+PG120 ! Phosphatidylglycerol (didodecanoyl, n-C12:0)
+PG120_C ! 
+PG120_P ! 
+PG140 ! Phosphatidylglycerol (ditetradecanoyl, n-C14:0)
+PG140_C ! 
+PG140_P ! 
+PG141 ! Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)
+PG141_C ! 
+PG141_P ! 
+PG160 ! Phosphatidylglycerol (dihexadecanoyl, n-C16:0)
+PG160_C ! 
+PG160_P ! 
+PG161 ! Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)
+PG161_C ! 
+PG161_P ! 
+PG180 ! Phosphatidylglycerol (dioctadecanoyl, n-C18:0)
+PG180_C ! 
+PG180_P ! 
+PG181 ! Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)
+PG181_C ! 
+PG181_P ! 
+PGP120 ! Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)
+PGP120_C ! 
+PGP120_P ! 
+PGP140 ! Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)
+PGP140_C ! 
+PGP140_P ! 
+PGP141 ! Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)
+PGP141_C ! 
+PGP141_P ! 
+PGP160 ! Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)
+PGP160_C ! 
+PGP160_P ! 
+PGP161 ! Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)
+PGP161_C ! 
+PGP161_P ! 
+PGP180 ! Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)
+PGP180_C ! 
+PGP180_P ! 
+PGP181 ! Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)
+PGP181_C ! 
+PGP181_P ! 
+PHACCOA ! Phenylacetyl-CoA
+PHEME ! Protoheme
+PHEME_C ! 
+PHEME_P ! 
+PHETRNA ! L-Phenylalanyl-tRNA(Phe)
+PHE_L ! L-Phenylalanine
+PHE_L_C ! 
+PHE_L_P ! 
+PHHLIPA ! phospho-heptosyl-heptosyl-kdo2-lipidA
+PHOM ! O-Phospho-L-homoserine
+PHPHHLIPA ! phospho-heptosyl-phospho-heptosyl-heptosyl-kdo2-lipidA
+PHPYR ! Phenylpyruvate
+PHTHR ! O-Phospho-4-hydroxy-L-threonine
+PI ! Phosphate
+PI_C ! 
+PI_P ! 
+PMCOA ! Pimeloyl-CoA
+PMTCOA ! Palmitoyl-CoA (n-C16:0CoA)
+PMTCOA_C ! 
+PNTO_R ! (R)-Pantothenate
+PNTO_R_C ! 
+PNTO_R_P ! 
+PPA ! Propionate (n-C3:0)
+PPAL ! Propanal
+PPAL_C ! 
+PPAL_P ! 
+PPAP ! Propanoyl phosphate
+PPA_C ! 
+PPA_P ! 
+PPBNG ! Porphobilinogen
+PPCOA ! Propanoyl-CoA
+PPGPP ! Guanosine 3',5'-bis(diphosphate)
+PPHN ! Prephenate
+PPI ! Diphosphate
+PPI_C ! 
+PPP9 ! Protoporphyrin
+PPPG9 ! Protoporphyrinogen IX
+PPPI ! Inorganic triphosphate
+PPPN ! Phenylpropanoate
+PPPN_C ! 
+PPPN_P ! 
+PPT ! Phosphonate
+PPT_P ! 
+PRAM ! 5-Phospho-beta-D-ribosylamine
+PRAN ! N-(5-Phospho-D-ribosyl)anthranilate
+PRBAMP ! 1-(5-Phosphoribosyl)-AMP
+PRBATP ! 1-(5-Phosphoribosyl)-ATP
+PRFP ! 1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+PRLP ! 5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide
+PROGLY ! L-Prolinylglycine
+PROGLY_C ! 
+PROGLY_P ! 
+PROTRNA ! L-Prolyl-tRNA(Pro)
+PRO_L ! L-Proline
+PRO_L_C ! 
+PRO_L_P ! 
+PRPP ! 5-Phospho-alpha-D-ribose 1-diphosphate
+PS120 ! phosphatidylserine (didodecanoyl, n-C12:0)
+PS140 ! phosphatidylserine (ditetradecanoyl, n-C14:0)
+PS141 ! phosphatidylserine (ditetradec-7-enoyl, n-C14:1)
+PS160 ! phosphatidylserine (dihexadecanoyl, n-C16:0)
+PS161 ! phosphatidylserine (dihexadec-9-enoyl, n-C16:1)
+PS180 ! phosphatidylserine (dioctadecanoyl, n-C18:0)
+PS181 ! phosphatidylserine (dioctadec-11-enoyl, n-C18:1)
+PSCLYS ! psicoselysine
+PSCLYS_C ! 
+PSCLYS_P ! 
+PSER_L ! O-Phospho-L-serine
+PSER_L_P ! 
+PTRC ! Putrescine
+PTRC_C ! 
+PTRC_P ! 
+PYAM5P ! Pyridoxamine 5'-phosphate
+PYDAM ! Pyridoxamine
+PYDX ! Pyridoxal
+PYDX5P ! Pyridoxal 5'-phosphate
+PYDXN ! Pyridoxine
+PYR ! Pyruvate
+PYR_C ! 
+PYR_P ! 
+Q8 ! Ubiquinone-8
+Q8H2 ! Ubiquinol-8
+Q8H2_C ! 
+Q8_C ! 
+QULN ! Quinolinate
+R15BP ! D-Ribose 1,5-bisphosphate
+R1P ! alpha-D-Ribose 1-phosphate
+R5P ! alpha-D-Ribose 5-phosphate
+R5P_C ! 
+R5P_P ! 
+RAGUND ! rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate
+RBFLVRD ! Reduced riboflavin
+RBL_L ! L-Ribulose
+RDMBZI ! N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole
+RHCYS ! S-Ribosyl-L-homocysteine
+RIBFLV ! Riboflavin
+RIB_D ! D-Ribose
+RIB_D_C ! 
+RIB_D_P ! 
+RML ! L-Rhamnulose
+RML1P ! L-Rhamnulose 1-phosphate
+RMN ! L-Rhamnose
+RMN_C ! 
+RMN_P ! 
+RU5P_D ! D-Ribulose 5-phosphate
+RU5P_L ! L-Ribulose 5-phosphate
+S ! Sulfur
+S7P ! Sedoheptulose 7-phosphate
+SARCS ! Sarcosine
+SBT6P ! D-Sorbitol 6-phosphate
+SBT6P_C ! 
+SBT_D ! D-Sorbitol
+SBT_D_P ! 
+SBZCOA ! O-Succinylbenzoyl-CoA
+SCL ! sirohydrochlorin
+SECTRNA ! L-Selenocysteinyl-tRNA(Sec)
+SELN ! Selenide
+SELNP ! Selenophosphate
+SERAMP ! L-seryl-AMP
+SERTRNA ! L-Seryl-tRNA(Ser)
+SERTRNA(SEC) ! L-Seryl-tRNA(Sec)
+SER_D ! D-Serine
+SER_D_C ! 
+SER_D_P ! 
+SER_L ! L-Serine
+SER_L_C ! 
+SER_L_P ! 
+SFGLUTTH ! S-Formylglutathione
+SHEME ! Siroheme
+SKM ! Shikimate
+SKM5P ! Shikimate 5-phosphate
+SKM_C ! 
+SKM_P ! 
+SL26DA ! N-Succinyl-LL-2,6-diaminoheptanedioate
+SL2A6O ! N-Succinyl-2-L-amino-6-oxoheptanedioate
+SO2 ! sulfur dioxide
+SO2_C ! 
+SO2_P ! 
+SO3 ! Sulfite
+SO3_P ! 
+SO4 ! Sulfate
+SO4_C ! 
+SO4_P ! 
+SPMD ! Spermidine
+SPMD_C ! 
+SPMD_P ! 
+SSALTPP ! Succinate semialdehyde-thiamin diphosphate anion
+STCOA ! Stearoyl-CoA (n-C18:0CoA)
+STCOA_C ! 
+SUC6P ! Sucrose 6-phosphate
+SUC6P_C ! 
+SUCARG ! N2-Succinyl-L-arginine
+SUCBZ ! o-Succinylbenzoate
+SUCC ! Succinate
+SUCCOA ! Succinyl-CoA
+SUCC_C ! 
+SUCC_P ! 
+SUCGLU ! N2-Succinyl-L-glutamate
+SUCGSA ! N2-Succinyl-L-glutamate 5-semialdehyde
+SUCHMS ! O-Succinyl-L-homoserine
+SUCORN ! N2-Succinyl-L-ornithine
+SUCR ! Sucrose
+SUCR_P ! 
+SUCSAL ! Succinic semialdehyde
+SULFAC ! sulfoacetate
+SULFAC_C ! 
+SULFAC_P ! 
+T3C11VACEACP ! trans-3-cis-11-vacceoyl-[acyl-carrier protein]
+T3C5DDECEACP ! trans-3-cis-5-dodecenoyl-[acyl-carrier protein]
+T3C7MRSEACP ! trans-3-cis-7-myristoleoyl-[acyl-carrier protein]
+T3C9PALMEACP ! trans-3-cis-9-palmitoleoyl-[acyl-carrier protein]
+TAG6P_D ! D-Tagatose 6-phosphate
+TAGDP_D ! D-Tagatose 1,6-biphosphate
+TAGUR ! D-Tagaturonate
+TARTR_L ! L-tartrate
+TARTR_L_C ! 
+TARTR_L_P ! 
+TAUR ! Taurine
+TAUR_C ! 
+TAUR_P ! 
+TCYNT ! Thiocyanate
+TCYNT_P ! 
+TD2COA ! trans-Tetradec-2-enoyl-CoA
+TDCOA ! Tetradecanoyl-CoA (n-C14:0CoA)
+TDCOA_C ! 
+TDDEC2EACP ! trans-Dodec-2-enoyl-[acyl-carrier protein]
+TDEACP ! cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)
+TDEC2EACP ! trans-Dec-2-enoyl-[acyl-carrier protein]
+TDECOA ! Tetradecenoyl-CoA (n-C14:1CoA)
+TDECOA_C ! 
+THDP ! 2,3,4,5-Tetrahydrodipicolinate
+THEX2EACP ! trans-Hex-2-enoyl-[acyl-carrier protein]
+THF ! 5,6,7,8-Tetrahydrofolate
+THM ! Thiamin
+THMMP ! Thiamin monophosphate
+THMPP ! Thiamine diphosphate
+THM_C ! 
+THM_P ! 
+THRP ! L-Threonine O-3-phosphate
+THRP_P ! 
+THRTRNA ! L-Threonyl-tRNA(Thr)
+THR_L ! L-Threonine
+THR_L_C ! 
+THR_L_P ! 
+THYM ! Thymine
+THYMD ! Thymidine
+THYMD_C ! 
+THYMD_P ! 
+THYM_C ! 
+THYM_P ! 
+TMA ! trimethylamine
+TMAO ! Trimethylamine N-oxide
+TMAO_P ! 
+TMA_P ! 
+TMRS2EACP ! trans-Tetradec-2-enoyl-[acyl-carrier protein]
+TOCT2EACP ! trans-Oct-2-enoyl-[acyl-carrier protein]
+TOCTD2EACP ! trans-octadec-2-enoyl-[acyl-carrier protein]
+TPALM2EACP ! trans-Hexadec-2-enoyl-[acyl-carrier protein]
+TRDOX ! Oxidized thioredoxin
+TRDRD ! Reduced thioredoxin
+TRE ! Trehalose
+TRE6P ! alpha,alpha'-Trehalose 6-phosphate
+TRE6P_C ! 
+TRE_P ! 
+TRNAALA ! tRNA(Ala)
+TRNAARG ! tRNA(Arg)
+TRNAASN ! tRNA(Asn)
+TRNAASP ! tRNA(Asp)
+TRNACYS ! tRNA(Cys)
+TRNAGLN ! tRNA(Gln)
+TRNAGLU ! tRNA (Glu)
+TRNAGLY ! tRNA(Gly)
+TRNAHIS ! tRNA(His)
+TRNAILE ! tRNA(Ile)
+TRNALEU ! tRNA(Leu)
+TRNALYS ! tRNA(Lys)
+TRNAMET ! tRNA(Met)
+TRNAPHE ! tRNA(Phe)
+TRNAPRO ! tRNA(Pro)
+TRNASECYS ! tRNA(SeCys)
+TRNASER ! tRNA(Ser)
+TRNATHR ! tRNA(Thr)
+TRNATRP ! tRNA(Trp)
+TRNATYR ! tRNA(Tyr)
+TRNAVAL ! tRNA(Val)
+TRPTRNA ! L-Tryptophanyl-tRNA(Trp)
+TRP_L ! L-Tryptophan
+TRP_L_C ! 
+TRP_L_P ! 
+TSUL ! Thiosulfate
+TSUL_C ! 
+TSUL_P ! 
+TTDCA ! tetradecanoate (n-C14:0)
+TTDCA_P ! 
+TTDCEA ! tetradecenoate (n-C14:1)
+TTDCEA_P ! 
+TUNGS ! tungstate
+TUNGS_C ! 
+TUNGS_P ! 
+TYM ! Tyramine
+TYM_P ! 
+TYRP ! Phosphotyrosine
+TYRP_P ! 
+TYRTRNA ! L-Tyrosyl-tRNA(Tyr)
+TYR_L ! L-Tyrosine
+TYR_L_C ! 
+TYR_L_P ! 
+U23GA ! UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine
+U3AGA ! UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+U3HGA ! UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
+UAAGMDA ! Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+UAAGMDA_C ! 
+UACCG ! UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine
+UACGAM ! UDP-N-acetyl-D-glucosamine
+UACGAM_P ! 
+UACMAM ! UDP-N-acetyl-D-mannosamine
+UACMAMU ! UDP-N-acetyl-D-mannosaminouronate
+UAGMDA ! Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+UAMA ! UDP-N-acetylmuramoyl-L-alanine
+UAMAG ! UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+UAMR ! UDP-N-acetylmuramate
+UDCPDP ! Undecaprenyl diphosphate
+UDCPDP_C ! 
+UDCPP ! Undecaprenyl phosphate
+UDCPP_C ! 
+UDCPP_P ! 
+UDP ! UDP
+UDPACGAL ! UDP-N-acetyl-D-galactosamine
+UDPACGAL_P ! 
+UDPG ! UDPglucose
+UDPGAL ! UDPgalactose
+UDPGALFUR ! UDP-D-galacto-1,4-furanose
+UDPGAL_P ! 
+UDPGLCUR ! UDP-D-glucuronate
+UDPGLCUR_P ! 
+UDPG_P ! 
+UDPLA4FN ! uridine 5''-diphospho-{beta}-4-deoxy-4-formamido-L-arabinose
+UDPLA4N ! uridine 5''-diphospho-{beta}-4-deoxy-4-amino-L-arabinose
+UDPLA4O ! UDP-4-keto-pyranose
+UGMD ! UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate
+UGMDA ! UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+ULA4FN ! undecaprenyl phosphate-4-amino-4-formyl-L-arabinose
+ULA4N ! undecaprenyl phosphate-4-amino-4-deoxy-L-arabinose
+ULA4N_C ! 
+ULA4N_P ! 
+UM4P ! UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine
+UMP ! UMP
+UMP_P ! 
+UNAGA ! Undecaprenyl diphospho N-acetyl-glucosamine
+UNAGAMU ! Undecaprenyl-diphospho-N-acetylglucosamine-N-acetylmannosaminuronate
+UNAGAMUF ! Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose
+UNAGAMUF_C ! 
+UNAGAMUF_P ! 
+UPPG3 ! Uroporphyrinogen III
+URA ! Uracil
+URATE ! Urate
+URA_C ! 
+URA_P ! 
+URDGLYC ! (-)-Ureidoglycolate
+UREA ! Urea
+UREA_C ! 
+UREA_P ! 
+URI ! Uridine
+URI_C ! 
+URI_P ! 
+UTP ! UTP
+VALTRNA ! L-Valyl-tRNA(Val)
+VAL_L ! L-Valine
+VAL_L_C ! 
+VAL_L_P ! 
+XAN ! Xanthine
+XAN_C ! 
+XAN_P ! 
+XDP ! XDP
+XMP ! Xanthosine 5'-phosphate
+XMP_P ! 
+XTP ! XTP
+XTSN ! Xanthosine
+XTSN_C ! 
+XTSN_P ! 
+XU5P_D ! D-Xylulose 5-phosphate
+XU5P_L ! L-Xylulose 5-phosphate
+XYLU_D ! D-Xylulose
+XYLU_L ! L-Xylulose
+XYLU_L_C ! 
+XYLU_L_P ! 
+XYL_D ! D-Xylose
+XYL_D_C ! 
+XYL_D_P ! 
+ZN2 ! Zinc
+ZN2_C ! 
+ZN2_P ! 

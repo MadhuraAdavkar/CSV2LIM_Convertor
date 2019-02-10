@@ -1,0 +1,902 @@
+12DGR120tipp	:	12DGR120_P  -> 12DGR120_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C12:0)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12DGR140tipp	:	12DGR140_P  -> 12DGR140_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C14:0)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12DGR141tipp	:	12DGR141_P  -> 12DGR141_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C14:1)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12DGR160tipp	:	12DGR160_P  -> 12DGR160_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C16:0)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12DGR161tipp	:	12DGR161_P  -> 12DGR161_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C16:1)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12DGR180tipp	:	12DGR180_P  -> 12DGR180_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C18:0)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12DGR181tipp	:	12DGR181_P  -> 12DGR181_C	!	1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C18:1)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12PPDRtex	:	12PPD_R_E  <-> 12PPD_R_P	!	(R)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+12PPDRtpp	:	12PPD_R_P  <-> 12PPD_R_C	!	(R)-Propane-1,2-diol facilitated transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+12PPDStex	:	12PPD_S_E  <-> 12PPD_S_P	!	(S)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+12PPDStpp	:	12PPD_S_P  <-> 12PPD_S_C	!	(S)-Propane-1,2-diol facilitated transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+14GLUCANabcpp	:	14GLUCAN_P  + ATP_C  + H2O_C  -> 14GLUCAN_C  + ADP_C  + H_C  + PI_C	!	1,4-alpha-D-glucan transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4034  &&  b4033  &&  b4032  &&  b4035 )
+14GLUCANtexi	:	14GLUCAN_E  -> 14GLUCAN_P	!	1,4-alpha-D-glucan transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+23CAMPtex	:	23CAMP_E  <-> 23CAMP_P	!	23cAMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+23CCMPtex	:	23CCMP_E  <-> 23CCMP_P	!	23cCMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+23CGMPtex	:	23CGMP_E  <-> 23CGMP_P	!	23cGMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+23CUMPtex	:	23CUMP_E  <-> 23CUMP_P	!	23cUMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+23DAPPAt2pp	:	23DAPPA_P  + H_P  -> 23DAPPA_C  + H_C	!	2,3-diaminopropionate transport in via proton symport	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+23DAPPAtex	:	23DAPPA_E  <-> 23DAPPA_P	!	2,3-diaminopropionate transport via diffusion	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+23PDE2pp	:	23CUMP + H2O -> 3UMP + H	!	2',3'-cyclic-nucleotide phosphodiesterase (UMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+23PDE4pp	:	23CCMP + H2O -> 3CMP + H	!	2',3'-cyclic-nucleotide phosphodiesterase (CMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+23PDE7pp	:	23CAMP + H2O -> 3AMP + H	!	2',3'-cyclic-nucleotide phosphodiesterase (AMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+23PDE9pp	:	23CGMP + H2O -> 3GMP + H	!	2',3'-cyclic-nucleotide phosphodiesterase (GMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+26DAHtex	:	26DAP_M_E  <-> 26DAP_M_P	!	meso-2,6-Diaminoheptanedioate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+2AGPA120tipp	:	2DDECG3P_P  -> 2DDECG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C12:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPA140tipp	:	2TDECG3P_P  -> 2TDECG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C14:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPA141tipp	:	2TDEC7EG3P_P  -> 2TDEC7EG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C14:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPA160tipp	:	2HDECG3P_P  -> 2HDECG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C16:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPA161tipp	:	2HDEC9EG3P_P  -> 2HDEC9EG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C16:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPA180tipp	:	2ODECG3P_P  -> 2ODECG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C18:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPA181tipp	:	2ODEC11EG3P_P  -> 2ODEC11EG3P_C	!	2-Acyl-sn-glycero-3-phosphatidate (n-C18:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE120tipp	:	2AGPE120_P  -> 2AGPE120_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE140tipp	:	2AGPE140_P  -> 2AGPE140_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE141tipp	:	2AGPE141_P  -> 2AGPE141_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE160tipp	:	2AGPE160_P  -> 2AGPE160_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE161tipp	:	2AGPE161_P  -> 2AGPE161_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE180tipp	:	2AGPE180_P  -> 2AGPE180_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPE181tipp	:	2AGPE181_P  -> 2AGPE181_C	!	2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG120tipp	:	2AGPG120_P  -> 2AGPG120_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG140tipp	:	2AGPG140_P  -> 2AGPG140_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG141tipp	:	2AGPG141_P  -> 2AGPG141_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG160tipp	:	2AGPG160_P  -> 2AGPG160_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG161tipp	:	2AGPG161_P  -> 2AGPG161_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG180tipp	:	2AGPG180_P  -> 2AGPG180_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+2AGPG181tipp	:	2AGPG181_P  -> 2AGPG181_C	!	2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1) transporter via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2835
+34dhpactex	:	34DHPAC_E  <-> 34DHPAC_P	!	dihydroxyphenylacetaldehyde transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+3AMPtex	:	3AMP_E  <-> 3AMP_P	!	3AMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+3CMPtex	:	3CMP_E  <-> 3CMP_P	!	3CMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+3GMPtex	:	3GMP_E  <-> 3GMP_P	!	3GMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b1377  ||  b2215  ||  b0929 )
+3NTD2pp	:	3UMP + H2O -> PI + URI	!	3'-nucleotidase (UMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+3NTD4pp	:	3CMP + H2O -> CYTD + PI	!	3'-nucleotidase (CMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+3NTD7pp	:	3AMP + H2O -> ADN + PI	!	3'-nucleotidase (AMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+3NTD9pp	:	3GMP + H2O -> GSN + PI	!	3'-nucleotidase (GMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b4213
+3PEPTabcpp	:	LALADGLUMDAP_P  + ATP_C  + H2O_C  -> LALADGLUMDAP_C  + ADP_C  + H_C  + PI_C	!	tripeptide (LalaDgluMdap) transport via ABC system (periplasm)	!	Intercompartmental	!	Murein Recycling	!	( b1329  &&  b1244  &&  b1245  &&  b1246  &&  b1247 )
+3PEPTtex	:	LALADGLUMDAP_E  <-> LALADGLUMDAP_P	!	LalaDgluMdap (tripeptide) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+3UMPtex	:	3UMP_E  <-> 3UMP_P	!	3UMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+42A12BOOXpp	:	DOPA + H2O + O2 -> 34DHPAC + H2O2 + NH4	!	4-(2-Aminoethyl)-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)	!	Periplasmic space	!	Nitrogen Metabolism	!	b1386
+4HOXPACDtex	:	4HOXPACD_E  <-> 4HOXPACD_P	!	4-hydroxyphenylacetaldehyde transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+4PCPpp	:	LALADGLUMDAPDALA + H2O -> LALADGLUMDAP + ALA_D	!	tetrapeptide L,D-carboxypeptidase (periplasm)	!	Periplasmic space	!	Murein Recycling	!	Unknown
+4PEPTabcpp	:	LALADGLUMDAPDALA_P  + ATP_C  + H2O_C  -> LALADGLUMDAPDALA_C  + ADP_C  + H_C  + PI_C	!	tetrapeptide (LalaDgluMdapDala) transport via ABC system (periplasm)	!	Intercompartmental	!	Murein Recycling	!	( b1243  &&  b1244  &&  b1245  &&  b1246  &&  b1247 )
+4PEPTtex	:	LALADGLUMDAPDALA_E  <-> LALADGLUMDAPDALA_P	!	LalaDgluMdapDala (pentapeptide) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+5DGLCNt2rpp	:	5DGLCN_P  + H_P  <-> 5DGLCN_C  + H_C	!	5-Dehydro-D-gluconate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4265
+5DGLCNtex	:	5DGLCN_E  <-> 5DGLCN_P	!	5-Dehydro-D-gluconate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b1377  ||  b0929  ||  b2215 )
+AAMYLpp	:	14GLUCAN -> MALTHX	!	alpha-amylase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b3571
+ABUTt2pp	:	4ABUT_P  + H_P  -> 4ABUT_C  + H_C	!	4-aminobutyrate transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2663
+ABUTtex	:	4ABUT_E  <-> 4ABUT_P	!	4-aminobutyrate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACACt2pp	:	ACAC_P  + H_P  <-> ACAC_C  + H_C	!	acetoacetate transport via proton symport  (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2223
+ACACtex	:	ACAC_E  <-> ACAC_P	!	acetoacetate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACALDtex	:	ACALD_E  <-> ACALD_P	!	acetaldehyde transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACALDtpp	:	ACALD_P  <-> ACALD_C	!	acetaldehyde reversible transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	s0001
+ACGAL1PPpp	:	ACGAL1P + H2O -> ACGAL + PI	!	N-acetyl-D-galactosamine 1-phosphatase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	Unknown
+ACGAL1Ptex	:	ACGAL1P_E  <-> ACGAL1P_P	!	N-acetyl-D-galactosamine 1-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACGALtex	:	ACGAL_E  <-> ACGAL_P	!	N-acetyl-D-galactosamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACGAM1PPpp	:	ACGAM1P + H2O -> ACGAM + PI	!	N-acetyl-D-glucosamine 1-phosphatase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	Unknown
+ACGAM1Ptex	:	ACGAM1P_E  <-> ACGAM1P_P	!	N-acetyl-D-glucosamine 1-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACGAptspp	:	ACGAM_P  + PEP_C  -> ACGAM6P_C  + PYR_C	!	N-Acetyl-D-glucosamine transport via PEP:Pyr PTS  (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b2417  &&  b1101  &&  b2415  &&  b2416 )  ||  ( b0679  &&  b2415  &&  b2416 ) )
+ACGAtex	:	ACGAM_E  <-> ACGAM_P	!	N-Acetyl-D-glucosamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACMANAptspp	:	ACMANA_P  + PEP_C  -> ACMANAP_C  + PYR_C	!	N-acetyl-D-mannosamine transport via PTS  (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1817  &&  b1818  &&  b1819  &&  b2415  &&  b2416 )
+ACMANAtex	:	ACMANA_E  <-> ACMANA_P	!	N-acetyl-D-mannosamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACMUMptspp	:	ACMUM_P  + PEP_C  -> ACMUM6P_C  + PYR_C	!	N-acetylmuramate transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2417  &&  b2429  &&  b2415  &&  b2416 )
+ACMUMtex	:	ACMUM_E  -> ACMUM_P	!	N-acetylmuramate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACNAMt2pp	:	ACNAM_P  + H_P  -> ACNAM_C  + H_C	!	N-acetylneuraminate proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3224
+ACNAMtex	:	ACNAM_E  <-> ACNAM_P	!	N-acetylneuraminate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b4311  ||  b0929  ||  b2215 )
+ACOLIPAtex	:	ACOLIPA_P  -> ACOLIPA_E	!	arabinose modified core oligosaccharide lipid A transport via vector (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+ACSERtex	:	ACSER_E  <-> ACSER_P	!	O-Acetyl-L-serine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ACSERtpp	:	ACSER_C  -> ACSER_P	!	O-Acetyl-L-serine export via facilitated transport	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2578  ||  b1533 )
+ACt2rpp	:	AC_P  + H_P  <-> AC_C  + H_C	!	acetate reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+ACt4pp	:	AC_P  + NA1_P  -> AC_C  + NA1_C	!	Na+/Acetate symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4067
+ACtex	:	AC_E  <-> AC_P	!	Acetate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ADEt2rpp	:	ADE_P  + H_P  <-> ADE_C  + H_C	!	adenine transport via proton symport (reversible) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3654
+ADEtex	:	ADE_E  <-> ADE_P	!	adenine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ADNt2pp	:	ADN_P  + H_P  -> ADN_C  + H_C	!	adenosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2964  ||  b2393 )
+ADNt2rpp	:	ADN_P  + H_P  <-> ADN_C  + H_C	!	adenosine transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2406
+ADNtex	:	ADN_E  <-> ADN_P	!	adenosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+ADOCBLabcpp	:	ADOCBL_P  + ATP_C  + H2O_C  -> ADOCBL_C  + ADP_C  + H_C  + PI_C	!	Adenosylcobalamin transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1711  &&  b1709  &&  b0158 )
+ADOCBLtonex	:	ADOCBL_E  + H_P  -> ADOCBL_P  + H_C	!	Adenosylcobalimin transport via ton system (extermal)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b3966  &&  ( b1252  &&  b3005  &&  b3006 ) )
+AGM3PApp	:	ANHGM3P + H2O -> LALADGLUMDAP + ANHGM	!	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b4169  ||  b2435  ||  b2817 )
+AGM3Pt2pp	:	ANHGM3P_P  + H_P  -> ANHGM3P_C  + H_C	!	GlcNAc-anhMurNAc tripeptide transport in via proton symport (periplasm)	!	Intercompartmental	!	Murein Recycling	!	b0433
+AGM4PApp	:	ANHGM4P + H2O -> LALADGLUMDAPDALA + ANHGM	!	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b2817  ||  b4169  ||  b2435 )
+AGM4PCPpp	:	ANHGM4P + H2O -> ALA_D + ANHGM3P	!	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide L,D-carboxypeptidase (periplasmic)	!	Periplasmic space	!	Murein Recycling	!	Unknown
+AGM4Pt2pp	:	ANHGM4P_P  + H_P  -> ANHGM4P_C  + H_C	!	GlcNAc-anhMurNAc tetrapeptide transport in via proton symport (periplasm)	!	Intercompartmental	!	Murein Recycling	!	b0433
+AGMt2pp	:	ANHGM_P  + H_P  -> ANHGM_C  + H_C	!	GlcNAc-anhMurNAc transport in via proton symport (periplasm)	!	Intercompartmental	!	Murein Recycling	!	b0433
+AGMtex	:	AGM_E  <-> AGM_P	!	agmatine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+AKGt2rpp	:	AKG_P  + H_P  <-> AKG_C  + H_C	!	2-oxoglutarate reversible transport via symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2587
+AKGtex	:	AKG_E  <-> AKG_P	!	alpha-ketoglutarate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ALAabcpp	:	ALA_L_P  + ATP_C  + H2O_C  -> ADP_C  + ALA_L_C  + H_C  + PI_C	!	L-alanine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3454  &&  b3455  &&  b3457  &&  b3460  &&  b3456 )
+ALAALAabcpp	:	ALAALA_P  + ATP_C  + H2O_C  -> ADP_C  + ALAALA_C  + H_C  + PI_C	!	D-alanyl-D-alanine (DalaDala) transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b3544  &&  b3543  &&  b3542  &&  b3541  &&  b3540 )  ||  ( b1487  &&  b1486  &&  b1485  &&  b1484  &&  b1483 ) )
+ALAALAtex	:	ALAALA_E  <-> ALAALA_P	!	D-alanyl-D-alanine (DalaDala) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ALAt2pp	:	ALA_L_P  + H_P  -> ALA_L_C  + H_C	!	L-alanine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4208
+ALAt4pp	:	ALA_L_P  + NA1_P  -> ALA_L_C  + NA1_C	!	L-alanine transport in via sodium symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0007
+ALAtex	:	ALA_L_E  <-> ALA_L_P	!	L-alanine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ALLabcpp	:	ALL_D_P  + ATP_C  + H2O_C  -> ADP_C  + ALL_D_C  + H_C  + PI_C	!	D-allose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4087  &&  b4088  &&  b4086 )
+ALLtex	:	ALL_D_E  <-> ALL_D_P	!	Allose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ALLTNt2rpp	:	ALLTN_P  + H_P  <-> ALLTN_C  + H_C	!	allantoin transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0511
+ALLTNtex	:	ALLTN_E  <-> ALLTN_P	!	allantoin transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ALPATE160pp	:	ALPP + PE160 -> 2AGPE160 + LPP	!	apolipoprotein N-acyltransferase (phosphatidylethanolamine, periplasm)	!	Periplasmic space	!	Unassigned	!	( b0657  &&  b1677 )
+ALPATG160pp	:	ALPP + PG160 -> 2AGPG160 + LPP	!	apolipoprotein N-acyltransferase (phosphatidylglycerol, periplasm)	!	Periplasmic space	!	Unassigned	!	( b0657  &&  b1677 )
+AMPtex	:	AMP_E  <-> AMP_P	!	AMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0929  ||  b1377  ||  b2215  ||  b0241 )
+ANHGMtex	:	ANHGM_E  <-> ANHGM_P	!	GlcNAc-anhMurNAc transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ARBabcpp	:	ARAB_L_P  + ATP_C  + H2O_C  -> ADP_C  + ARAB_L_C  + H_C  + PI_C	!	L-arabinose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1901  &&  b1900  &&  b4460 )
+ARBt2rpp	:	ARAB_L_P  + H_P  <-> ARAB_L_C  + H_C	!	L-arabinose transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2841
+ARBt3ipp	:	ARAB_L_C  + H_P  -> ARAB_L_P  + H_C	!	L-arabinose transport via proton antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1528
+ARBtex	:	ARAB_L_E  <-> ARAB_L_P	!	L-arabinose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ARBTNabcpp	:	ARBTN_FE3_P  + ATP_C  + H2O_C  -> ADP_C  + ARBTN_FE3_C  + H_C  + PI_C	!	aerobactin transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0153  &&  b0151  &&  b0152 )
+ARBTNtex	:	ARBTN_P  + H_P  -> ARBTN_E  + H_C	!	aerobactin secretion (to extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	Unknown
+ARBTNtonex	:	ARBTN_FE3_E  + H_P  -> ARBTN_FE3_P  + H_C	!	aerobactin transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	Unknown
+ARBTNtpp	:	ARBTN_C  + H_P  -> ARBTN_P  + H_C	!	aerobactin secretion (to periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+ARGabcpp	:	ARG_L_P  + ATP_C  + H2O_C  -> ADP_C  + ARG_L_C  + H_C  + PI_C	!	L-arginine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b2310  &&  b2307  &&  b2306  &&  b2308 )  ||  ( b0863  &&  b0860  &&  b0861  &&  b0864  &&  b0862 ) )
+ARGAGMt7pp	:	AGM_C  + ARG_L_P  <-> AGM_P  + ARG_L_C	!	Arginine/agmatine antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4115
+ARGDCpp	:	ARG_L + H -> AGM + CO2	!	arginine decarboxylase	!	Periplasmic space	!	Arginine and Proline Metabolism	!	b2938
+ARGORNt7pp	:	ARG_L_P  + ORN_C  <-> ARG_L_C  + ORN_P	!	arginine/ornithine antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1605
+ARGt3pp	:	ARG_L_C  + H_P  -> ARG_L_P  + H_C	!	L-arginine transport out via proton antiport (cytoplasm to periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2923
+ARGtex	:	ARG_L_E  <-> ARG_L_P	!	L-arginine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ASCBptspp	:	ASCB_L_P  + PEP_C  -> ASCB6P_C  + PYR_C	!	L-ascorbate transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2415  &&  b2416  &&  b4195  &&  b4194  &&  b4193 )
+ASCBtex	:	ASCB_L_E  <-> ASCB_L_P	!	L-ascorbate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ASNabcpp	:	ASN_L_P  + ATP_C  + H2O_C  -> ADP_C  + ASN_L_C  + H_C  + PI_C	!	L-asparagine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+ASNNpp	:	ASN_L + H2O -> ASP_L + NH4	!	L-asparaginase	!	Periplasmic space	!	Alanine and Aspartate Metabolism	!	b2957
+ASNt2rpp	:	ASN_L_P  + H_P  <-> ASN_L_C  + H_C	!	L-asparagine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1453
+ASNtex	:	ASN_L_E  <-> ASN_L_P	!	L-asparagine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ASO3t8pp	:	ASO3_C  + ATP_C  + H2O_C  -> ADP_C  + ASO3_P  + H_C  + PI_C	!	arsenite efflux via ATP hydrolysis (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3502
+ASO3tex	:	ASO3_E  <-> ASO3_P	!	arsenite transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ASPabcpp	:	ASP_L_P  + ATP_C  + H2O_C  -> ADP_C  + ASP_L_C  + H_C  + PI_C	!	L-aspartate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0655  &&  b0654  &&  b0653  &&  b0652 )
+ASPt2_2pp	:	ASP_L_P  + 2* H_P  -> ASP_L_C  + 2* H_C	!	Aspartate transport via proton symport (2 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3528
+ASPt2_3pp	:	ASP_L_P  + 3* H_P  -> ASP_L_C  + 3* H_C	!	L-asparate transport via proton symport (3 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4138  ||  b4123 )
+ASPt2pp	:	ASP_L_P  + H_P  -> ASP_L_C  + H_C	!	L-aspartate transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4077
+ASPtex	:	ASP_L_E  <-> ASP_L_P	!	L-aspartate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ATPS4rpp	:	ADP_C  + 4* H_P  + PI_C  <-> ATP_C  + 3* H_C  + H2O_C	!	ATP synthase (four protons for one ATP) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( ( b3736  &&  b3737  &&  b3738 )  &&  ( b3731  &&  b3732  &&  b3733  &&  b3734  &&  b3735 ) )  ||  ( ( b3736  &&  b3737  &&  b3738 )  &&  ( b3731  &&  b3732  &&  b3733  &&  b3734  &&  b3735 )  &&  b3739 ) )
+BALAt2pp	:	ALA_B_P  + H_P  -> ALA_B_C  + H_C	!	beta-alanine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4208
+BALAtex	:	ALA_B_E  <-> ALA_B_P	!	beta-alanine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+BUTSO3abcpp	:	ATP_C  + BUTSO3_P  + H2O_C  -> ADP_C  + BUTSO3_C  + H_C  + PI_C	!	butanesulfonate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b0936  &&  b0933  &&  b0934 )  ||  ( b0365  &&  b0366  &&  b0367 ) )
+BUTSO3tex	:	BUTSO3_E  <-> BUTSO3_P	!	butanesulfonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+BUTt2rpp	:	BUT_P  + H_P  <-> BUT_C  + H_C	!	Butyrate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2223
+BUTtex	:	BUT_E  <-> BUT_P	!	Butyrate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CA2t3pp	:	CA2_C  + H_P  -> CA2_P  + H_C	!	calcium (Ca+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b1216
+CA2tex	:	CA2_E  <-> CA2_P	!	calcium (Ca+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CADVtpp	:	15DAP_C  + H_P  + LYS_L_P  -> 15DAP_P  + H_C  + LYS_L_C	!	Lysine/Cadaverine antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4132
+CAt6pp	:	CA2_C  + NA1_P  <-> CA2_P  + NA1_C	!	calcium / sodium antiporter (1:1)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3196
+CBItonex	:	CBI_E  + H_P  -> CBI_P  + H_C	!	Cobinamide transport via ton system (extermal)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b3966  &&  ( b1252  &&  b3005  &&  b3006 ) )
+CBIuabcpp	:	ATP_C  + CBI_P  + H2O_C  -> ADP_C  + CBI_C  + H_C  + PI_C	!	Cobinamide transport via ABC system (uptake, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1711  &&  b1709  &&  b0158 )
+CBL1abcpp	:	ATP_C  + CBL1_P  + H2O_C  -> ADP_C  + CBL1_C  + H_C  + PI_C	!	Cob(1)alamin transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1711  &&  b1709  &&  b0158 )
+CBL1tonex	:	CBL1_E  + H_P  -> CBL1_P  + H_C	!	Cob(1)alamin transport via ton system (extermal)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b3966  &&  ( b1252  &&  b3005  &&  b3006 ) )
+CD2abcpp	:	ATP_C  + CD2_C  + H2O_C  -> ADP_C  + CD2_P  + H_C  + PI_C	!	Cadmium (Cd+2) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3469
+CD2t3pp	:	CD2_C  + H_P  -> CD2_P  + H_C	!	cadmium (Cd+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0752  ||  b3915 )
+CD2tex	:	CD2_E  <-> CD2_P	!	cadmium (Cd+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CD2tpp	:	CD2_P  -> CD2_C	!	cadmium (+2) transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3040
+CGLYabcpp	:	ATP_C  + CGLY_P  + H2O_C  -> ADP_C  + CGLY_C  + H_C  + PI_C	!	L-Cysteinylglycine (Cys-Gly) transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3544  &&  b3543  &&  b3542  &&  b3541  &&  b3540 )
+CGLYtex	:	CGLY_E  <-> CGLY_P	!	L-Cysteinylglycine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CHLabcpp	:	ATP_C  + CHOL_P  + H2O_C  -> ADP_C  + CHOL_C  + H_C  + PI_C	!	choline transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2128  &&  b2129  &&  b2130  &&  b2131 )
+CHLt2pp	:	CHOL_P  + H_P  -> CHOL_C  + H_C	!	choline transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0314  ||  b1801 )
+CHLtex	:	CHOL_E  <-> CHOL_P	!	choline transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CITt7pp	:	CIT_P  + SUCC_C  -> CIT_C  + SUCC_P	!	Citrate transport via succinate antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0612
+CITtex	:	CIT_E  <-> CIT_P	!	citrate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CLIPAtex	:	LIPA_COLD_P  -> LIPA_COLD_E	!	cold lipid A transport via vector (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+CLPNH120pp	:	CLPN120 + H2O -> H + PA120 + PG120	!	cardiolipin hydrolase (periplasm, n-C12:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNH140pp	:	CLPN140 + H2O -> H + PA140 + PG140	!	cardiolipin hydrolase (periplasm, n-C14:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNH141pp	:	CLPN141 + H2O -> H + PA141 + PG141	!	cardiolipin hydrolase (periplasm, n-C14:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNH160pp	:	CLPN160 + H2O -> H + PA160 + PG160	!	cardiolipin hydrolase (periplasm, n-C16:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNH161pp	:	CLPN161 + H2O -> H + PA161 + PG161	!	cardiolipin hydrolase (periplasm, n-C16:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNH180pp	:	CLPN180 + H2O -> H + PA180 + PG180	!	cardiolipin hydrolase (periplasm, n-C18:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNH181pp	:	CLPN181 + H2O -> H + PA181 + PG181	!	cardiolipin hydrolase (periplasm, n-C18:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	Unknown
+CLPNS120pp	:	2* PG120 <-> CLPN120 + GLYC	!	cardiolipin synthase (periplasmic, n-C12:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLPNS140pp	:	2* PG140 <-> CLPN140 + GLYC	!	cardiolipin synthase (periplasmic, n-C14:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLPNS141pp	:	2* PG141 <-> CLPN141 + GLYC	!	cardiolipin synthase (periplasmic, n-C14:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLPNS160pp	:	2* PG160 <-> CLPN160 + GLYC	!	cardiolipin synthase (periplasmic, n-C16:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLPNS161pp	:	2* PG161 <-> CLPN161 + GLYC	!	cardiolipin synthase (periplasmic, n-C16:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLPNS180pp	:	2* PG180 <-> CLPN180 + GLYC	!	cardiolipin synthase (periplasmic, n-C18:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLPNS181pp	:	2* PG181 <-> CLPN181 + GLYC	!	cardiolipin synthase (periplasmic, n-C18:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1249  ||  b0789 )
+CLt3_2pp	:	2* CL_P  + H_C  -> 2* CL_C  + H_P	!	chloride transport out via proton antiport (2:1) (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b1592  ||  b0155 )
+CLtex	:	CL_E  <-> CL_P	!	chloride (Cl-1) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CMPtex	:	CMP_E  <-> CMP_P	!	CMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CO2tex	:	CO2_E  <-> CO2_P	!	CO2 transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CO2tpp	:	CO2_P  <-> CO2_C	!	CO2 transporter via diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	s0001
+COBALT2abcpp	:	ATP_C  + COBALT2_C  + H2O_C  -> ADP_C  + COBALT2_P  + H_C  + PI_C	!	Cobalt (Co+2) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3469
+COBALT2t3pp	:	COBALT2_C  + H_P  -> COBALT2_P  + H_C	!	cobalt (Co+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b3915  ||  b0752 )
+COBALT2tex	:	COBALT2_E  <-> COBALT2_P	!	cobalt (Co+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+COBALT2tpp	:	COBALT2_P  -> COBALT2_C	!	cobalt transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b3040  ||  b3816 )
+COLIPAabcpp	:	ATP_C  + COLIPA_C  + H2O_C  -> ADP_C  + COLIPA_P  + H_C  + PI_C	!	core oligosaccharide lipid A transport via ABC system (periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	b0914
+COLIPAtex	:	COLIPA_P  -> COLIPA_E	!	core oligosaccharide lipid A transport via vector (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+CPGNabcpp	:	ATP_C  + CPGN_P  + H2O_C  -> ADP_C  + CPGN_C  + H_C  + PI_C	!	coprogen transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0153  &&  b0151  &&  b0152 )
+CPGNtonex	:	CPGN_E  + H_P  -> CPGN_P  + H_C	!	Coprogen transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b1102  &&  ( b1252  &&  b3005  &&  b3006 ) )
+CPGNUtex	:	CPGN_UN_P  + H_P  -> CPGN_UN_E  + H_C	!	coprogen unloaded secretion (extracellular)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+CPGNUtpp	:	CPGN_UN_C  + H_P  -> CPGN_UN_P  + H_C	!	coprogen unloaded secretion	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+CRNabcpp	:	ATP_C  + CRN_P  + H2O_C  -> ADP_C  + CRN_C  + H_C  + PI_C	!	L-carnitine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2677  &&  b2678  &&  b2679 )
+CRNDabcpp	:	ATP_C  + CRN_D_P  + H2O_C  -> ADP_C  + CRN_D_C  + H_C  + PI_C	!	D-carnitine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2677  &&  b2678  &&  b2679 )
+CRNDt2rpp	:	CRN_D_P  + H_P  <-> CRN_D_C  + H_C	!	D-carnitine outward transport (H+ antiport)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4111
+CRNt2rpp	:	CRN_P  + H_P  <-> CRN_C  + H_C	!	L-carnitine outward transport (H+ antiport)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4111
+CRNt7pp	:	CRN_P  + GBBTN_C  -> CRN_C  + GBBTN_P	!	Carnitine/butyrobetaine antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0040
+CRNt8pp	:	CRN_P  + CRN_D_C  -> CRN_C  + CRN_D_P	!	L-carnitine/D-carnitine antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0040
+CRNtex	:	CRN_E  <-> CRN_P	!	L-carnitine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CSNt2pp	:	CSN_P  + H_P  -> CSN_C  + H_C	!	cytosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0336
+CSNtex	:	CSN_E  <-> CSN_P	!	cytosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CTBTabcpp	:	ATP_C  + CTBT_P  + H2O_C  -> ADP_C  + CTBT_C  + H_C  + PI_C	!	crotonobetaine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2677  &&  b2678  &&  b2679 )
+CTBTt2rpp	:	CTBT_P  + H_P  <-> CTBT_C  + H_C	!	cronobetaine outward transport (H+ antiport)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4111
+CU1abcpp	:	ATP_C  + CU_C  + H2O_C  -> ADP_C  + CU_P  + H_C  + PI_C	!	Copper (Cu +1) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b0484
+CU1Opp	:	4* CU + 4* H + O2 -> 4* CU2 + 2* H2O	!	Cuprous Oxidase (Cu+1)	!	Periplasmic space	!	Inorganic Ion Transport and Metabolism	!	b0123
+CU2abcpp	:	ATP_C  + CU2_C  + H2O_C  -> ADP_C  + CU2_P  + H_C  + PI_C	!	Copper (Cu+2) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3469
+CU2tex	:	CU2_E  <-> CU2_P	!	copper (Cu+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b2215  ||  b0241  ||  b0929  ||  b1377 )
+CU2tpp	:	CU2_P  -> CU2_C	!	copper transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3040
+CUtex	:	CU_E  <-> CU_P	!	copper (Cu+1) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CYANSTpp	:	CYAN + TSUL -> H + SO3 + TCYNT	!	Cyanide sulfurtransferase (periplasmic)	!	Periplasmic space	!	Inorganic Ion Transport and Metabolism	!	b1308
+CYANtex	:	CYAN_E  <-> CYAN_P	!	Cyanide transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CYNTt2pp	:	CYNT_P  + H_P  -> CYNT_C  + H_C	!	Cyanate transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0341
+CYNTtex	:	CYNT_E  <-> CYNT_P	!	Cyanate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CYSabc2pp	:	ATP_C  + CYS_L_C  + H2O_C  -> ADP_C  + CYS_L_P  + H_C  + PI_C	!	L-cysteine export via ABC system (cytoplasm to periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0886  &&  b0887 )
+CYSabcpp	:	ATP_C  + CYS_L_P  + H2O_C  -> ADP_C  + CYS_L_C  + H_C  + PI_C	!	L-cysteine uptake via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+CYSDabcpp	:	ATP_C  + CYS_D_P  + H2O_C  -> ADP_C  + CYS_D_C  + H_C  + PI_C	!	D-cysteine uptake via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+CYSDtex	:	CYS_D_E  <-> CYS_D_P	!	D-cysteine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CYStex	:	CYS_L_E  <-> CYS_L_P	!	L-cysteine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+CYStpp	:	CYS_L_C  -> CYS_L_P	!	L-cysteine export via facilitated transport	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2578  ||  b1533 )
+CYTBD2pp	:	2* H_C  + MQL8_C  + 0.5* O2_C  -> 2* H_P  + H2O_C  + MQN8_C	!	cytochrome oxidase bd (menaquinol-8: 2 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b0978  &&  b0979 )
+CYTBDpp	:	2* H_C  + 0.5* O2_C  + Q8H2_C  -> 2* H_P  + H2O_C  + Q8_C	!	cytochrome oxidase bd (ubiquinol-8: 2 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b0978  &&  b0979 )  ||  ( b0733  &&  b0734 ) )
+CYTBO3_4pp	:	4* H_C  + 0.5* O2_C  + Q8H2_C  -> 4* H_P  + H2O_C  + Q8_C	!	cytochrome oxidase bo3 (ubiquinol-8: 4 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b0429  &&  b0430  &&  b0431  &&  b0432 )
+CYTDt2pp	:	CYTD_P  + H_P  -> CYTD_C  + H_C	!	cytidine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2393  ||  b2964 )
+CYTDt2rpp	:	CYTD_P  + H_P  <-> CYTD_C  + H_C	!	cytidine transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2406
+CYTDtex	:	CYTD_E  <-> CYTD_P	!	cytidine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DADNt2pp	:	DAD_2_P  + H_P  -> DAD_2_C  + H_C	!	deoxyadenosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2393  ||  b2964 )
+DADNtex	:	DAD_2_E  <-> DAD_2_P	!	deoxyadenosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+DALAt2pp	:	ALA_D_P  + H_P  -> ALA_D_C  + H_C	!	D-alanine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4208
+DALAtex	:	ALA_D_E  <-> ALA_D_P	!	D-Alanine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DAMPtex	:	DAMP_E  <-> DAMP_P	!	dAMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DAPabcpp	:	26DAP_M_P  + ATP_C  + H2O_C  -> 26DAP_M_C  + ADP_C  + H_C  + PI_C	!	M-diaminopimelic acid ABC transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+DAPtex	:	15DAP_E  <-> 15DAP_P	!	1,5-Diaminopentane transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DCAtex	:	DCA_E  <-> DCA_P	!	Decanoate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DCMPtex	:	DCMP_E  <-> DCMP_P	!	dCMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DCYTt2pp	:	DCYT_P  + H_P  -> DCYT_C  + H_C	!	deoxycytidine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2393  ||  b2964 )
+DCYTtex	:	DCYT_E  <-> DCYT_P	!	deoxycytidine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+DDCAtexi	:	DDCA_E  -> DDCA_P	!	Fatty acid (dodecanoate) transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+DDGLCNt2rpp	:	2DDGLCN_P  + H_P  <-> 2DDGLCN_C  + H_C	!	2-dehydro-3-deoxy-D-gluconate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3909
+DDGLCNtex	:	2DDGLCN_E  <-> 2DDGLCN_P	!	2-dehydro-3-deoxy-D-gluconate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DGMPtex	:	DGMP_E  <-> DGMP_P	!	dGMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DGSNt2pp	:	DGSN_P  + H_P  -> DGSN_C  + H_C	!	deoxyguanosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2964
+DGSNtex	:	DGSN_E  <-> DGSN_P	!	deoxyguanosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DHAtex	:	DHA_E  <-> DHA_P	!	Dihydroxyacetone transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DHAtpp	:	DHA_P  <-> DHA_C	!	Dihydroxyacetone transport via facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+DIMPtex	:	DIMP_E  <-> DIMP_P	!	dIMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DINSt2pp	:	DIN_P  + H_P  -> DIN_C  + H_C	!	deoxyinosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2964
+DINStex	:	DIN_E  <-> DIN_P	!	deoxyinosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+D_LACt2pp	:	H_P  + LAC_D_P  <-> H_C  + LAC_D_C	!	D-lactate transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3603  ||  b2975 )
+D_LACtex	:	LAC_D_E  <-> LAC_D_P	!	D-lactate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DMSOR1pp	:	DMSO_P  + MQL8_C  -> DMS_P  + H2O_P  + MQN8_C	!	Dimethyl sulfoxide reductase (Menaquinol 8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b1872  &&  b1873 )
+DMSOR2pp	:	2DMMQL8_C  + DMSO_P  -> 2DMMQ8_C  + DMS_P  + H2O_P	!	Dimethyl sulfoxide reductase (Demethylmenaquinol 8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b1872  &&  b1873 )
+DMSOtex	:	DMSO_E  <-> DMSO_P	!	Dimethyl sulfoxide transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DMStex	:	DMS_E  <-> DMS_P	!	Dimethyl sulfide transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DOPAtex	:	DOPA_E  <-> DOPA_P	!	dopamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DSERt2pp	:	H_P  + SER_D_P  -> H_C  + SER_D_C	!	D-serine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4208
+DSERtex	:	SER_D_E  <-> SER_D_P	!	D-serine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DTMPtex	:	DTMP_E  <-> DTMP_P	!	dTMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DUMPtex	:	DUMP_E  <-> DUMP_P	!	dUMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+DURIt2pp	:	DURI_P  + H_P  -> DURI_C  + H_C	!	deoxyuridine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2393  ||  b2964 )
+DURItex	:	DURI_E  <-> DURI_P	!	deoxyuridine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+ECA4COLIPAtex	:	ECA4COLIPA_P  -> ECA4COLIPA_E	!	enterobacterial common antigen (x4) core oligosaccharide lipid A transport (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+ECA4OALpp	:	COLIPA + ECA4UND -> ECA4COLIPA + H + UDCPDP	!	enterobacterial common antigen (x4) O-antigen ligase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b3622
+ECAP1pp	:	2* UNAGAMUF -> ECA2UND + H + UDCPDP	!	enterobacterial common antigen polymerase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	( b3793  &&  b3785 )
+ECAP2pp	:	ECA2UND + UNAGAMUF -> ECA3UND + H + UDCPDP	!	enterobacterial common antigen polymerase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	( b3793  &&  b3785 )
+ECAP3pp	:	ECA3UND + UNAGAMUF -> ECA4UND + H + UDCPDP	!	enterobacterial common antigen polymerase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	( b3793  &&  b3785 )
+ECAtpp	:	UNAGAMUF_C  -> UNAGAMUF_P	!	enterobacterial common antigen transferase (flippase, cytoplasm to periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	b3792
+ENLIPAtex	:	ENLIPA_P  -> ENLIPA_E	!	phosphoethanolamine lipid A transport via vector (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+ETHAt2pp	:	ETHA_P  + H_P  -> ETHA_C  + H_C	!	ethanolamine transport in via proton symport	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+ETHAtex	:	ETHA_E  <-> ETHA_P	!	ethanolamine transport via diffusion (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ETHSO3abcpp	:	ATP_C  + ETHSO3_P  + H2O_C  -> ADP_C  + ETHSO3_C  + H_C  + PI_C	!	ethanesulfonate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0936  &&  b0933  &&  b0934 )
+ETHSO3tex	:	ETHSO3_E  <-> ETHSO3_P	!	ethanesulfonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ETOHt2rpp	:	ETOH_P  + H_P  <-> ETOH_C  + H_C	!	ethanol reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+ETOHtex	:	ETOH_E  <-> ETOH_P	!	ethanol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+F6Pt6_2pp	:	F6P_P  + 2* PI_C  -> F6P_C  + 2* PI_P	!	Fructose-6-phosphate transport via phosphate antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3666
+F6Ptex	:	F6P_E  <-> F6P_P	!	fructose 6-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FACOAL100t2pp	:	ATP_C  + COA_C  + DCA_P  + H_P  -> AMP_C  + DCACOA_C  + H_C  + PPI_C	!	fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FACOAL120t2pp	:	ATP_C  + COA_C  + DDCA_P  + H_P  -> AMP_C  + DDCACOA_C  + H_C  + PPI_C	!	fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1701  ||  b1805 )
+FACOAL140t2pp	:	ATP_C  + COA_C  + H_P  + TTDCA_P  -> AMP_C  + H_C  + PPI_C  + TDCOA_C	!	fatty-acid-CoA ligase (tetradecanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FACOAL141t2pp	:	ATP_C  + COA_C  + H_P  + TTDCEA_P  -> AMP_C  + H_C  + PPI_C  + TDECOA_C	!	fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1701  ||  b1805 )
+FACOAL160t2pp	:	ATP_C  + COA_C  + H_P  + HDCA_P  -> AMP_C  + H_C  + PMTCOA_C  + PPI_C	!	fatty-acid-CoA ligase (hexadecanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1701  ||  b1805 )
+FACOAL161t2pp	:	ATP_C  + COA_C  + H_P  + HDCEA_P  -> AMP_C  + H_C  + HDCOA_C  + PPI_C	!	fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FACOAL180t2pp	:	ATP_C  + COA_C  + H_P  + OCDCA_P  -> AMP_C  + H_C  + PPI_C  + STCOA_C	!	fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FACOAL181t2pp	:	ATP_C  + COA_C  + H_P  + OCDCEA_P  -> AMP_C  + H_C  + ODECOA_C  + PPI_C	!	fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FACOAL60t2pp	:	ATP_C  + COA_C  + H_P  + HXA_P  -> AMP_C  + H_C  + HXCOA_C  + PPI_C	!	fatty-acid-CoA ligase (hexanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FACOAL80t2pp	:	ATP_C  + COA_C  + H_P  + OCTA_P  -> AMP_C  + H_C  + OCCOA_C  + PPI_C	!	fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling)	!	Intercompartmental	!	Cell Envelope Biosynthesis	!	( b1805  ||  b1701 )
+FALDtex	:	FALD_E  <-> FALD_P	!	formaldehyde transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FALDtpp	:	FALD_P  <-> FALD_C	!	formaldehyde transport via diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	s0001
+FDH4pp	:	FOR_P  + 2* H_C  + Q8_C  -> CO2_C  + H_P  + Q8H2_C	!	formate dehydrogenase (quinone-8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b3892  &&  b3893  &&  b3894 )  ||  ( b1474  &&  b1475  &&  b1476 ) )
+FDH5pp	:	FOR_P  + 2* H_C  + MQN8_C  -> CO2_C  + H_P  + MQL8_C	!	Formate Dehydrogenase (menaquinone-8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b1474  &&  b1475  &&  b1476 )  ||  ( b3892  &&  b3893  &&  b3894 ) )
+FE2abcpp	:	ATP_C  + FE2_P  + H2O_C  -> ADP_C  + FE2_C  + H_C  + PI_C	!	iron (II) transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3409
+FE2t2pp	:	FE2_P  + H_P  -> FE2_C  + H_C	!	iron (II) transport in via proton symport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b2392
+FE2t3pp	:	FE2_C  + H_P  -> FE2_P  + H_C	!	iron (Fe+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3915
+FE2tex	:	FE2_E  <-> FE2_P	!	iron (II) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FE2tpp	:	FE2_P  -> FE2_C	!	iron (+2) transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3040
+FE3abcpp	:	ATP_C  + FE3_P  + H2O_C  -> ADP_C  + FE3_C  + H_C  + PI_C	!	iron (III) transport via ABC system (periplasm to cytoplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FE3DCITabcpp	:	ATP_C  + FE3DCIT_P  + H2O_C  -> ADP_C  + 2* CIT_C  + FE3_C  + H_C  + PI_C	!	iron transport from ferric-dicitrate via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b4290  &&  b4289  &&  b4288  &&  b4287 )
+FE3DCITtonex	:	FE3DCIT_E  + H_P  -> FE3DCIT_P  + H_C	!	ferric-dicitrate transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b4291  &&  ( b1252  &&  b3005  &&  b3006 ) )
+FE3DHBZSabcpp	:	ATP_C  + FE3DHBZS_P  + H2O_C  -> ADP_C  + FE3DHBZS_C  + H_C  + PI_C	!	ferric 2,3-dihydroxybenzoylserine transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0592  &&  b0588  &&  b0590  &&  b0589 )
+FE3DHBZStonex	:	FE3DHBZS_E  + H_P  -> FE3DHBZS_P  + H_C	!	ferric 2,3-dihydroxybenzoylserine transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( ( b0805  &&  ( b1252  &&  b3005  &&  b3006 ) )  ||  ( b2155  &&  ( b1252  &&  b3005  &&  b3006 ) ) )
+FE3HOXabcpp	:	ATP_C  + FE3HOX_P  + H2O_C  -> ADP_C  + FE3HOX_C  + H_C  + PI_C	!	ferric-dicitrate transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0153  &&  b0151  &&  b0152 )
+FE3HOXtonex	:	FE3HOX_E  + H_P  -> FE3HOX_P  + H_C	!	Fe(III)hydroxamine transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b0150  &&  ( b1252  &&  b3005  &&  b3006 ) )
+FE3HOXUtex	:	FE3HOX_UN_C  + H_P  -> FE3HOX_UN_P  + H_C	!	Fe(III)hydroxamate unloaded secretion	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FE3HOXUtpp	:	FE3HOX_UN_P  + H_P  -> FE3HOX_UN_E  + H_C	!	Fe(III)hydroxamate unloaded secretion (extracellular)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FE3tex	:	FE3_E  <-> FE3_P	!	iron (III) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FECRMabcpp	:	ATP_C  + FECRM_P  + H2O_C  -> ADP_C  + FECRM_C  + H_C  + PI_C	!	ferrichrome transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0153  &&  b0151  &&  b0152 )
+FECRMtonex	:	FECRM_E  + H_P  -> FECRM_P  + H_C	!	ferrichrome transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b0150  &&  ( b1252  &&  b3005  &&  b3006 ) )
+FECRMUtex	:	FECRM_UN_P  + H_P  -> FECRM_UN_E  + H_C	!	ferrichrome (minus Fe) secretion (to extracellular)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FECRMUtpp	:	FECRM_UN_C  + H_P  -> FECRM_UN_P  + H_C	!	ferrichrome (minus Fe) secretion (to periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FEENTERabcpp	:	ATP_C  + FEENTER_P  + H2O_C  -> ADP_C  + FEENTER_C  + H_C  + PI_C	!	Fe-enterobactin transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0592  &&  b0588  &&  b0590  &&  b0589 )
+FEENTERtex	:	ENTER_P  + H_P  -> ENTER_E  + H_C	!	enterochelin transport (secretion periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FEENTERtonex	:	FEENTER_E  + H_P  -> FEENTER_P  + H_C	!	Fe-enterobactin transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b0584  &&  ( b1252  &&  b3005  &&  b3006 ) )
+FEENTERtpp	:	ENTER_C  + H_P  -> ENTER_P  + H_C	!	enterochelin transport (secretion)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0591
+FEOXAMabcpp	:	ATP_C  + FEOXAM_P  + H2O_C  -> ADP_C  + FEOXAM_C  + H_C  + PI_C	!	ferroxamine transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0153  &&  b0151  &&  b0152 )
+FEOXAMtonex	:	FEOXAM_E  + H_P  -> FEOXAM_P  + H_C	!	ferroxamine transport via ton system (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b0150  &&  ( b1252  &&  b3005  &&  b3006 ) )
+FEOXAMUtex	:	FEOXAM_UN_P  + H_P  -> FEOXAM_UN_E  + H_C	!	ferroxamine (minus Fe3) secretion (to extracellular)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FEOXAMUtpp	:	FEOXAM_UN_C  + H_P  -> FEOXAM_UN_P  + H_C	!	ferroxamine (minus Fe3) secretion (to periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+FEROpp	:	4* FE2 + 4* H + O2 -> 4* FE3 + 2* H2O	!	ferroxidase	!	Periplasmic space	!	Inorganic Ion Transport and Metabolism	!	b0123
+FORt2pp	:	FOR_P  + H_P  -> FOR_C  + H_C	!	formate transport via proton symport (uptake only, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0904  ||  b2492 )
+FORtex	:	FOR_E  <-> FOR_P	!	formate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FORtppi	:	FOR_C  -> FOR_P	!	formate transport via diffusion (cytoplasm to periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0904  ||  b2492 )
+FRULYSt2pp	:	FRULYS_P  + H_P  -> FRULYS_C  + H_C	!	Fructoselysine transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3370
+FRULYStex	:	FRULYS_E  <-> FRULYS_P	!	fructoselysine transporter via diffusion (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FRUpts2pp	:	FRU_P  + PEP_C  -> F6P_C  + PYR_C	!	Fructose transport via PEP:Pyr PTS (f6p generating) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1817  &&  b1818  &&  b1819  &&  b2415  &&  b2416 )
+FRUptspp	:	FRU_P  + PEP_C  -> F1P_C  + PYR_C	!	D-fructose transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2167  &&  b2169  &&  b2415  &&  b2416 )
+FRUtex	:	FRU_E  <-> FRU_P	!	D-fructose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FRUURt2rpp	:	FRUUR_P  + H_P  <-> FRUUR_C  + H_C	!	D-fructuronate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4321
+FRUURtex	:	FRUUR_E  <-> FRUUR_P	!	D-fructuronate transport via diffusion (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FUCtex	:	FUC_L_E  <-> FUC_L_P	!	L-fucose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+FUCtpp	:	FUC_L_P  + H_P  <-> FUC_L_C  + H_C	!	L-fucose transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2801
+FUMt2_2pp	:	FUM_P  + 2* H_P  -> FUM_C  + 2* H_C	!	Fumarate transport via proton symport (2 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3528
+FUMt2_3pp	:	FUM_P  + 3* H_P  -> FUM_C  + 3* H_C	!	Fumarate transport via proton symport (3 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4138  ||  b4123  ||  b0621 )
+FUMtex	:	FUM_E  <-> FUM_P	!	Fumarate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G1PPpp	:	G1P + H2O -> GLC_D + PI	!	Glucose-1-phosphatase	!	Periplasmic space	!	Glycolysis/Gluconeogenesis	!	b1002
+G1Ptex	:	G1P_E  <-> G1P_P	!	D-glucose 1-phosphate transport via diffusion	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G2PPpp	:	GLYC2P + H2O -> GLYC + PI	!	glycerol 2-phosphate phosphatase (periplasmic)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b4055
+G3PCabcpp	:	ATP_C  + G3PC_P  + H2O_C  -> ADP_C  + G3PC_C  + H_C  + PI_C	!	sn-glycerol-3-phosphocholine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3452  &&  b3453  &&  b3450  &&  b3451 )
+G3PCtex	:	G3PC_E  <-> G3PC_P	!	glycero-3-phosphocholine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G3PEabcpp	:	ATP_C  + G3PE_P  + H2O_C  -> ADP_C  + G3PE_C  + H_C  + PI_C	!	sn-glycerol-3-phosphoethanolamine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3452  &&  b3453  &&  b3450  &&  b3451 )
+G3PEtex	:	G3PE_E  <-> G3PE_P	!	glycero-3-phosphoethanolamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G3PGabcpp	:	ATP_C  + G3PG_P  + H2O_C  -> ADP_C  + G3PG_C  + H_C  + PI_C	!	sn-glycerol-3-phosphoglycerol transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3452  &&  b3453  &&  b3450  &&  b3451 )
+G3PGtex	:	G3PG_E  <-> G3PG_P	!	glycerophoglycerol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G3PIabcpp	:	ATP_C  + G3PI_P  + H2O_C  -> ADP_C  + G3PI_C  + H_C  + PI_C	!	sn-glycerol-3-phosphoethanolamine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3452  &&  b3453  &&  b3450  &&  b3451 )
+G3PItex	:	G3PI_E  <-> G3PI_P	!	glycero-3-phospho-1-inositol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G3PSabcpp	:	ATP_C  + G3PS_P  + H2O_C  -> ADP_C  + G3PS_C  + H_C  + PI_C	!	sn-glycerol-3-phosphoserine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3452  &&  b3453  &&  b3450  &&  b3451 )
+G3PStex	:	G3PS_E  <-> G3PS_P	!	glycerophosphserine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+G6Pt6_2pp	:	G6P_P  + 2* PI_C  -> G6P_C  + 2* PI_P	!	Glucose-6-phosphate transport via phosphate antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3666
+G6Ptex	:	G6P_E  <-> G6P_P	!	glucose 6-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GAL1PPpp	:	GAL1P + H2O -> GAL + PI	!	D-galactose 1-phosphatase	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b1002
+GAL1Ptex	:	GAL1P_E  <-> GAL1P_P	!	D-galactose 1-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GALabcpp	:	ATP_C  + GAL_P  + H2O_C  -> ADP_C  + GAL_C  + H_C  + PI_C	!	D-galactose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2149  &&  b2150  &&  b2148 )
+GALBDtex	:	GAL_BD_E  <-> GAL_BD_P	!	beta D-galactose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GALCTNLt2pp	:	GALCTN_L_P  + H_P  -> GALCTN_L_C  + H_C	!	L-galactonate transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4356
+GALCTNLtex	:	GALCTN_L_E  <-> GALCTN_L_P	!	L-galactonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b2215  ||  b1377  ||  b0929  ||  b0241 )
+GALCTNt2pp	:	GALCTN_D_P  + H_P  -> GALCTN_D_C  + H_C	!	D-galactonate transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3691
+GALCTNtex	:	GALCTN_D_E  <-> GALCTN_D_P	!	D-galactonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GALCTt2rpp	:	GALCT_D_P  + H_P  <-> GALCT_D_C  + H_C	!	D-galactarte transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2789  ||  b3127 )
+GALCTtex	:	GALCT_D_E  <-> GALCT_D_P	!	D-galactarte transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GALM2pp	:	GAL_BD -> GAL	!	aldose-1-epimerase	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0756
+GALt2pp	:	GAL_P  + H_P  -> GAL_C  + H_C	!	D-galactose transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2943
+GALtex	:	GAL_E  <-> GAL_P	!	D-galactose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GALTptspp	:	GALT_P  + PEP_C  -> GALT1P_C  + PYR_C	!	Galactitol transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2094  &&  b2093  &&  b2092  &&  b2415  &&  b2416 )
+GALTtex	:	GALT_E  <-> GALT_P	!	Galactitol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GALURt2rpp	:	GALUR_P  + H_P  <-> GALUR_C  + H_C	!	D-galacturonate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3093
+GALURtex	:	GALUR_E  <-> GALUR_P	!	D-galacturonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GAM6Pt6_2pp	:	GAM6P_P  + 2* PI_C  -> GAM6P_C  + 2* PI_P	!	D-Glucosamine 6-phosphate transport via phosphate antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3666
+GAMAN6Ptex	:	GAM6P_E  <-> GAM6P_P	!	D-glucosamine 6-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GAMptspp	:	GAM_P  + PEP_C  -> GAM6P_C  + PYR_C	!	D-glucosamine transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1817  &&  b1818  &&  b1819  &&  b2415  &&  b2416 )
+GAMtex	:	GAM_E  <-> GAM_P	!	D-glucosamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GBBTNtex	:	GBBTN_E  <-> GBBTN_P	!	gamma-butyrobetaine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GDPtex	:	GDP_E  <-> GDP_P	!	GDP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b1377  ||  b2215  ||  b0929 )
+GLCabcpp	:	ATP_C  + GLC_D_P  + H2O_C  -> ADP_C  + GLC_D_C  + H_C  + PI_C	!	D-glucose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2149  &&  b2150  &&  b2148 )
+GLCDpp	:	GLC_D_P  + H2O_P  + Q8_C  -> GLCN_P  + H_P  + Q8H2_C	!	Glucose dehydrogenase (ubiquinone-8 as acceptor) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b0124  ||  b0837 )
+GLCNt2rpp	:	GLCN_P  + H_P  <-> GLCN_C  + H_C	!	D-gluconate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3415  ||  b4265  ||  b4321  ||  b4476 )
+GLCNtex	:	GLCN_E  <-> GLCN_P	!	D-gluconate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLCptspp	:	GLC_D_P  + PEP_C  -> G6P_C  + PYR_C	!	D-glucose transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b2417  &&  b1101  &&  b2415  &&  b2416 )  ||  ( b1817  &&  b1818  &&  b1819  &&  b2415  &&  b2416 )  ||  ( b2417  &&  b1621  &&  b2415  &&  b2416 ) )
+GLCRt2rpp	:	GLCR_P  + H_P  <-> GLCR_C  + H_C	!	D-glucarate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3127  ||  b2789 )
+GLCRtex	:	GLCR_E  <-> GLCR_P	!	D-glucarate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLCt2pp	:	GLC_D_P  + H_P  -> GLC_D_C  + H_C	!	D-glucose transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2943
+GLCtex	:	GLC_D_E  <-> GLC_D_P	!	glucose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLCtexi	:	GLC_D_E  -> GLC_D_P	!	D-glucoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+GLCUR1Ptex	:	GLCUR1P_E  <-> GLCUR1P_P	!	D-glucuronate 1-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLCURt2rpp	:	GLCUR_P  + H_P  <-> GLCUR_C  + H_C	!	D-glucuronate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3909  ||  b3093 )
+GLCURtex	:	GLCUR_E  <-> GLCUR_P	!	D-glucuronat transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLNabcpp	:	ATP_C  + GLN_L_P  + H2O_C  -> ADP_C  + GLN_L_C  + H_C  + PI_C	!	L-glutamine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0811  &&  b0810  &&  b0809 )
+GLNtex	:	GLN_L_E  <-> GLN_L_P	!	L-glutamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0929  ||  b1377  ||  b2215  ||  b0241 )
+GLUabcpp	:	ATP_C  + GLU_L_P  + H2O_C  -> ADP_C  + GLU_L_C  + H_C  + PI_C	!	L-glutamate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0655  &&  b0654  &&  b0653  &&  b0652 )
+GLUABUTt7pp	:	4ABUT_C  + GLU_L_P  <-> 4ABUT_P  + GLU_L_C	!	4-aminobutyrate/glutamate antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1492
+GLUNpp	:	GLN_L + H2O -> GLU_L + NH4	!	glutaminase	!	Periplasmic space	!	Glutamate Metabolism	!	b2957
+GLUt2rpp	:	GLU_L_P  + H_P  <-> GLU_L_C  + H_C	!	L-glutamate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4077
+GLUt4pp	:	GLU_L_P  + NA1_P  -> GLU_L_C  + NA1_C	!	Na+/glutamate symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3653
+GLUtex	:	GLU_L_E  <-> GLU_L_P	!	L-glutamate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYALDtex	:	GLYALD_E  <-> GLYALD_P	!	Glyceraldehyde transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYALDtpp	:	GLYALD_P  <-> GLYALD_C	!	Glyceraldehyde facilitated diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3927
+GLYBabcpp	:	ATP_C  + GLYB_P  + H2O_C  -> ADP_C  + GLYB_C  + H_C  + PI_C	!	Glycine betaine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2128  &&  b2129  &&  b2130  &&  b2131 )
+GLYBt2pp	:	GLYB_P  + H_P  -> GLYB_C  + H_C	!	Glycine betaine transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1801
+GLYBtex	:	GLYB_E  <-> GLYB_P	!	Glycine betaine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYC2Ptex	:	GLYC2P_E  <-> GLYC2P_P	!	Glycerol-2-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYC3Pabcpp	:	ATP_C  + GLYC3P_P  + H2O_C  -> ADP_C  + GLYC3P_C  + H_C  + PI_C	!	sn-Glycerol 3-phosphate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3452  &&  b3453  &&  b3450  &&  b3451 )
+GLYC3Pt6pp	:	GLYC3P_P  + PI_C  -> GLYC3P_C  + PI_P	!	Glycerol-3-phosphate : phosphate antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2240
+GLYC3Ptex	:	GLYC3P_E  <-> GLYC3P_P	!	Glycerol-3-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYCAt2rpp	:	GLYC_R_P  + H_P  <-> GLYC_R_C  + H_C	!	D-glycerate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3127  ||  b2789 )
+GLYCAtex	:	GLYC_R_E  <-> GLYC_R_P	!	D-glycerate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYCLTt2rpp	:	GLYCLT_P  + H_P  <-> GLYCLT_C  + H_C	!	glycolate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3603  ||  b2975 )
+GLYCLTt4pp	:	GLYCLT_P  + NA1_P  -> GLYCLT_C  + NA1_C	!	glycolate transport via sodium symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4067
+GLYCLTtex	:	GLYCLT_E  <-> GLYCLT_P	!	glycolate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYCtex	:	GLYC_E  <-> GLYC_P	!	glycerol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GLYCtpp	:	GLYC_C  <-> GLYC_P	!	glycerol transport via channel (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3927  ||  s0001 )
+GLYt2pp	:	GLY_P  + H_P  -> GLY_C  + H_C	!	glycine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1801  ||  b4208 )
+GLYt4pp	:	GLY_P  + NA1_P  -> GLY_C  + NA1_C	!	glycine transport in via sodium symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0007
+GLYtex	:	GLY_E  <-> GLY_P	!	Glycine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GMPtex	:	GMP_E  <-> GMP_P	!	GMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GPDDA1pp	:	G3PC + H2O -> CHOL + GLYC3P + H	!	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b2239
+GPDDA2pp	:	G3PE + H2O -> ETHA + GLYC3P + H	!	Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b2239
+GPDDA3pp	:	G3PS + H2O -> GLYC3P + H + SER_L	!	Glycerophosphodiester phosphodiesterase (Glycerophosphoserine)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b2239
+GPDDA4pp	:	G3PG + H2O -> GLYC + GLYC3P + H	!	Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b2239
+GPDDA5pp	:	G3PI + H2O -> GLYC3P + H + INOST	!	Glycerophosphodiester phosphodiesterase (Glycerophosphoinositol)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b2239
+GSNt2pp	:	GSN_P  + H_P  -> GSN_C  + H_C	!	guanosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2964
+GSNtex	:	GSN_E  <-> GSN_P	!	guanosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GTHOXtex	:	GTHOX_E  <-> GTHOX_P	!	glutathione (ox) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GTHRDabc2pp	:	ATP_C  + GTHRD_C  + H2O_C  -> ADP_C  + GTHRD_P  + H_C  + PI_C	!	glutathione export via ABC system (cytoplasm to periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0886  &&  b0887 )
+GTHRDabcpp	:	ATP_C  + GTHRD_P  + H2O_C  -> ADP_C  + GTHRD_C  + H_C  + PI_C	!	Reduced glutathione via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0829  &&  b0830  &&  b0831  &&  b0832 )
+GTHRDHpp	:	GTHRD + H2O -> CGLY + GLU_L	!	glutathione hydralase (periplasmic)	!	Periplasmic space	!	Cofactor and Prosthetic Group Biosynthesis	!	b3447
+GTHRDtex	:	GTHRD_E  <-> GTHRD_P	!	glutathione transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GTPtex	:	GTP_E  <-> GTP_P	!	GTP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+GUAt2pp	:	GUA_P  + H_P  -> GUA_C  + H_C	!	guanine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3654
+GUAtex	:	GUA_E  <-> GUA_P	!	Guanine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+GUAtpp	:	GUA_P  <-> GUA_C	!	Guanine transport via diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+GUR1PPpp	:	GLCUR1P + H2O -> GLCUR + PI	!	Glucuronate 1-phosphate phosphatase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	Unknown
+H2O2tex	:	H2O2_E  <-> H2O2_P	!	hydrogen peroxide transport via diffusion (external)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+H2Otex	:	H2O_E  <-> H2O_P	!	H2O transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	( b1377  ||  b0929  ||  b2215  ||  b0241  ||  b3875  ||  b1319  ||  b0957  ||  s0001 )
+H2Otpp	:	H2O_P  <-> H2O_C	!	H2O transport via diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0875  ||  s0001 )
+H2St1pp	:	H2S_C  -> H2S_P	!	h2s transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	s0001
+H2Stex	:	H2S_E  <-> H2S_P	!	h2s transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+H2tex	:	H2_E  <-> H2_P	!	hydrogen transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+H2tpp	:	H2_P  <-> H2_C	!	hydrogen transport diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	s0001
+HCINNMt2rpp	:	3HCINNM_P  + H_P  <-> 3HCINNM_C  + H_C	!	3-hydroxycinnamic acid transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0353
+HCINNMtex	:	3HCINNM_E  <-> 3HCINNM_P	!	3-hydroxycinnamic acid transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+HDCAtexi	:	HDCA_E  -> HDCA_P	!	Hexadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+HDCEAtexi	:	HDCEA_E  -> HDCEA_P	!	Hexadecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+HEXt2rpp	:	H_P  + HXA_P  <-> H_C  + HXA_C	!	hexanoate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2223
+HG2abcpp	:	ATP_C  + H2O_C  + HG2_C  -> ADP_C  + H_C  + HG2_P  + PI_C	!	Mercury (Hg+2) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3469
+HG2t3pp	:	H_P  + HG2_C  -> H_C  + HG2_P	!	mercury (Hg+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3915
+HG2tex	:	HG2_E  <-> HG2_P	!	mercury (Hg+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+HISabcpp	:	ATP_C  + H2O_C  + HIS_L_P  -> ADP_C  + H_C  + HIS_L_C  + PI_C	!	L-histidine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2309  &&  b2307  &&  b2306  &&  b2308 )
+HISt2rpp	:	H_P  + HIS_L_P  <-> H_C  + HIS_L_C	!	L-histidine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0112
+HIStex	:	HIS_L_E  <-> HIS_L_P	!	L-histidine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+HOMt2pp	:	H_P  + HOM_L_C  -> H_C  + HOM_L_P	!	L-homoserineserine efflux via proton symport	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0813  ||  b3824 )
+HOMtex	:	HOM_L_E  <-> HOM_L_P	!	L-homoserine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+HPPPNt2rpp	:	3HPPPN_P  + H_P  <-> 3HPPPN_C  + H_C	!	3-(3-hydroxyphenyl)propionate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0353
+HPPPNtex	:	3HPPPN_E  <-> 3HPPPN_P	!	3-(3-hydroxyphenyl)propionate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+Htex	:	H_E  <-> H_P	!	proton transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0929  ||  b1377  ||  b2215  ||  b0241 )
+HXAtex	:	HXA_E  <-> HXA_P	!	Hexanoate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+HYD1pp	:	2* H_C  + H2_C  + Q8_C  -> 2* H_P  + Q8H2_C	!	hydrogenase (ubiquinone-8: 2 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b0972  &&  b0973  &&  b0974 )  ||  ( b2994  &&  b2997 )  ||  ( b2719  &&  b2720  &&  b2721  &&  b2722  &&  b2723  &&  b2724 ) )
+HYD2pp	:	2* H_C  + H2_C  + MQN8_C  -> 2* H_P  + MQL8_C	!	Hydrogenase (menaquinone8: 2 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b0972  &&  b0973  &&  b0974 )  ||  ( b2994  &&  b2997 ) )
+HYD3pp	:	2DMMQ8_C  + 2* H_C  + H2_C  -> 2DMMQL8_C  + 2* H_P	!	Hydrogenase (Demethylmenaquinone-8: 2 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b0972  &&  b0973  &&  b0974 )  ||  ( b2994  &&  b2997 ) )
+HYXNtex	:	HXAN_E  <-> HXAN_P	!	Hypoxanthine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+HYXNtpp	:	HXAN_P  <-> HXAN_C	!	Hypoxanthine transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+IDONt2rpp	:	H_P  + IDON_L_P  <-> H_C  + IDON_L_C	!	L-idonate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4265
+IDONtex	:	IDON_L_E  <-> IDON_L_P	!	L-idonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ILEabcpp	:	ATP_C  + H2O_C  + ILE_L_P  -> ADP_C  + H_C  + ILE_L_C  + PI_C	!	L-isoleucine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3454  &&  b3455  &&  b3457  &&  b3460  &&  b3456 )
+ILEt2rpp	:	H_P  + ILE_L_P  <-> H_C  + ILE_L_C	!	L-isoleucine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0401
+ILEtex	:	ILE_L_E  <-> ILE_L_P	!	L-isoleucine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+IMPtex	:	IMP_E  <-> IMP_P	!	IMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+INDOLEt2pp	:	H_C  + INDOLE_C  -> H_P  + INDOLE_P	!	Indole transport via proton symport, irreversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3265  &&  b3266 )
+INDOLEt2rpp	:	H_P  + INDOLE_P  <-> H_C  + INDOLE_C	!	Indole transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3161
+INDOLEtex	:	INDOLE_E  <-> INDOLE_P	!	Indole transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+INOSTt4pp	:	INOST_P  + NA1_P  -> INOST_C  + NA1_C	!	Na+/myo-inositol symporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3679
+INSt2pp	:	H_P  + INS_P  -> H_C  + INS_C	!	inosine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2964
+INSt2rpp	:	H_P  + INS_P  <-> H_C  + INS_C	!	inosine transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2406
+INStex	:	INS_E  <-> INS_P	!	inosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+INSTtex	:	INOST_E  <-> INOST_P	!	inositol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ISETACabcpp	:	ATP_C  + H2O_C  + ISETAC_P  -> ADP_C  + H_C  + ISETAC_C  + PI_C	!	isethionate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b0365  &&  b0366  &&  b0367 )  ||  ( b0936  &&  b0933  &&  b0934 ) )
+ISETACtex	:	ISETAC_E  <-> ISETAC_P	!	isethionate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+K2L4Aabcpp	:	ATP_C  + H2O_C  + KDO2LIPID4_C  -> ADP_C  + H_C  + KDO2LIPID4_P  + PI_C	!	KDO(2)-lipid IV A transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+K2L4Atex	:	KDO2LIPID4_P  -> KDO2LIPID4_E	!	KDO(2)-lipid IV A transport via vector (periplasm to extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	Unknown
+Kabcpp	:	ATP_C  + H2O_C  + K_P  -> ADP_C  + H_C  + K_C  + PI_C	!	Potassium ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0698  &&  b0697  &&  b0696 )
+Kt2pp	:	H_P  + K_P  -> H_C  + K_C	!	potassium transport in via proton symport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b1250  ||  ( b1291  &&  b3290  &&  b1363 )  ||  b3747  ||  ( b1291  &&  b3290  &&  b3849 ) )
+Kt3pp	:	H_P  + K_C  -> H_C  + K_P	!	potassium transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b1216  ||  b0842  ||  b3350  ||  b0047 )
+Ktex	:	K_E  <-> K_P	!	potassium transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+LA4NTpp	:	COLIPA + ULA4N -> ACOLIPA + UDCPP	!	4-amino-4-deoxy-L-arabinotransferase (LPS lipid A modification, periplasmic face of membrane))	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b2257
+LACZpp	:	H2O + LCTS -> GAL + GLC_D	!	b-galactosidase	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b2132
+LCTSt3ipp	:	H_P  + LCTS_C  -> H_C  + LCTS_P	!	Lactose transport via proton aniport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2170  ||  b0070  ||  b1528 )
+LCTStex	:	LCTS_E  <-> LCTS_P	!	Lactose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+LCTStpp	:	H_P  + LCTS_P  <-> H_C  + LCTS_C	!	Lactose transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0343
+LEUabcpp	:	ATP_C  + H2O_C  + LEU_L_P  -> ADP_C  + H_C  + LEU_L_C  + PI_C	!	L-leucine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b3454  &&  b3455  &&  b3457  &&  b3458  &&  b3456 )  ||  ( b3454  &&  b3455  &&  b3457  &&  b3460  &&  b3456 ) )
+LEUt2rpp	:	H_P  + LEU_L_P  <-> H_C  + LEU_L_C	!	L-leucine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0401
+LEUtex	:	LEU_L_E  <-> LEU_L_P	!	L-leucine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+LIPAabcpp	:	ATP_C  + H2O_C  + LIPA_C  -> ADP_C  + H_C  + LIPA_P  + PI_C	!	lipid A transport via ABC system (periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	b0914
+LIPACabcpp	:	ATP_C  + H2O_C  + LIPA_COLD_C  -> ADP_C  + H_C  + LIPA_COLD_P  + PI_C	!	lipid (cold) A transport via ABC system (periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	b0914
+LIPAHT2ex	:	COLIPA + H + HDCA -> H2O + HACOLIPA	!	core oligosaccharide lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane)	!	Extracellular space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b0622
+LIPAHTex	:	H + HDCA + LIPA -> H2O + HALIPA	!	Lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane)	!	Extracellular space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b0622
+LIPAtex	:	LIPA_P  -> LIPA_E	!	lipid A transport via vector (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+L_LACt2rpp	:	H_P  + LAC_L_P  <-> H_C  + LAC_L_C	!	L-lactate reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3603  ||  b2975 )
+L_LACtex	:	LAC_L_E  <-> LAC_L_P	!	L-lactate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+LPLIPAL1A120pp	:	1DDECG3P + H2O -> DDCA + GLYC3P + H	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1A140pp	:	1TDECG3P + H2O -> GLYC3P + H + TTDCA	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1A141pp	:	1TDEC7EG3P + H2O -> GLYC3P + H + TTDCEA	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1A160pp	:	1HDECG3P + H2O -> GLYC3P + H + HDCA	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1A161pp	:	1HDEC9EG3P + H2O -> GLYC3P + H + HDCEA	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1A180pp	:	1ODECG3P + H2O -> GLYC3P + H + OCDCA	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1A181pp	:	1ODEC11EG3P + H2O -> GLYC3P + H + OCDCEA	!	Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E120pp	:	1AGPE120 + H2O -> DDCA + G3PE + H	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E140pp	:	1AGPE140 + H2O -> G3PE + H + TTDCA	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E141pp	:	1AGPE141 + H2O -> G3PE + H + TTDCEA	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E160pp	:	1AGPE160 + H2O -> G3PE + H + HDCA	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E161pp	:	1AGPE161 + H2O -> G3PE + H + HDCEA	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E180pp	:	1AGPE180 + H2O -> G3PE + H + OCDCA	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1E181pp	:	1AGPE181 + H2O -> G3PE + H + OCDCEA	!	Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G120pp	:	1AGPG120 + H2O -> DDCA + G3PG + H	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G140pp	:	1AGPG140 + H2O -> G3PG + H + TTDCA	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G141pp	:	1AGPG141 + H2O -> G3PG + H + TTDCEA	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G160pp	:	1AGPG160 + H2O -> G3PG + H + HDCA	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G161pp	:	1AGPG161 + H2O -> G3PG + H + HDCEA	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G180pp	:	1AGPG180 + H2O -> G3PG + H + OCDCA	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LPLIPAL1G181pp	:	1AGPG181 + H2O -> G3PG + H + OCDCEA	!	Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b0494
+LYSabcpp	:	ATP_C  + H2O_C  + LYS_L_P  -> ADP_C  + H_C  + LYS_L_C  + PI_C	!	L-lysine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2310  &&  b2307  &&  b2306  &&  b2308 )
+LYSt2pp	:	H_P  + LYS_L_P  -> H_C  + LYS_L_C	!	L-lysine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2156
+LYSt3pp	:	H_P  + LYS_L_C  -> H_C  + LYS_L_P	!	L-lysine transport out via proton antiport (cytoplasm to periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2923
+LYStex	:	LYS_L_E  <-> LYS_L_P	!	L-lysine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+LYXt2pp	:	H_P  + LYX_L_P  -> H_C  + LYX_L_C	!	L-Lyxose transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3907
+LYXtex	:	LYX_L_E  <-> LYX_L_P	!	L-Lyxose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MALDt2_2pp	:	2* H_P  + MAL_D_P  -> 2* H_C  + MAL_D_C	!	D-Malate transport via proton symport (2 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3528
+MALDtex	:	MAL_D_E  <-> MAL_D_P	!	D-Malate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b1377  ||  b0929  ||  b2215  ||  b0241 )
+MALt2_2pp	:	2* H_P  + MAL_L_P  -> 2* H_C  + MAL_L_C	!	Malate transport via proton symport (2 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3528
+MALt2_3pp	:	3* H_P  + MAL_L_P  -> 3* H_C  + MAL_L_C	!	Malate transport via proton symport (3 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4138  ||  b4123 )
+MALTabcpp	:	ATP_C  + H2O_C  + MALT_P  -> ADP_C  + H_C  + MALT_C  + PI_C	!	maltose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4034  &&  b4033  &&  b4032  &&  b4035 )
+MALtex	:	MAL_L_E  <-> MAL_L_P	!	Malate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MALTHXabcpp	:	ATP_C  + H2O_C  + MALTHX_P  -> ADP_C  + H_C  + MALTHX_C  + PI_C	!	maltohexaose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4034  &&  b4033  &&  b4032  &&  b4035 )
+MALTHXtexi	:	MALTHX_E  -> MALTHX_P	!	maltohexaose transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+MALTPTabcpp	:	ATP_C  + H2O_C  + MALTPT_P  -> ADP_C  + H_C  + MALTPT_C  + PI_C	!	maltopentaose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4034  &&  b4033  &&  b4032  &&  b4035 )
+MALTptspp	:	MALT_P  + PEP_C  -> MALT6P_C  + PYR_C	!	maltose transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2417  &&  b1621  &&  b2415  &&  b2416 )
+MALTPTtexi	:	MALTPT_E  -> MALTPT_P	!	maltopentaoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+MALTtexi	:	MALT_E  -> MALT_P	!	maltoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+MALTTRabcpp	:	ATP_C  + H2O_C  + MALTTR_P  -> ADP_C  + H_C  + MALTTR_C  + PI_C	!	Maltotriose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4034  &&  b4033  &&  b4032  &&  b4035 )
+MALTTRtexi	:	MALTTR_E  -> MALTTR_P	!	Maltotriose transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+MALTTTRabcpp	:	ATP_C  + H2O_C  + MALTTTR_P  -> ADP_C  + H_C  + MALTTTR_C  + PI_C	!	maltotetraose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4034  &&  b4033  &&  b4032  &&  b4035 )
+MALTTTRtexi	:	MALTTTR_E  -> MALTTTR_P	!	maltotetraoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible	!	Intercompartmental	!	Transport, Outer Membrane	!	b4036
+MAN6Pt6_2pp	:	MAN6P_P  + 2* PI_C  -> MAN6P_C  + 2* PI_P	!	Mannose-6-phosphate transport via phosphate antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3666
+MAN6Ptex	:	MAN6P_E  <-> MAN6P_P	!	Mannose 6-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MANGLYCptspp	:	MANGLYC_P  + PEP_C  -> MAN6PGLYC_C  + PYR_C	!	2-O-alpha-mannosyl-D-glycerate transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0731  &&  b2415  &&  b2416 )
+MANGLYCtex	:	MANGLYC_E  <-> MANGLYC_P	!	2-O-alpha-mannosyl-D-glycerate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MANptspp	:	MAN_P  + PEP_C  -> MAN6P_C  + PYR_C	!	D-mannose transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1817  &&  b1818  &&  b1819  &&  b2415  &&  b2416 )
+MANtex	:	MAN_E  <-> MAN_P	!	D-mannose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MCTP1App	:	MUREIN5P5P -> ALA_D + MUREIN5PX4P	!	murein crosslinking transpeptidase 1A:(A2pm->D-ala) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0084  ||  b0635  ||  b0149  ||  b3396 )
+MCTP1Bpp	:	MUREIN5P5P -> ALAALA + MUREIN5PX3P	!	murein crosslinking transpeptidase 1B:(A2pm->A2pm) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0149  ||  b3396 )
+MCTP2App	:	MUREIN5P5P5P -> 2* ALA_D + MUREIN5PX4PX4P	!	murein crosslinking transpeptidase 1A:(A2pm->D-ala) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0084  ||  b0635  ||  b3396  ||  b0149 )
+MDDCP1pp	:	H2O + MUREIN5PX4P -> ALA_D + MUREIN4PX4P	!	murein D,D-carboxypeptidase (murein5px4p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0632  ||  b3182  ||  b0839  ||  b2010 )
+MDDCP2pp	:	H2O + MUREIN5PX4PX4P -> ALA_D + MUREIN4PX4PX4P	!	murein D,D-carboxypeptidase (murein5px4px4p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0632  ||  b3182  ||  b0839  ||  b2010 )
+MDDCP3pp	:	H2O + MUREIN5P5P -> ALA_D + MUREIN5P4P	!	murein D,D-carboxypeptidase (murein5p5p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0632  ||  b3182  ||  b0839  ||  b2010 )
+MDDCP4pp	:	H2O + MUREIN5P4P -> ALA_D + MUREIN4P4P	!	murein D,D-carboxypeptidase (murein5p4p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0632  ||  b3182  ||  b0839  ||  b2010 )
+MDDCP5pp	:	H2O + MUREIN5P3P -> ALA_D + MUREIN4P3P	!	murein D,D-carboxypeptidase (murein5p3p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	( b0632  ||  b3182  ||  b0839  ||  b2010 )
+MDDEP1pp	:	H2O + MUREIN4PX4P -> MUREIN4P4P	!	murein D,D-endopeptidase (murein4px4p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b3182  ||  b2328  ||  b2134 )
+MDDEP2pp	:	H2O + MUREIN3PX4P -> MUREIN4P3P	!	murein D,D-endopeptidase (murein3px4p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b3182  ||  b2328  ||  b2134 )
+MDDEP3pp	:	H2O + MUREIN5PX4P -> MUREIN5P4P	!	murein D,D-endopeptidase (murein5px4p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b3182  ||  b2328  ||  b2134 )
+MDDEP4pp	:	H2O + MUREIN4PX4PX4P -> MUREIN4PX4P4P	!	murein D,D-endopeptidase (murein4px4px4p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b3182  ||  b2328  ||  b2134 )
+MELIBt2pp	:	H_P  + MELIB_P  -> H_C  + MELIB_C	!	melibiose transport in via symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4120
+MELIBt3ipp	:	H_P  + MELIB_C  -> H_C  + MELIB_P	!	melibiose transport in via antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1528
+MELIBtex	:	MELIB_E  <-> MELIB_P	!	melibiose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+METabcpp	:	ATP_C  + H2O_C  + MET_L_P  -> ADP_C  + H_C  + MET_L_C  + PI_C	!	L-methionine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0198  &&  b0199  &&  b0197 )
+METDabcpp	:	ATP_C  + H2O_C  + MET_D_P  -> ADP_C  + H_C  + MET_D_C  + PI_C	!	D-methionine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0198  &&  b0199  &&  b0197 )
+METDtex	:	MET_D_E  <-> MET_D_P	!	D-methionine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+METSOX1abcpp	:	ATP_C  + H2O_C  + METSOX_S_L_P  -> ADP_C  + H_C  + METSOX_S_L_C  + PI_C	!	L-methionine S-oxide transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+METSOX1tex	:	METSOX_S_L_E  <-> METSOX_S_L_P	!	L-methionine S-oxide diffusion (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+METSOX2abcpp	:	ATP_C  + H2O_C  + METSOX_R_L_P  -> ADP_C  + H_C  + METSOX_R_L_C  + PI_C	!	L-methionine R-oxide transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+METSOX2tex	:	METSOX_R_L_E  <-> METSOX_R_L_P	!	L-methionine R-oxide diffusion (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+METtex	:	MET_L_E  <-> MET_L_P	!	L-methionine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MG2t3_2pp	:	2* H_C  + MG2_P  <-> 2* H_P  + MG2_C	!	magnesium (Mg+2) transport in/out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	Unknown
+MG2tex	:	MG2_E  <-> MG2_P	!	magnesium (Mg+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MG2tpp	:	MG2_P  -> MG2_C	!	magnesium (+2) transport in via diffusion	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3816
+MG2uabcpp	:	ATP_C  + H2O_C  + MG2_P  -> ADP_C  + H_C  + MG2_C  + PI_C	!	Magnesium (Mg+2) ABC transporter (ubtake, periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b4242
+MINOHPtexi	:	MINOHP_E  -> MINOHP_P	!	myo-inositol phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	Unknown
+MLDCP1App	:	H2O + MUREIN5PX4P -> ALAALA + MUREIN3PX4P	!	murein L,D-carboxypeptidase (murein5px4p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	Unknown
+MLDCP1Bpp	:	H2O + MUREIN4P4P -> ALA_D + MUREIN4P3P	!	murein L,D-carboxypeptidase (murein4p4p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	Unknown
+MLDCP2App	:	H2O + MUREIN5P5P -> ALAALA + MUREIN5P3P	!	murein L,D-carboxypeptidase (murein5p5p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	Unknown
+MLDCP2Bpp	:	H2O + MUREIN4P3P -> ALA_D + MUREIN3P3P	!	murein L,D-carboxypeptidase (murein4p3p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	Unknown
+MLDCP3App	:	H2O + MUREIN5PX3P -> ALAALA + MUREIN3PX3P	!	murein L,D-carboxypeptidase (murein5px3p) (periplasm)	!	Periplasmic space	!	Murein Biosynthesis	!	Unknown
+MLDEP1pp	:	H2O + MUREIN3PX3P -> MUREIN3P3P	!	murein L,D-endopeptidase (murein3px3p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	Unknown
+MLDEP2pp	:	H2O + MUREIN5PX3P -> MUREIN5P3P	!	murein L,D-endopeptidase (murein5px3p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	Unknown
+MLTGY1pp	:	MUREIN4P4P -> 2* ANHGM4P	!	murein lytic transglycosylase (murein4p4p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b4392  ||  b2813  ||  b2701  ||  b1193  ||  b2963 )
+MLTGY2pp	:	MUREIN4P3P -> ANHGM3P + ANHGM4P	!	murein lytic transglycosylase (murein4p3p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b4392  ||  b2813  ||  b2701  ||  b1193  ||  b2963 )
+MLTGY3pp	:	MUREIN3P3P -> 2* ANHGM3P	!	murein lytic transglycosylase (murein3p3p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b4392  ||  b2813  ||  b2701  ||  b1193  ||  b2963 )
+MLTGY4pp	:	MUREIN4PX4P4P -> ANHGM4P + MUREIN4PX4P	!	murein lytic transglycosylase (murein4px4p4p) (periplasm)	!	Periplasmic space	!	Murein Recycling	!	( b4392  ||  b2813  ||  b2701  ||  b1193  ||  b2963 )
+MMETt2pp	:	H_P  + MMET_P  -> H_C  + MMET_C	!	S-methylmethionine permease (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0260
+MMETtex	:	MMET_E  <-> MMET_P	!	S-methyl-L-methionine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MN2t3pp	:	H_P  + MN2_C  -> H_C  + MN2_P	!	manganese (Mn+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b3915  ||  b0752 )
+MN2tpp	:	MN2_P  -> MN2_C	!	manganese transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3040
+MNLptspp	:	MNL_P  + PEP_C  -> MNL1P_C  + PYR_C	!	mannitol transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3599  &&  b2415  &&  b2416 )
+MNLtex	:	MNL_E  <-> MNL_P	!	mannitol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MNt2pp	:	H_P  + MN2_P  -> H_C  + MN2_C	!	manganese (Mn+2) transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2392
+MNtex	:	MN2_E  <-> MN2_P	!	Manganese (Mn+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MOBDabcpp	:	ATP_C  + H2O_C  + MOBD_P  -> ADP_C  + H_C  + MOBD_C  + PI_C	!	molybdate transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( ( b0763  &&  b0764  &&  b0765 )  ||  ( b2422  &&  b2424  &&  b2423  &&  b3917 )  ||  ( b2422  &&  b2425  &&  b2424  &&  b2423 ) )
+MOBDtex	:	MOBD_E  <-> MOBD_P	!	molybdate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+MSO3abcpp	:	ATP_C  + H2O_C  + MSO3_P  -> ADP_C  + H_C  + MSO3_C  + PI_C	!	methanesulfonate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0936  &&  b0933  &&  b0934 )
+MSO3tex	:	MSO3_E  <-> MSO3_P	!	methanesulfonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+N2Otex	:	N2O_E  <-> N2O_P	!	nitrious oxide transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+N2Otpp	:	N2O_P  <-> N2O_C	!	nitrious oxide transport (diffusion)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	s0001
+NACtex	:	NAC_E  <-> NAC_P	!	Nicotinic acid transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NACtpp	:	NAC_P  -> NAC_C	!	Nicotinic acid uptake (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+NADH16pp	:	4* H_C  + NADH_C  + Q8_C  -> 3* H_P  + NAD_C  + Q8H2_C	!	NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b2276  &&  b2277  &&  b2278  &&  b2279  &&  b2280  &&  b2281  &&  b2282  &&  b2283  &&  b2284  &&  b2285  &&  b2286  &&  b2287  &&  b2288 )
+NADH17pp	:	4* H_C  + MQN8_C  + NADH_C  -> 3* H_P  + MQL8_C  + NAD_C	!	NADH dehydrogenase (menaquinone-8 & 3 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b2276  &&  b2277  &&  b2278  &&  b2279  &&  b2280  &&  b2281  &&  b2282  &&  b2283  &&  b2284  &&  b2285  &&  b2286  &&  b2287  &&  b2288 )
+NADH18pp	:	2DMMQ8_C  + 4* H_C  + NADH_C  -> 2DMMQL8_C  + 3* H_P  + NAD_C	!	NADH dehydrogenase (demethylmenaquinone-8 & 3 protons) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b2276  &&  b2277  &&  b2278  &&  b2279  &&  b2280  &&  b2281  &&  b2282  &&  b2283  &&  b2284  &&  b2285  &&  b2286  &&  b2287  &&  b2288 )
+NAt3_1p5pp	:	3* H_P  + 2* NA1_C  -> 3* H_C  + 2* NA1_P	!	sodium proton antiporter (H:NA is 1.5) (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b1186
+NAt3_2pp	:	2* H_P  + NA1_C  -> 2* H_C  + NA1_P	!	sodium proton antiporter (H:NA is 2) (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b0019
+NAt3pp	:	H_P  + NA1_C  -> H_C  + NA1_P	!	sodium transport out via proton antiport (cytoplasm to periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0842  ||  b1216 )
+NAtex	:	NA1_E  <-> NA1_P	!	sodium transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NH4tex	:	NH4_E  <-> NH4_P	!	ammonia transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NH4tpp	:	NH4_P  <-> NH4_C	!	ammonia reversible transport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0451  ||  s0001 )
+NI2abcpp	:	ATP_C  + H2O_C  + NI2_C  -> ADP_C  + H_C  + NI2_P  + PI_C	!	Nickle (Ni+2) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3469
+NI2t3pp	:	H_P  + NI2_C  -> H_C  + NI2_P	!	nickle (Ni+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b3915  ||  b0752 )
+NI2tex	:	NI2_E  <-> NI2_P	!	nickel transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NI2tpp	:	NI2_P  -> NI2_C	!	nickel (+2) transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3816
+NI2uabcpp	:	ATP_C  + H2O_C  + NI2_P  -> ADP_C  + H_C  + NI2_C  + PI_C	!	nickel transport via ABC system (uptake, periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( ( b3476  &&  b3477  &&  b3478  &&  b3479  &&  b3480 )  ||  b4242 )
+NMNPtpp	:	NMN_P  -> NMN_C	!	NMN permease (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0751
+NMNt7pp	:	H2O_C  + NMN_P  -> H_C  + NCAM_C  + R5P_C	!	NMN transport via NMN glycohydrolase (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+NMNtex	:	NMN_E  <-> NMN_P	!	NMN transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NO2t2rpp	:	H_P  + NO2_P  <-> H_C  + NO2_C	!	nitrite transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b3367  ||  b1223 )
+NO2tex	:	NO2_E  <-> NO2_P	!	nitrite transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NO3R1bpp	:	NO3_P  + Q8H2_C  -> H2O_P  + NO2_P  + Q8_C	!	Nitrate reductase (Ubiquinol-8)	!	Intercompartmental	!	Nitrogen Metabolism	!	( ( b2203  &&  b2206 )  &&  b2202  &&  b2205  &&  b2204 )
+NO3R1pp	:	2* H_C  + NO3_C  + Q8H2_C  -> 2* H_P  + H2O_C  + NO2_C  + Q8_C	!	Nitrate reductase (Ubiquinol-8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b1465  &&  b1466  &&  b1467  &&  b1468 )  ||  ( b1224  &&  b1225  &&  b1226  &&  b1227 ) )
+NO3R2bpp	:	MQL8_C  + NO3_P  -> H2O_P  + MQN8_C  + NO2_P	!	Nitrate reductase (Menaquinol-8) (periplasm)	!	Intercompartmental	!	Nitrogen Metabolism	!	( ( b2203  &&  b2206 )  &&  b2202 )
+NO3R2pp	:	2* H_C  + MQL8_C  + NO3_C  -> 2* H_P  + H2O_C  + MQN8_C  + NO2_C	!	Nitrate reductase (Menaquinol-8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b1465  &&  b1466  &&  b1467  &&  b1468 )  ||  ( b1224  &&  b1225  &&  b1226  &&  b1227 ) )
+NO3t7pp	:	NO2_C  + NO3_P  -> NO2_P  + NO3_C	!	nitrate transport in via nitrite antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b1223  ||  b1469 )
+NO3tex	:	NO3_E  <-> NO3_P	!	nitrate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b2215  ||  b1377 )
+NOtex	:	NO_E  <-> NO_P	!	nitric oxide transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+NOtpp	:	NO_P  <-> NO_C	!	NO transport (diffusion)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	s0001
+NTD10pp	:	H2O + XMP -> PI + XTSN	!	5'-nucleotidase (XMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD11pp	:	H2O + IMP -> INS + PI	!	5'-nucleotidase (IMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD12pp	:	DIMP + H2O -> DIN + PI	!	5'-nucleotidase (dIMP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD1pp	:	DUMP + H2O -> DURI + PI	!	5'-nucleotidase (dUMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD2pp	:	H2O + UMP -> PI + URI	!	5'-nucleotidase (UMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD3pp	:	DCMP + H2O -> DCYT + PI	!	5'-nucleotidase (dCMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD4pp	:	CMP + H2O -> CYTD + PI	!	5'-nucleotidase (CMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD5pp	:	DTMP + H2O -> PI + THYMD	!	5'-nucleotidase (dTMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD6pp	:	DAMP + H2O -> DAD_2 + PI	!	5'-nucleotidase (dAMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD7pp	:	AMP + H2O -> ADN + PI	!	5'-nucleotidase (AMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD8pp	:	DGMP + H2O -> DGSN + PI	!	5'-nucleotidase (dGMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTD9pp	:	GMP + H2O -> GSN + PI	!	5'-nucleotidase (GMP)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	( b0480  ||  b4055 )
+NTP3pp	:	GTP + H2O -> GDP + H + PI	!	nucleoside-triphosphatase (GTP) (periplasm)	!	Periplasmic space	!	Nucleotide Salvage Pathway	!	b0980
+NTRIR3pp	:	2* H_P  + NO2_P  + 3* Q8H2_C  -> 2* H2O_P  + NH4_P  + 3* Q8_C	!	nitrite Reductase (Ubiquinole-8, periplasm)	!	Intercompartmental	!	Nitrogen Metabolism	!	( b4070  &&  b4071  &&  b4072  &&  b4073 )
+NTRIR4pp	:	2* H_P  + 3* MQL8_C  + NO2_P  -> 2* H2O_P  + 3* MQN8_C  + NH4_P	!	nitrite Reductase (Menaquinole-8, periplasm)	!	Intercompartmental	!	Nitrogen Metabolism	!	( b4070  &&  b4071  &&  b4072  &&  b4073 )
+O16A4COLIPAtex	:	O16A4COLIPA_P  -> O16A4COLIPA_E	!	O16 antigen (x4) core oligosaccharide lipid A transport (periplasm to extracellular)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+O16A4Lpp	:	COLIPA + O16A4UND -> H + O16A4COLIPA + UDCPDP	!	O16 anitgen (x4) ligase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b3622
+O16AP1pp	:	2* O16AUND -> H + O16A2UND + UDCPDP	!	O16 antigen polymerase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	( b2035  &&  b2027 )
+O16AP2pp	:	O16A2UND + O16AUND -> H + O16A3UND + UDCPDP	!	O16 antigen polymerase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	( b2035  &&  b2027 )
+O16AP3pp	:	O16A3UND + O16AUND -> H + O16A4UND + UDCPDP	!	O16 antigen polymerase (periplasm)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	( b2035  &&  b2027 )
+O16AUNDtpp	:	O16AUND_C  -> O16AUND_P	!	O16 antigen (flippase, cytoplasm to periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	b2037
+O2Stex	:	O2S_E  <-> O2S_P	!	superoxide anion transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+O2tex	:	O2_E  <-> O2_P	!	oxygen transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+O2tpp	:	O2_P  <-> O2_C	!	o2 transport via diffusion (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	s0001
+OCDCAtexi	:	OCDCA_E  -> OCDCA_P	!	Octadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+OCDCEAtexi	:	OCDCEA_E  -> OCDCEA_P	!	Octadecenoate (n-C18:1) transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+OCTAtex	:	OCTA_E  <-> OCTA_P	!	Octanoate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ORNabcpp	:	ATP_C  + H2O_C  + ORN_P  -> ADP_C  + H_C  + ORN_C  + PI_C	!	ornithine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2310  &&  b2307  &&  b2306  &&  b2308 )
+ORNtex	:	ORN_E  <-> ORN_P	!	ornithine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+OROTt2_2pp	:	2* H_P  + OROT_P  -> 2* H_C  + OROT_C	!	Orotate transport via proton symport (2 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3528
+OROTtex	:	OROT_E  <-> OROT_P	!	Orotate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b1377  ||  b0929  ||  b0241  ||  b2215 )
+PA120abcpp	:	ATP_C  + H2O_C  + PA120_C  -> ADP_C  + H_C  + PA120_P  + PI_C	!	phosphatidate transport via ABC system (n-C12:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PA140abcpp	:	ATP_C  + H2O_C  + PA140_C  -> ADP_C  + H_C  + PA140_P  + PI_C	!	phosphatidate transport via ABC system (n-C14:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PA141abcpp	:	ATP_C  + H2O_C  + PA141_C  -> ADP_C  + H_C  + PA141_P  + PI_C	!	phosphatidate transport via ABC system (n-C14:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PA160abcpp	:	ATP_C  + H2O_C  + PA160_C  -> ADP_C  + H_C  + PA160_P  + PI_C	!	phosphatidate transport via ABC system (n-C16:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PA161abcpp	:	ATP_C  + H2O_C  + PA161_C  -> ADP_C  + H_C  + PA161_P  + PI_C	!	phosphatidate transport via ABC system (n-C16:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PA180abcpp	:	ATP_C  + H2O_C  + PA180_C  -> ADP_C  + H_C  + PA180_P  + PI_C	!	phosphatidate transport via ABC system (n-C18:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PA181abcpp	:	ATP_C  + H2O_C  + PA181_C  -> ADP_C  + H_C  + PA181_P  + PI_C	!	phosphatidate transport via ABC system (n-C18:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PACALDt2rpp	:	H_P  + PACALD_P  <-> H_C  + PACALD_C	!	phenylacetaldehyde reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+PACALDtex	:	PACALD_E  <-> PACALD_P	!	phenethylacetaldehyde transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PAPA120pp	:	H2O + PA120 -> 12DGR120 + PI	!	Phosphatidate phosphatase (periplasmic, n-C12:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PAPA140pp	:	H2O + PA140 -> 12DGR140 + PI	!	Phosphatidate phosphatase (periplasmic, n-C14:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PAPA141pp	:	H2O + PA141 -> 12DGR141 + PI	!	Phosphatidate phosphatase (periplasmic, n-C14:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PAPA160pp	:	H2O + PA160 -> 12DGR160 + PI	!	Phosphatidate phosphatase (periplasmic, n-C16:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PAPA161pp	:	H2O + PA161 -> 12DGR161 + PI	!	Phosphatidate phosphatase (periplasmic, n-C16:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PAPA180pp	:	H2O + PA180 -> 12DGR180 + PI	!	Phosphatidate phosphatase (periplasmic, n-C18:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PAPA181pp	:	H2O + PA181 -> 12DGR181 + PI	!	Phosphatidate phosphatase (periplasmic, n-C18:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b1278
+PE120abcpp	:	ATP_C  + H2O_C  + PE120_C  -> ADP_C  + H_C  + PE120_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C12:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PE140abcpp	:	ATP_C  + H2O_C  + PE140_C  -> ADP_C  + H_C  + PE140_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C14:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PE141abcpp	:	ATP_C  + H2O_C  + PE141_C  -> ADP_C  + H_C  + PE141_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C14:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PE160abcpp	:	ATP_C  + H2O_C  + PE160_C  -> ADP_C  + H_C  + PE160_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C16:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PE161abcpp	:	ATP_C  + H2O_C  + PE161_C  -> ADP_C  + H_C  + PE161_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C16:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PE180abcpp	:	ATP_C  + H2O_C  + PE180_C  -> ADP_C  + H_C  + PE180_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C18:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PE181abcpp	:	ATP_C  + H2O_C  + PE181_C  -> ADP_C  + H_C  + PE181_P  + PI_C	!	phosphatidylethanolamine transport via ABC system (n-C18:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PEAMNOpp	:	H2O + O2 + PEAMN -> H2O2 + NH4 + PACALD	!	Phenethylamine oxidase	!	Periplasmic space	!	Nitrogen Metabolism	!	b1386
+PEAMNtex	:	PEAMN_E  <-> PEAMN_P	!	phenethylamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PETNT161pp	:	LIPA + PE161 -> 12DGR161 + ENLIPA	!	phosphoethanolamine transferase (c-C16:1)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b3546
+PETNT181pp	:	LIPA + PE181 -> 12DGR181 + ENLIPA	!	phosphoethanolamine transferase (c-C16:1)	!	Periplasmic space	!	Lipopolysaccharide Biosynthesis / Recycling	!	b3546
+PG120abcpp	:	ATP_C  + H2O_C  + PG120_C  -> ADP_C  + H_C  + PG120_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C12:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PG140abcpp	:	ATP_C  + H2O_C  + PG140_C  -> ADP_C  + H_C  + PG140_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C14:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PG141abcpp	:	ATP_C  + H2O_C  + PG141_C  -> ADP_C  + H_C  + PG141_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C14:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PG160abcpp	:	ATP_C  + H2O_C  + PG160_C  -> ADP_C  + H_C  + PG160_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C16:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PG161abcpp	:	ATP_C  + H2O_C  + PG161_C  -> ADP_C  + H_C  + PG161_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C16:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PG180abcpp	:	ATP_C  + H2O_C  + PG180_C  -> ADP_C  + H_C  + PG180_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C18:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PG181abcpp	:	ATP_C  + H2O_C  + PG181_C  -> ADP_C  + H_C  + PG181_P  + PI_C	!	phosphatidylglycerol transport via ABC system (n-C18:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP120abcpp	:	ATP_C  + H2O_C  + PGP120_C  -> ADP_C  + H_C  + PGP120_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C12:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP140abcpp	:	ATP_C  + H2O_C  + PGP140_C  -> ADP_C  + H_C  + PGP140_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C14:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP141abcpp	:	ATP_C  + H2O_C  + PGP141_C  -> ADP_C  + H_C  + PGP141_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C14:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP160abcpp	:	ATP_C  + H2O_C  + PGP160_C  -> ADP_C  + H_C  + PGP160_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C16:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP161abcpp	:	ATP_C  + H2O_C  + PGP161_C  -> ADP_C  + H_C  + PGP161_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C16:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP180abcpp	:	ATP_C  + H2O_C  + PGP180_C  -> ADP_C  + H_C  + PGP180_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C18:0, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGP181abcpp	:	ATP_C  + H2O_C  + PGP181_C  -> ADP_C  + H_C  + PGP181_P  + PI_C	!	phosphatidylglycerophosphate transport via ABC system (n-C18:1, periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0914
+PGPP120pp	:	H2O + PGP120 -> PG120 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1278  ||  b0418 )
+PGPP140pp	:	H2O + PGP140 -> PG140 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1278  ||  b0418 )
+PGPP141pp	:	H2O + PGP141 -> PG141 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b0418  ||  b1278 )
+PGPP160pp	:	H2O + PGP160 -> PG160 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b0418  ||  b1278 )
+PGPP161pp	:	H2O + PGP161 -> PG161 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1278  ||  b0418 )
+PGPP180pp	:	H2O + PGP180 -> PG180 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:0)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b1278  ||  b0418 )
+PGPP181pp	:	H2O + PGP181 -> PG181 + PI	!	phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:1)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	( b0418  ||  b1278 )
+PHEMEabcpp	:	ATP_C  + H2O_C  + PHEME_C  -> ADP_C  + H_C  + PHEME_P  + PI_C	!	protoheme transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2201  &&  b2200  &&  b2199 )
+PHEMEtiex	:	PHEME_P  -> PHEME_E	!	protoheme transport irreversible out via diffusion (periplasm to extracellular)	!	Intercompartmental	!	Transport, Outer Membrane	!	Unknown
+PHEt2rpp	:	H_P  + PHE_L_P  <-> H_C  + PHE_L_C	!	L-phenylalanine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0576  ||  b0112 )
+PHEtex	:	PHE_L_E  <-> PHE_L_P	!	L-phenylalanine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PHYTSpp	:	6* H2O + MINOHP -> INOST + 6* PI	!	Phytase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0980
+PIt2rpp	:	H_P  + PI_P  <-> H_C  + PI_C	!	phosphate reversible transport via symport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b2987  ||  b3493 )
+PItex	:	PI_E  <-> PI_P	!	phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PIuabcpp	:	ATP_C  + H2O_C  + PI_P  -> ADP_C  + H_C  + 2* PI_C	!	phosphate transport via ABC system (uptake, periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b3726  &&  b3725  &&  b3727  &&  b3728 )
+PLIPA1A120pp	:	H2O + PA120 -> 2DDECG3P + DDCA	!	Phospholipase A1 (phosphatidate, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1A140pp	:	H2O + PA140 -> 2TDECG3P + TTDCA	!	Phospholipase A1 (phosphatidate, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1A141pp	:	H2O + PA141 -> 2TDEC7EG3P + TTDCEA	!	Phospholipase A1 (phosphatidate, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1A160pp	:	H2O + PA160 -> 2HDECG3P + HDCA	!	Phospholipase A1 (phosphatidate, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1A161pp	:	H2O + PA161 -> 2HDEC9EG3P + HDCEA	!	Phospholipase A1 (phosphatidate, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1A180pp	:	H2O + PA180 -> 2ODECG3P + OCDCA	!	Phospholipase A1 (phosphatidate, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1A181pp	:	H2O + PA181 -> 2ODEC11EG3P + OCDCEA	!	Phospholipase A1 (phosphatidate, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E120pp	:	H2O + PE120 -> 2AGPE120 + DDCA + H	!	Phospholipase A1 (phosphatidylethanolamine, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E140pp	:	H2O + PE140 -> 2AGPE140 + H + TTDCA	!	Phospholipase A1 (phosphatidylethanolamine, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E141pp	:	H2O + PE141 -> 2AGPE141 + H + TTDCEA	!	Phospholipase A1 (phosphatidylethanolamine, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E160pp	:	H2O + PE160 -> 2AGPE160 + H + HDCA	!	Phospholipase A1 (phosphatidylethanolamine, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E161pp	:	H2O + PE161 -> 2AGPE161 + H + HDCEA	!	Phospholipase A1 (phosphatidylethanolamine, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E180pp	:	H2O + PE180 -> 2AGPE180 + H + OCDCA	!	Phospholipase A1 (phosphatidylethanolamine, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1E181pp	:	H2O + PE181 -> 2AGPE181 + H + OCDCEA	!	Phospholipase A1 (phosphatidylethanolamine, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G120pp	:	H2O + PG120 -> 2AGPG120 + DDCA + H	!	Phospholipase A1 (phosphatidylglycerol, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G140pp	:	H2O + PG140 -> 2AGPG140 + H + TTDCA	!	Phospholipase A1 (phosphatidylglycerol, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G141pp	:	H2O + PG141 -> 2AGPG141 + H + TTDCEA	!	Phospholipase A1 (phosphatidylglycerol, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G160pp	:	H2O + PG160 -> 2AGPG160 + H + HDCA	!	Phospholipase A1 (phosphatidylglycerol, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G161pp	:	H2O + PG161 -> 2AGPG161 + H + HDCEA	!	Phospholipase A1 (phosphatidylglycerol, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G180pp	:	H2O + PG180 -> 2AGPG180 + H + OCDCA	!	Phospholipase A1 (phosphatidylglycerol, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA1G181pp	:	H2O + PG181 -> 2AGPG181 + H + OCDCEA	!	Phospholipase A1 (phosphatidylglycerol, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A120pp	:	H2O + PA120 -> 1DDECG3P + DDCA + H	!	Phospholipase A2 (phosphatidate, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A140pp	:	H2O + PA140 -> 1TDECG3P + H + TTDCA	!	Phospholipase A2 (phosphatidate, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A141pp	:	H2O + PA141 -> 1TDEC7EG3P + H + TTDCEA	!	Phospholipase A2 (phosphatidate, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A160pp	:	H2O + PA160 -> 1HDECG3P + H + HDCA	!	Phospholipase A2 (phosphatidate, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A161pp	:	H2O + PA161 -> 1HDEC9EG3P + H + HDCEA	!	Phospholipase A2 (phosphatidate, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A180pp	:	H2O + PA180 -> 1ODECG3P + H + OCDCA	!	Phospholipase A2 (phosphatidate, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2A181pp	:	H2O + PA181 -> 1ODEC11EG3P + H + OCDCEA	!	Phospholipase A2 (phosphatidate, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E120pp	:	H2O + PE120 -> 1AGPE120 + DDCA + H	!	Phospholipase A2 (phosphatidylethanolamine, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E140pp	:	H2O + PE140 -> 1AGPE140 + H + TTDCA	!	Phospholipase A2 (phosphatidylethanolamine, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E141pp	:	H2O + PE141 -> 1AGPE141 + H + TTDCEA	!	Phospholipase A2 (phosphatidylethanolamine, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E160pp	:	H2O + PE160 -> 1AGPE160 + H + HDCA	!	Phospholipase A2 (phosphatidylethanolamine, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E161pp	:	H2O + PE161 -> 1AGPE161 + H + HDCEA	!	Phospholipase A2 (phosphatidylethanolamine, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E180pp	:	H2O + PE180 -> 1AGPE180 + H + OCDCA	!	Phospholipase A2 (phosphatidylethanolamine, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2E181pp	:	H2O + PE181 -> 1AGPE181 + H + OCDCEA	!	Phospholipase A2 (phosphatidylethanolamine, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G120pp	:	H2O + PG120 -> 1AGPG120 + DDCA + H	!	Phospholipase A2 (phosphatidylglycerol, n-C12:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G140pp	:	H2O + PG140 -> 1AGPG140 + H + TTDCA	!	Phospholipase A2 (phosphatidylglycerol, n-C14:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G141pp	:	H2O + PG141 -> 1AGPG141 + H + TTDCEA	!	Phospholipase A2 (phosphatidylglycerol, n-C14:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G160pp	:	H2O + PG160 -> 1AGPG160 + H + HDCA	!	Phospholipase A2 (phosphatidylglycerol, n-C16:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G161pp	:	H2O + PG161 -> 1AGPG161 + H + HDCEA	!	Phospholipase A2 (phosphatidylglycerol, n-C16:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G180pp	:	H2O + PG180 -> 1AGPG180 + H + OCDCA	!	Phospholipase A2 (phosphatidylglycerol, n-C18:0) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PLIPA2G181pp	:	H2O + PG181 -> 1AGPG181 + H + OCDCEA	!	Phospholipase A2 (phosphatidylglycerol, n-C18:1) (periplasm)	!	Periplasmic space	!	Glycerophospholipid Metabolism	!	b3821
+PNTOt4pp	:	NA1_P  + PNTO_R_P  -> NA1_C  + PNTO_R_C	!	Pantothenate sodium symporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3258
+PNTOtex	:	PNTO_R_E  <-> PNTO_R_P	!	Pantothenate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PPALtex	:	PPAL_E  <-> PPAL_P	!	propanal transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PPALtpp	:	PPAL_C  <-> PPAL_P	!	propanal transport via channel (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+PPAt4pp	:	NA1_P  + PPA_P  -> NA1_C  + PPA_C	!	Na+/Propionate symporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1015
+PPAtex	:	PPA_E  <-> PPA_P	!	propionate transport via diffusion	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b1377  ||  b0929  ||  b2215  ||  b0241 )
+PPPNt2rpp	:	H_P  + PPPN_P  <-> H_C  + PPPN_C	!	3-phenylpropionate transport via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2536
+PPPNtex	:	PPPN_E  <-> PPPN_P	!	3-phenylpropionate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PPTHpp	:	H2O + PPT -> H2 + PI	!	Phosphonate hydrogenase (periplasm)	!	Periplasmic space	!	Unassigned	!	b0383
+PPTtex	:	PPT_E  <-> PPT_P	!	Phosphonate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PROabcpp	:	ATP_C  + H2O_C  + PRO_L_P  -> ADP_C  + H_C  + PI_C  + PRO_L_C	!	L-proline transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2677  &&  b2678  &&  b2679 )
+PROGLYabcpp	:	ATP_C  + H2O_C  + PROGLY_P  -> ADP_C  + H_C  + PI_C  + PROGLY_C	!	L-Prolinylglycine (Pro-Gly) transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3544  &&  b3543  &&  b3542  &&  b3541  &&  b3540 )
+PROGLYtex	:	PROGLY_E  <-> PROGLY_P	!	L-Prolinylglycine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PROt2rpp	:	H_P  + PRO_L_P  <-> H_C  + PRO_L_C	!	L-proline reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4111
+PROt4pp	:	NA1_P  + PRO_L_P  -> NA1_C  + PRO_L_C	!	Na+/Proline-L symporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1015
+PROtex	:	PRO_L_E  <-> PRO_L_P	!	L-proline transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PSCLYSt2pp	:	H_P  + PSCLYS_P  -> H_C  + PSCLYS_C	!	psicoselysine transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3370
+PSCLYStex	:	PSCLYS_E  <-> PSCLYS_P	!	psicoselysine transporter via diffusion (extracellular)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0929  ||  b2215  ||  b1377  ||  b0241 )
+PSERtex	:	PSER_L_E  <-> PSER_L_P	!	phospho-L-serine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PSP_Lpp	:	H2O + PSER_L -> PI + SER_L	!	phospho-L-serine phosphatase (periplasmic)	!	Periplasmic space	!	Glycine and Serine Metabolism	!	b4055
+PTHRpp	:	H2O + THRP -> PI + THR_L	!	phospho-L-threonine phosphatase (periplasmic)	!	Periplasmic space	!	Threonine and Lysine Metabolism	!	b4055
+PTRCabcpp	:	ATP_C  + H2O_C  + PTRC_P  -> ADP_C  + H_C  + PI_C  + PTRC_C	!	putrescine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b0854  &&  b0855  &&  b0856  &&  b0857 )  ||  ( b1126  &&  b1125  &&  b1124  &&  b1123 )  ||  ( b1440  &&  b1441  &&  b1442  &&  b1443 ) )
+PTRCORNt7pp	:	ORN_C  + PTRC_P  <-> ORN_P  + PTRC_C	!	putrescine/ornithine antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0692
+PTRCt2pp	:	H_P  + PTRC_P  -> H_C  + PTRC_C	!	putrescine transport in via proton symport	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1296  ||  b0692 )
+PTRCtex	:	PTRC_E  <-> PTRC_P	!	putrescine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+PYRt2rpp	:	H_P  + PYR_P  <-> H_C  + PYR_C	!	pyruvate reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+PYRtex	:	PYR_E  <-> PYR_P	!	pyruvate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+R5PPpp	:	H2O + R5P -> PI + RIB_D	!	ribose 5-phosphate phosphatase	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b4055
+R5Ptex	:	R5P_E  <-> R5P_P	!	Ribose 5-phosphate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+RIBabcpp	:	ATP_C  + H2O_C  + RIB_D_P  -> ADP_C  + H_C  + PI_C  + RIB_D_C	!	D-ribose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b4231  &&  b4227  &&  b4485  &&  b4230 )  ||  ( b3749  &&  b3751  &&  b3750  &&  b3748 )  ||  ( b4087  &&  b4088  &&  b4086 ) )
+RIBtex	:	RIB_D_E  <-> RIB_D_P	!	ribose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+RMNtex	:	RMN_E  <-> RMN_P	!	L-rhamnose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+RMNtpp	:	H_P  + RMN_P  -> H_C  + RMN_C	!	L-rhamnose transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3907
+SBTptspp	:	PEP_C  + SBT_D_P  -> PYR_C  + SBT6P_C	!	D-sorbitol transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2415  &&  b2416  &&  b2702  &&  b2704  &&  b2703 )
+SBTtex	:	SBT_D_E  <-> SBT_D_P	!	D-sorbitol transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SERt2rpp	:	H_P  + SER_L_P  <-> H_C  + SER_L_C	!	L-serine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2796  ||  b3116 )
+SERt4pp	:	NA1_P  + SER_L_P  -> NA1_C  + SER_L_C	!	L-serine via sodium symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3089
+SERtex	:	SER_L_E  <-> SER_L_P	!	L-serine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SKMt2pp	:	H_P  + SKM_P  -> H_C  + SKM_C	!	shikimate transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1981
+SKMtex	:	SKM_E  <-> SKM_P	!	shikimate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SO2tex	:	SO2_E  <-> SO2_P	!	SO2 transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SO2tpp	:	SO2_P  <-> SO2_C	!	SO2 transport via diffusion (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	s0001
+SO3tex	:	SO3_E  <-> SO3_P	!	sulfite transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b1377  ||  b2215  ||  b0241  ||  b0929 )
+SO4tex	:	SO4_E  <-> SO4_P	!	sulfate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SPMDabcpp	:	ATP_C  + H2O_C  + SPMD_P  -> ADP_C  + H_C  + PI_C  + SPMD_C	!	spermidine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( ( b1440  &&  b1441  &&  b1442  &&  b1443 )  ||  ( b1126  &&  b1125  &&  b1124  &&  b1123 ) )
+SPMDtex	:	SPMD_E  <-> SPMD_P	!	spermidine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SPODMpp	:	2* H + 2* O2S -> H2O2 + O2	!	superoxide dismutase	!	Periplasmic space	!	Unassigned	!	b1646
+SUCCt2_2pp	:	2* H_P  + SUCC_P  -> 2* H_C  + SUCC_C	!	succinate transport via proton symport (2 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3528
+SUCCt2_3pp	:	3* H_P  + SUCC_P  -> 3* H_C  + SUCC_C	!	Succintate transport via proton symport (3 H) (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4123  ||  b4138 )
+SUCCt3pp	:	H_P  + SUCC_C  -> H_C  + SUCC_P	!	succinate transport out via proton antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+SUCCtex	:	SUCC_E  <-> SUCC_P	!	succinate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SUCFUMtpp	:	FUM_P  + SUCC_C  <-> FUM_C  + SUCC_P	!	succinate:fumarate antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b4138  ||  b4123  ||  b0621 )
+SUCptspp	:	PEP_C  + SUCR_P  -> PYR_C  + SUC6P_C	!	sucrose transport via PEP:Pyr  (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2417  &&  b2429  &&  b2415  &&  b2416 )
+SUCRtex	:	SUCR_E  <-> SUCR_P	!	sucrose transport transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+SULabcpp	:	ATP_C  + H2O_C  + SO4_P  -> ADP_C  + H_C  + PI_C  + SO4_C	!	sulfate transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( ( b2422  &&  b2425  &&  b2424  &&  b2423 )  ||  ( b0763  &&  b0764  &&  b0765 )  ||  ( b2422  &&  b2424  &&  b2423  &&  b3917 ) )
+SULFACabcpp	:	ATP_C  + H2O_C  + SULFAC_P  -> ADP_C  + H_C  + PI_C  + SULFAC_C	!	sulfoacetate transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0936  &&  b0933  &&  b0934 )
+SULFACtex	:	SULFAC_E  <-> SULFAC_P	!	sulfoaceate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TARTRt7pp	:	SUCC_C  + TARTR_L_P  <-> SUCC_P  + TARTR_L_C	!	Tartrate/succinate antiporter (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3063
+TARTRtex	:	TARTR_L_E  <-> TARTR_L_P	!	Tartrate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TAURabcpp	:	ATP_C  + H2O_C  + TAUR_P  -> ADP_C  + H_C  + PI_C  + TAUR_C	!	taurine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0365  &&  b0366  &&  b0367 )
+TAURtex	:	TAUR_E  <-> TAUR_P	!	taurine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TCYNTtex	:	TCYNT_E  <-> TCYNT_P	!	Thiocyanate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+THD2pp	:	2* H_P  + NADH_C  + NADP_C  -> 2* H_C  + NAD_C  + NADPH_C	!	NAD(P) transhydrogenase (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( b1602  &&  b1603 )
+THMabcpp	:	ATP_C  + H2O_C  + THM_P  -> ADP_C  + H_C  + PI_C  + THM_C	!	thiamine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0068  &&  b0067  &&  b0066 )
+THMDt2pp	:	H_P  + THYMD_P  -> H_C  + THYMD_C	!	thymidine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2393  ||  b2964 )
+THMDt2rpp	:	H_P  + THYMD_P  <-> H_C  + THYMD_C	!	thymidine transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2406
+THMDtex	:	THYMD_E  <-> THYMD_P	!	thymidine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+THMtex	:	THM_E  <-> THM_P	!	Thiamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+THRabcpp	:	ATP_C  + H2O_C  + THR_L_P  -> ADP_C  + H_C  + PI_C  + THR_L_C	!	L-threonine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3454  &&  b3455  &&  b3457  &&  b3460  &&  b3456 )
+THRPtex	:	THRP_E  <-> THRP_P	!	phospho-L-threonine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+THRt2pp	:	H_P  + THR_L_C  -> H_C  + THR_L_P	!	L-threonine efflux transport via proton antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0813  ||  b3823 )
+THRt2rpp	:	H_P  + THR_L_P  <-> H_C  + THR_L_C	!	L-threonine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3116
+THRt4pp	:	NA1_P  + THR_L_P  -> NA1_C  + THR_L_C	!	L-threonine  via sodium symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3089
+THRtex	:	THR_L_E  <-> THR_L_P	!	L-threonine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+THYMt3pp	:	H_P  + THYM_C  -> H_C  + THYM_P	!	thymine transport out via proton antiport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+THYMtex	:	THYM_E  <-> THYM_P	!	thymine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b1377  ||  b2215  ||  b0241  ||  b0929 )
+TMAOR1pp	:	H_P  + MQL8_C  + TMAO_P  -> H2O_P  + MQN8_C  + TMA_P	!	Trimethylamine N-oxide reductase (menaquinol 8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b1872  &&  b1873 )  ||  ( b0996  &&  b0997 ) )
+TMAOR2pp	:	2DMMQL8_C  + H_P  + TMAO_P  -> 2DMMQ8_C  + H2O_P  + TMA_P	!	Trimethylamine N-oxide reductase (demethylmenaquinol 8) (periplasm)	!	Intercompartmental	!	Oxidative Phosphorylation	!	( ( b1872  &&  b1873 )  ||  ( b0996  &&  b0997 ) )
+TMAOtex	:	TMAO_E  <-> TMAO_P	!	Trimethylamine N-oxide transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TMAtex	:	TMA_E  <-> TMA_P	!	Trimethylamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TREHpp	:	H2O + TRE -> 2* GLC_D	!	alpha,alpha-trehalase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b1197
+TREptspp	:	PEP_C  + TRE_P  -> PYR_C  + TRE6P_C	!	trehalose transport via PEP:Pyr PTS (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2417  &&  b2415  &&  b2416  &&  b4240 )
+TREtex	:	TRE_E  <-> TRE_P	!	trehalose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TRPt2rpp	:	H_P  + TRP_L_P  <-> H_C  + TRP_L_C	!	L-tryptophan reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b0112  ||  b3161  ||  b3709 )
+TRPtex	:	TRP_L_E  <-> TRP_L_P	!	L-tryptophan transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TSULabcpp	:	ATP_C  + H2O_C  + TSUL_P  -> ADP_C  + H_C  + PI_C  + TSUL_C	!	thiosulfate transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( ( b2422  &&  b2425  &&  b2424  &&  b2423 )  ||  ( b2422  &&  b2424  &&  b2423  &&  b3917 ) )
+TSULtex	:	TSUL_E  <-> TSUL_P	!	thiosulfate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TTDCAtexi	:	TTDCA_E  -> TTDCA_P	!	Tetradecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+TTDCEAtexi	:	TTDCEA_E  -> TTDCEA_P	!	Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b2344
+TUNGSabcpp	:	ATP_C  + H2O_C  + TUNGS_P  -> ADP_C  + H_C  + PI_C  + TUNGS_C	!	tungstate transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0763  &&  b0764  &&  b0765 )
+TUNGStex	:	TUNGS_E  <-> TUNGS_P	!	tungstate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0929  ||  b2215  ||  b1377  ||  b0241 )
+TYMtex	:	TYM_E  <-> TYM_P	!	tyramine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TYROXDApp	:	H2O + O2 + TYM -> 4HOXPACD + H2O2 + NH4	!	Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing) (periplasm)	!	Periplasmic space	!	Nitrogen Metabolism	!	b1386
+TYRPpp	:	H2O + TYRP -> PI + TYR_L	!	phospho-L-tyrosine phosphatase (periplasmic)	!	Periplasmic space	!	Tyrosine, Tryptophan, and Phenylalanine Metabolism	!	b4055
+TYRPtex	:	TYRP_E  <-> TYRP_P	!	phopho-L-tyrosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+TYRt2rpp	:	H_P  + TYR_L_P  <-> H_C  + TYR_L_C	!	L-tyrosine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b1907  ||  b0112  ||  b0576 )
+TYRtex	:	TYR_L_E  <-> TYR_L_P	!	L-tyrosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UACGALPpp	:	H2O + UDPACGAL -> ACGAL1P + 2* H + UMP	!	UDP-N-acetyl-D-galactosamine pyrophosphohydrolase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0480
+UACGAMPpp	:	H2O + UACGAM -> ACGAM1P + 2* H + UMP	!	UDP-N-acetyl-D-glucosamine pyrophosphohydrolase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0480
+UACGAMtex	:	UACGAM_E  <-> UACGAM_P	!	UDP-N-acetyl-D-glucosamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UDCPDPpp	:	H2O + UDCPDP -> H + PI + UDCPP	!	undecaprenyl-diphosphatase (periplasm)	!	Periplasmic space	!	Cell Envelope Biosynthesis	!	( b0841  ||  b1278  ||  b3057 )
+UDCPPtppi	:	UDCPP_P  -> UDCPP_C	!	undecaprenyl phosphate transport (cytoplasm to periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+UDPACGALtex	:	UDPACGAL_E  <-> UDPACGAL_P	!	UDP-N-acetyl-D-galactosamine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UDPGALPpp	:	H2O + UDPGAL -> GAL1P + 2* H + UMP	!	UDPgalactose pyrophosphohydrolase	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0480
+UDPGALtex	:	UDPGAL_E  <-> UDPGAL_P	!	UDPgalactose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UDPGLCURtex	:	UDPGLCUR_E  <-> UDPGLCUR_P	!	UDP-D-glucuronate transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UDPGPpp	:	H2O + UDPG -> G1P + 2* H + UMP	!	UDPglucose pyrophosphohydrolase	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0480
+UDPGtex	:	UDPG_E  <-> UDPG_P	!	UDPglucose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UGLCURPpp	:	H2O + UDPGLCUR -> GLCUR1P + 2* H + UMP	!	UDP-D-glucuronate pyrophosphohydrolase (periplasm)	!	Periplasmic space	!	Alternate Carbon Metabolism	!	b0480
+ULA4Ntppi	:	ULA4N_C  -> ULA4N_P	!	transport (cytoplasm to periplasm)	!	Intercompartmental	!	Lipopolysaccharide Biosynthesis / Recycling	!	Unknown
+UMPtex	:	UMP_E  <-> UMP_P	!	UMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0929  ||  b1377  ||  b2215  ||  b0241 )
+URAt2pp	:	H_P  + URA_P  -> H_C  + URA_C	!	uracil transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2497
+URAt2rpp	:	H_P  + URA_P  <-> H_C  + URA_C	!	uracil transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b1006
+URAtex	:	URA_E  <-> URA_P	!	uracil transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UREAtex	:	UREA_E  <-> UREA_P	!	Urea transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+UREAtpp	:	UREA_P  <-> UREA_C	!	Urea transport via facilitate diffusion (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3927
+URIt2pp	:	H_P  + URI_P  -> H_C  + URI_C	!	uridine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b2393  ||  b2964 )
+URIt2rpp	:	H_P  + URI_P  <-> H_C  + URI_C	!	uridine transport in via proton symport, reversible (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2406
+URItex	:	URI_E  <-> URI_P	!	uridine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane	!	b0411
+VALabcpp	:	ATP_C  + H2O_C  + VAL_L_P  -> ADP_C  + H_C  + PI_C  + VAL_L_C	!	L-valine transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3454  &&  b3455  &&  b3457  &&  b3460  &&  b3456 )
+VALt2rpp	:	H_P  + VAL_L_P  <-> H_C  + VAL_L_C	!	L-valine reversible transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b0401
+VALtex	:	VAL_L_E  <-> VAL_L_P	!	L-valine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+XANt2pp	:	H_P  + XAN_P  -> H_C  + XAN_C	!	xanthine transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b3654
+XANtex	:	XAN_E  <-> XAN_P	!	xanthine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+XANtpp	:	XAN_P  <-> XAN_C	!	xanthine reversible transport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	Unknown
+XMPtex	:	XMP_E  <-> XMP_P	!	XMP transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+XTSNt2rpp	:	H_P  + XTSN_P  <-> H_C  + XTSN_C	!	Xanthosine transport via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b2406
+XTSNtex	:	XTSN_E  <-> XTSN_P	!	xanthosine transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+XYLabcpp	:	ATP_C  + H2O_C  + XYL_D_P  -> ADP_C  + H_C  + PI_C  + XYL_D_C	!	D-xylose transport via ABC system (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3566  &&  b3567  &&  b3568 )
+XYLt2pp	:	H_P  + XYL_D_P  -> H_C  + XYL_D_C	!	D-xylose transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	b4031
+XYLtex	:	XYL_D_E  <-> XYL_D_P	!	D-xylose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+XYLUt2pp	:	H_P  + XYLU_L_P  -> H_C  + XYLU_L_C	!	L-xylulose transport in via proton symport (periplasm)	!	Intercompartmental	!	Transport, Inner Membrane	!	( b3577  &&  b3578  &&  b3579 )
+XYLUtex	:	XYLU_L_E  <-> XYLU_L_P	!	L-xylulose transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ZN2abcpp	:	ATP_C  + H2O_C  + ZN2_C  -> ADP_C  + H_C  + PI_C  + ZN2_P	!	Zinc (Zn+2) ABC transporter (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3469
+ZN2t3pp	:	H_P  + ZN2_C  -> H_C  + ZN2_P	!	zinc (Zn+2) transport out via proton antiport (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b0752  ||  b3915 )
+Zn2tex	:	ZN2_E  <-> ZN2_P	!	zinc (Zn+2) transport via diffusion (extracellular to periplasm)	!	Intercompartmental	!	Transport, Outer Membrane Porin	!	( b0241  ||  b0929  ||  b1377  ||  b2215 )
+ZN2tpp	:	ZN2_P  -> ZN2_C	!	zinc transport in via permease (no H+)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	b3040
+ZNabcpp	:	ATP_C  + H2O_C  + ZN2_P  -> ADP_C  + H_C  + PI_C  + ZN2_C	!	zinc (Zn+2) transport via ABC system (periplasm)	!	Intercompartmental	!	Inorganic Ion Transport and Metabolism	!	( b1857  &&  b1859  &&  b1858 )
